@@ -1,0 +1,499 @@
+
+/* 既存HPにあった直書きCSS */
+.simplemap img {
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.staticmap,
+.staticmap img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.simplemap .simplemap-content {
+  display: none;
+}
+
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+
+/* 既存HPにあったCSSに上書き */
+.w-max {
+  min-width: 100% !important;
+}
+
+.w-980 {
+  width: 85%;
+  padding: 0 5%;
+}
+
+#footer-content {
+  text-align: left !important;
+}
+
+
+.menu-head-container {
+  width: auto !important;
+}
+
+/* 高橋が付け足したCSS */
+/* ナビゲーションバーデザイン */
+
+.hs-nav-effect a {
+  position: relative;
+  display: inline-block;
+  margin: 15px 25px;
+  outline: none;
+  color: #020202;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-weight: 900;
+  font-size: 0.7rem;
+  overflow: hidden;
+  padding: 0 4px !important;
+  height: 1.5em;
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+.hs-nav-effect a span {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.hs-nav-effect a span::before {
+  position: absolute;
+  top: 100%;
+  content: attr(data-hover);
+  font-weight: 900;
+  transform: translate3d(0, 0, 0);
+}
+
+.hs-nav-effect a:hover span,
+.hs-nav-effect a:focus span {
+  transform: translateY(-100%);
+  outline: none;
+}
+
+.hs-img-zoom {
+  overflow: hidden;
+}
+
+.hs-img-zoom img {
+  display: block;
+  transition-duration: 0.3s;
+  /*変化に掛かる時間*/
+}
+
+.hs-img-zoom a:hover img {
+  transform: scale(1.1);
+  /*画像の拡大率*/
+  transition-duration: 0.3s;
+  /*変化に掛かる時間*/
+}
+
+.hs-recruit-main-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+.hs-recruit-main-title {
+  color: #5A3C96;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.hs-recruit-main-contents {
+  color: black;
+  font-size: 0.8rem
+}
+
+.hs-recruit-logo {
+  z-index: 2000;
+  background-color: lightgray;
+}
+
+.hs-nav-link-font {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.hs-recruit-chart-ul a:hover {
+  color: #f39e15 !important;
+}
+
+
+/* タブレットよりも大きいサイズで適用 　*/
+@media (min-width: 768px) {
+  .page-main-title {
+    width: 15% !important;
+    margin: 0 5% 10% 10% !important;
+    font-size: 1.2rem !important;
+  }
+
+  .page-title-en {
+    font-family: "Segoe Script" !important;
+    font-size: 2.8rem !important;
+    font-weight: normal !important;
+    color: #f39e15 !important;
+    letter-spacing: -0.1rem !important;
+    line-height: 5rem !important;
+  }
+
+  .hs-recruit-link-conteiner {
+    width: 90%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    display: flex;
+    padding: 1% 0;
+    margin: 0 auto;
+  }
+
+  .hs-recruit-heading-chart-p {
+    margin: 0 5%;
+    width: 30%;
+  }
+
+  .hs-recruit-chart-ul {
+    display: flex;
+    margin-left: 60%;
+    padding-top: 0.2rem;
+    width: 70%;
+    margin-bottom: 0 !important;
+  }
+
+  .hs-recruit-chart-li {
+    margin-left: 10%;
+  }
+
+  .hs-recruit-message {
+    position: relative;
+    width: 80%;
+    height: auto;
+    top: 30%;
+    margin: 0 auto;
+  }
+
+  .hs-recruit-message-p {
+    font-size: 0.8rem;
+  }
+
+  /* メイン */
+  .hs-recruit-main-conteiner1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .hs-recruit-heading-conteiner {
+    width: 100%;
+  }
+
+  .hs-recruit-main-ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hs-recruit-main-li {
+    width: 28%;
+    height: auto;
+    margin: 0 2.5% 5% 2.5%;
+  }
+
+  .hs-footer {
+    background-color: lightgray;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+  }
+
+  .w-55 {
+    width: 55% !important;
+    margin: 0 auto;
+  }
+
+  .hs-w80 {
+    width: auto;
+    padding: 1em 2em 1em 0 !important;
+  }
+
+  .hs-footer-logo-conteiner {
+    margin-right: 5%;
+    margin-bottom: 15%;
+  }
+
+  .hs-footer-privacymark {
+    margin: 1.1em 0 1em 3% !important;
+    float: right !important;
+  }
+
+  address {
+    font-size: 0.8rem;
+  }
+
+  small {
+    font-size: 0.2rem;
+    text-align: center;
+  }
+  .hs-logo-a {
+    width: 100%;
+    margin-right: 0;
+  }
+  .hs-recruit-sub-article {
+    padding-top: 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* メイン */
+.hs-sub-recruit-main-conteiner1 {
+    width: 100%;
+    margin: 0 auto;
+}
+}
+
+
+    /* 横向きモバイルより小さいサイズで適用 */
+    @media (max-width: 767.98px) {
+        /* .page-main-title {
+          width: auto !important;
+          margin: 0 5% 5% 5% !important;
+          font-size: 0.8rem !important;
+          float: none !important;
+        } */
+  
+        /* .page-title-en {
+          font-family: "Segoe Script" !important;
+          font-size: 2rem !important;
+          font-weight: normal !important;
+          color: #f39e15 !important;
+          letter-spacing: -0.1rem !important;
+          line-height: 5rem !important;
+        } */
+  
+        .hs-recruit-link-conteiner {
+          width: 100%;
+          border-top: 1px solid;
+          border-bottom: 1px solid;
+          display: flex;
+          padding: 1% 0;
+          margin-top: 10%;
+        }
+  
+        .hs-recruit-heading-chart-p {
+          margin: 0 5%;
+          width: 35%;
+        }
+  
+        .hs-recruit-chart-ul {
+          display: flex;
+          margin-left: 30%;
+          padding-top: 0.2rem;
+          width: 70%;
+          margin-bottom: 0 !important;
+        }
+  
+        .hs-recruit-chart-li {
+          margin-left: 10%;
+        }
+  
+        .hs-recruit-message {
+          position: relative;
+          width: 90%;
+          height: auto;
+          top: 30%;
+          margin: 0 auto;
+        }
+  
+        .hs-recruit-message-p {
+          font-size: 0.8rem;
+        }
+  
+        /* メイン */
+        .hs-recruit-main-conteiner1 {
+          width: 90%;
+          margin: 0 auto;
+  
+        }
+  
+        /* .hs-recruit-main-conteiner2 {
+          position: relative;
+          height: 100vh;
+          width: 100%;
+          left: 0;
+          top: 10%;
+        } */
+  
+        .hs-recruit-heading-conteiner {
+  
+          width: 100%;
+        }
+  
+        .hs-recruit-main-ul {
+  
+          display: flex;
+          flex-wrap: wrap;
+        }
+  
+        .hs-recruit-main-li {
+          width: 100%;
+          height: auto;
+          margin: 0 2.5%;
+          padding-bottom: 10%;
+        }
+  
+        .hs-footer {
+          background-color: lightgray;
+          position: absolute;
+          left: 0;
+          width: 100%;
+          top: 100%;
+        }
+  
+        .w-980 {
+          width: 100% !important;
+        }
+  
+        .hs-w80 {
+          width: 60%;
+            }
+
+        .hs-footer-logo-conteiner {
+            margin-right: 5%;
+            margin-bottom: 5%;
+          }
+    
+          .hs-footer-privacymark {
+            margin: 1.1em 0 1em 0 !important;
+            padding: 0 0.5em 0.5em 0.5em !important;
+            position: absolute !important;
+            right: 0.5rem;
+          }
+    
+          address {
+            font-size: 0.5rem;
+          }
+    
+          small {
+            font-size: 0.1rem;
+            text-align: center;
+          }
+    
+          #footer-comtent-comp {
+            padding: 1rem 0 0 0 !important;
+          }
+          .hs-h1 {
+            font-size: 1.5rem !important;
+        }
+
+        /* メイン */
+        .hs-sub-recruit-main-conteiner1 {
+            width: 90%;
+            margin: 0 auto;
+        }
+    
+        }
+    
+        /* タブレット以下 */
+        @media (max-width: 991.98px) {
+          .hs-logo-a {
+            width: 70%;
+            margin-right: 0;
+          }
+            .hs-recruit-sub-article {
+                padding-top: 5%;
+                width: 100%;
+                margin: 0 auto;
+            }
+          .page-main-title {
+            width: 100% !important;
+            margin: 0 5% 5% 5% !important;
+            font-size: 0.8rem !important;
+            float: none !important;
+          }
+        }
+    
+        @media (max-width: 1199.98px) {
+          .page-title-en {
+            font-family: "Segoe Script" !important;
+            font-size: 2rem !important;
+            font-weight: normal !important;
+            color: #f39e15 !important;
+            letter-spacing: -0.1rem !important;
+            line-height: 5rem !important;
+          }
+          .hs-w-980 {
+            width: 100% !important;
+        }
+        }
+
+        .hs-td {
+            font-size: 0.8rem;
+            padding: 1.2em 0 1.2em 3em;
+        }
+
+        .hs-tr {
+            border-bottom: 1px dotted #444;
+        }
+
+        .hs-th {
+            padding: 1.2em 0 1.2em .5em;
+            text-align: left;
+            white-space: nowrap;
+            vertical-align: top;
+        }
+
+        /* エントリーボタン */
+        .btn-flat-border {
+            display: inline-block;
+            padding: 1em 4em;
+            text-decoration: none;
+            color: #f39e15;
+            border: solid 2px #f39e15;
+            border-radius: 3px;
+            transition: .4s;
+        }
+
+        .btn-flat-border:hover {
+            background: #f39e15;
+            color: white;
+        }
+
+        /* 一覧に戻るボタン */
+        .btn-square-shadow {
+            display: inline-block;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            background: #f39e15;
+            /*ボタン色*/
+            color: #FFF;
+            border-bottom: solid 4px #cf8816;
+            border-radius: 3px;
+            margin: 5px 0;
+        }
+
+        .btn-square-shadow:active {
+            /*ボタンを押したとき*/
+            -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+            /*下に動く*/
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+            /*影を小さく*/
+            border-bottom: none;
+        }

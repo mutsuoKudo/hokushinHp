@@ -1,0 +1,868 @@
+/* body {
+    transition: all 2s;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+.hs-body{
+    transition: all 2s;
+        overflow-x: hidden;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    
+    /* 読み込み時全要素ふぇーどイン */
+    
+    .hs-body-start {
+        animation-name: body-start;
+        /* 一回分の時間 */
+        animation-duration: 3s;
+        /* 繰り返し回数 */
+        animation-iteration-count: 1;
+        /* ゆっくり始まってゆっくり終わる */
+        animation-timing-function: ease;
+        /* 終了後の状態 */
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes body-start {
+        0% {
+            visibility: hidden;
+            opacity: 0;
+        }
+        50% {
+            visibility: visible;
+            opacity: 1;
+        }
+        100% {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+    
+    /* .hs-overflow {
+        overflow-y: hidden;
+    } */
+    
+    /* a {
+        text-decoration: none;
+    } */
+    
+    ul {
+        padding-inline-start: 0px;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    nav {
+        width: 100%;
+        display: block;
+        text-align: center;
+        float: left;
+    }
+    
+    a{
+        text-decoration: none !important;
+        color: black !important;
+        
+    }
+    /* 一番下に敷いたコンテナ */
+    
+    .hs-base-conteiner {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        padding: 0;
+        /* top: -650px; */
+        display: none;
+    }
+    
+    
+    /* 一番下のコンテナにパディング15pxつけて敷いたコンテナ */
+    
+    .hs-inner-conteiner {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        padding: 15px;
+        z-index: 1;
+    }
+    
+    
+    /* ローディング画面 */
+    
+    .hs-load-conteiner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    /* デスクトップ用 */
+    .hs-dt-load-inner-conteiner {
+        position: absolute;
+        width: 30%;
+        height: auto;
+        top: 10%;
+        left: 35%;
+    }
+    
+    /* モバイルタブレット用 */
+    .hs-mbtb-load-inner-conteiner {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 10%;
+        left: 0%;
+    }
+    
+    
+    /* ロゴ帯コンテナ */
+    
+    .hs-logo-conteiner {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 7%;
+        background-color: lightgray;
+        z-index: 2000;
+    }
+    
+    
+    /* ロゴ帯内側コンテナ */
+    
+    .hs-logo-inner-conteiner {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        /* margin: auto; */
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 0.5em;
+    }
+    
+    
+    /* ロゴサイズ */
+    
+    .hs-dt-logo-layout {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5.5vh;
+        padding-bottom: 0.5%;
+    }
+    .hs-tb-logo-layout {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 6.5vh;
+        padding-bottom: 1.5%;
+    }
+    .hs-mb-logo-layout {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5.5vh;
+        padding-bottom: 0.5%;
+    }
+    
+    
+    /* ナビゲーションバー */
+    
+    .hs-nav {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        z-index: 1100;
+    }
+    
+    .hs-nav-conteiner {
+        width: 100%;
+        float: left;
+        display: block;
+        text-align: center;
+    }
+    
+    
+    /* ナビゲーションバーデザイン */
+    
+    .hs-nav-effect a {
+        position: relative;
+        display: inline-block;
+        margin: 15px 25px;
+        outline: none;
+        color: #020202;
+        text-decoration: none !important;
+        text-transform: uppercase;
+        letter-spacing: 0.2px;
+        font-weight: 900;
+        font-size: 0.7rem;
+        overflow: hidden;
+        padding: 0 4px;
+        height: 1.5em;
+        font-family: "brandon-grotesque", sans-serif;
+    }
+    
+    .hs-nav-effect a span {
+        position: relative;
+        display: inline-block;
+        transition: transform 0.2s;
+    }
+    
+    .hs-nav-effect a span::before {
+        position: absolute;
+        top: 100%;
+        content: attr(data-hover);
+        font-weight: 900;
+        transform: translate3d(0, 0, 0);
+    }
+    
+    .hs-nav-effect a:hover span,
+    .hs-nav-effect a:focus span {
+        transform: translateY(-100%);
+        outline: none;
+    }
+    
+    
+    /* ハンバーガーメニュー */
+    
+    
+    /*hs-hamburger-menu*/
+    
+    .hs-hamburger-menu {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        background-color: black;
+        position: fixed;
+        float: right;
+        top: 12%;
+        right: 5%;
+        z-index: 9998;
+    }
+    
+    .hs-hamburger-menu-p {
+        color: white;
+        font-size: 0.5rem;
+        position: absolute;
+        top: 2px;
+        left: 10px;
+    }
+    
+    .hs-hamburger-menu-line-top {
+        transition: all .5s;
+        width: 12px;
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+        left: 17px;
+        top: 18px;
+    }
+    
+    .hs-hamburger-menu-line-center {
+        transition: all .5s;
+        width: 12px;
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+        left: 17px;
+        top: 23px;
+    }
+    
+    .hs-hamburger-menu-line-bottom {
+        transition: all .5s;
+        width: 12px;
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+        left: 17px;
+        top: 28px;
+    }
+    
+    .hs-hamburger-menu-p.active {
+        transform: scaleX(0);
+    }
+    
+    .hs-hamburger-menu-line-top.active {
+        transition: all .5s;
+        width: 20px;
+        top: 23px;
+        left: 13px;
+        right: 6px;
+        bottom: 27px;
+        transform: rotate(45deg);
+    }
+    
+    .hs-hamburger-menu-line-center.active {
+        transform: scaleX(0);
+    }
+    
+    .hs-hamburger-menu-line-bottom.active {
+        transition: all .5s;
+        width: 20px;
+        top: 23px;
+        left: 13px;
+        right: 6px;
+        bottom: 27px;
+        transform: rotate(135deg);
+    }
+    
+    
+    /*hs-sub-nuv*/
+    
+    .hs-sub-nuv {
+        background: gainsboro;
+        /* background: white; */
+        display: none;
+        /* 前画面の上部40％ */
+        height: 35%;
+        position: fixed;
+        width: 100%;
+        z-index: 98;
+    }
+    
+    .hs-sub-nuv-wrap {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .hs-sub-nuv-inner-wrap {
+        position: absolute;
+        padding: 4vh;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .hs-sub-nuv-menu {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-bottom: 0;
+    }
+    
+    .hs-sub-nuv-menu li {
+        height: 18%;
+    }
+    
+    .hs-sub-nuv-menu-item {
+        /* margin: 2% 0; */
+        padding-bottom: 1vh;
+    }
+    
+    .hs-sub-nuv-menu-item a {
+        font-size: 2em;
+        /* font-weight: bold; */
+        text-decoration: none;
+        transition: .5s;
+        color: #030303;
+        font-family: "liebedorisbold", sans-serif;
+        font-size: 3vh;
+        /* line-height: 20px; */
+        cursor: pointer;
+    }
+    
+    .hs-sub-nuv-menu-item a:hover {
+        color: #666;
+    }
+    
+    .hs-hero {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .hs-contact-button {
+        position: relative;
+        display: inline-block;
+        font-weight: bold;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        background: #ECECEC;
+        border-radius: 15px;
+        transition: .4s;
+    }
+    
+    .hs-contact-button:hover {
+        background: lightgray;
+    }
+    
+    /* .hs-subnuv-image {
+        top: 40% !important;
+        transition: all .5s;
+    } */
+    
+    
+    /* 円周上に配置したアイコン */
+    
+    
+    /* 円周上に配置したアイコンをまとめたコンテナ */
+    
+    .hs-circle-icon-conteiner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 50;
+    }
+    
+    .hs-circle-icon-inner-conteiner {
+        position: absolute;
+        width: 50%;
+        height: 15vmax;
+        top: 20%;
+        left: 25%;
+    }
+    
+    
+    /* アイコンサイズ指定 */
+    
+    .hs-icon img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .hs-icon-ani {
+        width: 45px;
+        height: 45px;
+        background: url('icon/icon-spring2.svg');
+        background-repeat: no-repeat;
+    }
+    
+    
+    /* アイコンホバー */
+    
+    .hs-icon:hover {
+        transition: all .3s;
+        transform: scale(1.5) rotateZ(180deg);
+    }
+    
+    .hs-icon-ani:hover {
+        background: url('icon/icon-spring.svg');
+        background-repeat: no-repeat;
+        transition: all .3s;
+        transform: scale(1.5) rotateZ(180deg);
+    }
+    
+    
+    /* 背景ぷかぷか */
+    
+    .hs-back-icon-conteiner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -499;
+    }
+    
+    .hs-back-icon-animation {
+        animation-name: hs-back-icon-fadein;
+        /* 一回分の時間 */
+        animation-duration: 6s;
+        /* 繰り返し回数 */
+        animation-iteration-count: 1;
+        /* ゆっくり始まってゆっくり終わる */
+        animation-timing-function: ease;
+    }
+    
+    @keyframes hs-back-icon-fadein {
+        0% {
+            visibility: visible;
+            opacity: 0;
+        }
+        10% {
+            opacity: 0;
+            transform: scale(1.0, 1.0);
+        }
+        12% {
+            opacity: 1;
+            transform: scale(1.2, 1.2);
+        }
+        15% {
+            opacity: 1;
+            transform: scale(1.0, 1.0);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    
+    /* トップ画像をまとめたコンテナ(デスクトップ用) */
+    
+    .hs-dt-topimage-conteiner {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        top: 0;
+        left: 0;
+    }
+    
+    
+    /* トップ画像をまとめたコンテナ(タブレット・モバイル用) */
+    
+    .hs-mbtb-topimage-conteiner {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        top: 10%;
+        left: 0;
+    }
+    
+    
+    /* トップ画像それぞれまとめたコンテナ z-index20(全画面幅共通)*/
+    
+    .hs-topimage-innner-conteiner {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        display: table;
+        left: 0;
+        top: 0;
+        z-index: 20;
+    }
+    
+    
+    /* トップ画像（左）テーブルセル設定(全画面幅共通)*/
+    
+    .hs-topimage-left-tablecell {
+        display: table-cell !important;
+        text-align: center;
+    }
+    
+    
+    /* トップ画像（左）レイアウト設定①(デスクトップ用)*/
+    
+    .hs-dt-topimage-left-layout1 {
+        padding-top: 10%;
+        margin: 0 45% 0 0;
+        display: inline-block;
+        padding-bottom: 10vh;
+        width: 24%
+    }
+    
+    
+    /* トップ画像（左）レイアウト設定②(デスクトップ用)*/
+    
+    .hs-dt-topimage-left-layout2 {
+        width: 70%;
+        padding-bottom: 1.12vh;
+        padding-right: 10%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    
+    /* トップ画像（左）レイアウト設定①(モバイル・タブレット用)*/
+    
+    .hs-mbtb-topimage-left-layout1 {
+        padding-top: 90%;
+        margin: 0 50% 0 0;
+        display: inline-block;
+        padding-bottom: 10vh;
+        width: 45%;
+    }
+    
+    
+    /* トップ画像（左）レイアウト設定②(モバイル・タブレット用)*/
+    
+    .hs-mbtb-topimage-left-layout2 {
+        width: 70%;
+        padding-bottom: 1.12vh;
+        padding-right: 5%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    
+    /* トップ画像（中央）テーブルセル設定(全画面幅共通)*/
+    
+    .hs-topimage-center-tablecell {
+        display: table-cell!important;
+        /* position: static!important; */
+        text-align: center;
+        /* vertical-align: middle; */
+        z-index: 30;
+    }
+    
+    
+    /* トップ画像（中央）レイアウト設定①(デスクトップ用)*/
+    
+    .hs-dt-topimage-center-layout1 {
+        bottom: auto;
+        padding-top: 15%;
+        padding-bottom: 0.5%;
+    }
+    
+    
+    /* トップ画像（中央）レイアウト設定②(デスクトップ用)*/
+    
+    .hs-dt-topimage-center-layout2 {
+        /* width: 24%; */
+        width: 20%;
+        position: absolute;
+        left: 40%;
+        top: 35%;
+        z-index: 31;
+        max-width: 100%;
+        margin-right: 3%
+    }
+    
+    
+    /* トップ画像（中央）レイアウト設定①(モバイル・タブレット用)*/
+    
+    .hs-mbtb-topimage-center-layout1 {
+        bottom: auto;
+        padding-top: 15%;
+        padding-bottom: 0.5%;
+        padding-right: 0;
+    }
+    
+    
+    /* トップ画像（中央）レイアウト設定②(モバイル・タブレット用)*/
+    
+    .hs-mbtb-topimage-center-layout2 {
+        width: 60%;
+        z-index: 31;
+    }
+    
+    
+    /* トップ画像（右）テーブルセル設定(デスクトップ用)*/
+    
+    .hs-dt-topimage-right-tablecell {
+        display: table-cell !important;
+        text-align: center;
+        /* padding-top: 1%; */
+    }
+    
+    
+    /* トップ画像（右）テーブルセル設定(モバイル・タブレット用)*/
+    
+    .hs-mbtb-topimage-right-tablecell {
+        display: table-cell !important;
+        text-align: center;
+        padding-top: 88%;
+    }
+    
+    
+    /* トップ画像（右）レイアウト設定①(デスクトップ用)*/
+    
+    .hs-dt-topimage-right-layout1 {
+        padding-top: 10%;
+        margin: 0 0 0 33%;
+        display: inline-block;
+        padding-bottom: 10vh;
+        width: 24%;
+    }
+    
+    
+    /* トップ画像（右）レイアウト設定②(デスクトップ用)*/
+    
+    .hs-dt-topimage-right-layout2 {
+        width: 70%;
+        /* margin-top: 1%; */
+        margin-left: 51%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    
+    /* トップ画像（右）レイアウト設定②(モバイル・タブレット用)*/
+    
+    .hs-mbtb-topimage-right-layout1 {
+        padding-top: 2%;
+        margin: 0 0% 0 18%;
+        display: inline-block;
+        padding-bottom: 10vh;
+        width: 45%;
+    }
+    
+    
+    /* トップ画像（右）レイアウト設定②(モバイル・タブレット用)*/
+    
+    .hs-mbtb-topimage-right-layout2 {
+        width: 70%;
+        margin-left: 50%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    
+    /* スライドショー */
+    
+    
+    /* 最初画像全て隠す */
+    
+    .hs-hide {
+        visibility: hidden;
+    }
+    
+    
+    /* 左側スライドショー */
+    
+    .hs-left-fade {
+        animation-name: left-fadein;
+        /* 一回分の時間 */
+        animation-duration: 5s;
+        /* いつ始まるか */
+        /* animation-delay: 5s; */
+        /* 繰り返し回数 */
+        animation-iteration-count: 1;
+        /* ゆっくり始まってゆっくり終わる */
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes left-fadein {
+        0% {
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(10%);
+        }
+        12.5% {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0px);
+        }
+        87.5% {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(10%);
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+    
+    
+    /* 左側スライドショー */
+    
+    .hs-right-fade {
+        animation-name: right-fadein;
+        /* 一回分の時間 */
+        animation-duration: 5s;
+        /* いつ始まるか */
+        /* animation-delay: 5s; */
+        /* 繰り返し回数 */
+        animation-iteration-count: 1;
+        /* ゆっくり始まってゆっくり終わる */
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: backwards;
+    }
+    
+    @keyframes right-fadein {
+        0% {
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(-10%);
+        }
+        12.5% {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0px);
+        }
+        87.5% {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0px);
+        }
+        100% {
+            opacity: 0;
+            transform: translateY(-10%);
+            /*  110%にしないとだめかも*/
+            visibility: hidden;
+        }
+    }
+    
+    
+    /* 画像を入れるリストの設定 */
+    
+    
+    /* ul用 */
+    
+    .hs-topimage-ul {
+        position: relative;
+        width: 100%;
+    }
+    
+    
+    /* li用 */
+    
+    .hs-topimage-li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    /* 中央画像の背景切り替え */
+    
+    .hs-fill2 {
+        fill: rgb(162, 32, 65) !important;
+        transition: all 2s;
+    }
+    
+    .hs-fill3 {
+        fill: rgb(236, 104, 0) !important;
+        transition: all 2s;
+    }
+    
+    .hs-fill4 {
+        fill: rgb(252, 200, 0) !important;
+        transition: all 2s;
+    }
+    
+    .hs-fill5 {
+        fill: rgb(170, 207, 83) !important;
+        transition: all 2s;
+    }
+    
+    .hs-fill6 {
+        fill: rgb(49, 103, 69) !important;
+        transition: all 2s;
+    }
+    
+    .hs-fill7 {
+        fill: rgb(91, 111, 156) !important;
+        transition: all 2s;
+    }
+    
+    .hs-fill8 {
+        fill: rgb(171, 206, 216) !important;
+        transition: all 2s;
+    }
