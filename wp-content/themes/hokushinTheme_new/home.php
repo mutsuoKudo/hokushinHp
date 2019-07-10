@@ -33,7 +33,7 @@ Template Name: Home
         </section>
       </div>
     </article>
-    
+
     <article id="home-news">
       <h1 class="en-font">News</h1>
       <dl class="feed">
@@ -48,8 +48,8 @@ foreach($posts as $post): ?>
       </dl>
     </article>
     <article id="home-pol" class="clearfix">
-      <a href="<?php echo get_page_link(40); ?>">セキュリティポリシー</a>
-      <a href="<?php echo get_page_link( 47 ); ?>">プライバシーポリシー</a>
+      <a href="<?php echo home_url(); ?>/security-policy">セキュリティポリシー</a>
+      <a href="<?php echo home_url(); ?>/privacy-policy">プライバシーポリシー</a>
     </article>
     <div id="footer-purokuma"></div>
   </div>
