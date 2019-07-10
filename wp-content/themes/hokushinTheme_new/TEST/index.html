@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="キーワード">
+    <meta name="description" content="紹介文">
+    <meta http-equiv="refresh"
+　　　　　　　　 content="6;URL=../ensyuu.html">
+    <link rel="stylesheet" href="normalize.css">
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $(function() {
+            // ここでは、$はjQueryとして使えます。
+
+            $("#logoH").css({
+                "visibility": "visible",
+                opacity: 0.0
+            });
+            $("#logoH").animate({
+                "top": "0px",
+                "left":"-240px",
+                opacity: 0.0
+            }, 100).animate({
+                "top": "195px",
+                "left":"-120px",
+                opacity: 1.0
+            }, 500);
+            $("#logoK").css({
+                "visibility": "visible",
+                opacity: 0.0
+            });
+            $("#logoK").delay(500).animate({
+                "top": "-250px",
+                "left":"180px",
+                opacity: 0.0
+            }, 100).animate({
+                "top": "167px",
+                "left":"-103px",
+                opacity: 1.0
+            }, 500);
+            $("#logoS").css({
+                "visibility": "visible",
+                opacity: 0.0
+            });
+            $("#logoS").delay(1000).animate({
+                "top": "540px",
+                "left":"-111px",
+                opacity: 0.0
+            }, 100).animate({
+                "top": "157px",
+                "left":"-111px",
+                opacity: 1.0
+            }, 500);
+            $("#logo1").css({
+                "visibility": "visible",
+                opacity: 0.0
+            });
+            $("#logo1").delay(1500).animate({
+                opacity: 1.0
+            }, 1000);
+            $("#logo1,#logoH,#logoK,#logoS").delay(2000).animate({
+                opacity: 0.0
+            }, 1000);
+
+
+        });
+    </script>
+
+    <style>
+        body {
+            background: #FFF;
+            overflow-x: hidden;
+        }
+
+        #logo1 {
+            visibility: hidden;
+        }
+
+        #logoH {
+            visibility: hidden;
+        }
+
+        #logoK {
+            visibility: hidden;
+        }
+
+        #logoS {
+            visibility: hidden;
+        }
+    </style>
+    <title>ホクシンシステム</title>
+</head>
+
+<body>
+    <div id="caption" style="position:absolute;width:100%;height:100%;text-align:center;">
+        <div style="width:0px;height:0px">
+        </div>
+        <div style="position: relative; left:27px; top:224px;" id="logo1">
+            <img src="./img/logo1.svg" border="0" alt="nakatanimiki.png(203653 byte)" width="232" height="18">
+        </div>
+        <div style="position: relative; left:-120px; top:195px; z-index:2;" id="logoH">
+            <img src="./img/logoH.svg" border="0" alt="miyamotonobuko.png(234814 byte)" width="15" height="25">
+        </div>
+        <div style="position: relative; left:-103px; top:167px;" id="logoK">
+            <img src="./img/logoK.svg" border="0" alt="todaerika.png(175553 byte)" width="15" height="25">
+        </div>
+        <div style="position: relative; left:-111px; top:157px;" id="logoS">
+            <img src="./img/logoS.svg" border="0" alt="railroad3.png(41958 byte)" width="24" height="17">
+        </div>
+    </div>
+</body>
+
+</html>
