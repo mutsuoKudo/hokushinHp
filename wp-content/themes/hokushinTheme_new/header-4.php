@@ -1,4 +1,4 @@
-<!-- 新規HP（ナビゲーションバーコンテンツ）用ヘッダー -->
+<!-- 既存HPに組み込むようヘッダー -->
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -16,22 +16,16 @@
   <!-- hokushin_old.cssを読み込む -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" />
 
-  <!-- recruit.cssを読み込む -->
-  <link href="<?php bloginfo('stylesheet_directory'); ?>/recruit.css" rel="stylesheet">
-
-  <!-- common.cssを読み込む -->
-  <link href="<?php bloginfo('stylesheet_directory'); ?>/common.css" rel="stylesheet">
+  <!-- recruit.cssを読み込む　*ナビゲーションバー用 -->
+    <link href="<?php bloginfo('stylesheet_directory'); ?>/recruit.css" rel="stylesheet">
 
   <!-- <link rel="shortcut icon" href="http://hokusys.jp/wp-content/themes/hokushinTheme/images/favicon.ico"> -->
 
   <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <!-- jQuery3.4.1読み込み -->
   <script src="<?php bloginfo('stylesheet_directory'); ?>/jQuery_341.js"></script>
-
   <?php wp_head(); ?>
 </head>
 
@@ -45,15 +39,16 @@
       <h1 id="header-logo"><a href="<?php bloginfo('url'); ?>/"></a></h1>
       <nav class="menu-head-container">
         <ul class="hs-nav-effect">
-          <li id="menu-item-18" <?php if (is_front_page() && is_home()) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/"><span data-hover="home">home</span></a></li>
+          <li id="menu-item-18"<?php if( is_front_page() && is_home() ) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/"><span data-hover="home">home</span></a></li>
 
-          <li id="menu-item-22" <?php if (is_page('company')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/company"><span data-hover="about">about</span></a></li>
+          <li id="menu-item-22"<?php if( is_page('company') ) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/company"><span data-hover="about">about</span></a></li>
 
-          <li id="menu-item-20" <?php if (is_page('service')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/service"><span data-hover="service">service</span></a></li>
+          <li id="menu-item-20"<?php if( is_page('service') ) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/service"><span data-hover="service">service</span></a></li>
 
-          <li id="menu-item-23" <?php if (is_page('recruit')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/recruit"><span data-hover="recruit">recruit</span></a></li>
+          <li id="menu-item-23"<?php if( is_page('recruit') ) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/recruit"><span data-hover="recruit">recruit</span></a></li>
 
-          <li id="menu-item-19" <?php if (is_page('contact')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/contact"><span data-hover="contact">contact</span></a></li>
+          <li id="menu-item-19"<?php if( is_page('contact') ) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/contact"><span data-hover="contact">contact</span></a></li>
+
           <!-- <li id="menu-item-18"><a href="../index.html"><span data-hover="home">home</span></a></li>
           <li id="menu-item-22"><a href="#"><span data-hover="about">about</span></a></li>
           <li id="menu-item-20"><a href="#"><span data-hover="service">service</span></a></li>
@@ -76,7 +71,7 @@
         <ul class="navbar-nav mr-auto d-block d-lg-none w-100">
           <li class="nav-item active">
             <!-- <a class="nav-link nav-link-font" href="../index.html">HOME <span class="sr-only">(現位置)</span></a> -->
-            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/">HOME <span class="sr-only">(現位置)</span></a>
+            <a class="nav-link hs-nav-link-font text-dark" href="<?php bloginfo('url'); ?>/">HOME <span class="sr-only">(現位置)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link hs-nav-link-font text-dark" href="<?php bloginfo('url'); ?>/company">ABOUT</a>
@@ -93,5 +88,5 @@
 
         </ul>
     </nav>
-
+   
   </header><!-- END header -->

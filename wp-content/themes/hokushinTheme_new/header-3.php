@@ -1,4 +1,4 @@
-<!-- 募集要項用ヘッダー -->
+<!-- 新規HP（募集要項）用ヘッダー -->
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -23,11 +23,7 @@
   <link href="<?php bloginfo('stylesheet_directory'); ?>/common.css" rel="stylesheet">
 
 
-
-
-
   <!-- <link rel="shortcut icon" href="http://hokusys.jp/wp-content/themes/hokushinTheme/images/favicon.ico"> -->
-
 
 
   <!-- Bootstrap CSS -->
