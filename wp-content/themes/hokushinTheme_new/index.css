@@ -528,8 +528,8 @@
         #footer-content {
             text-align: left !important;
         }
+        
 
-        @media (min-width: 768px) {
             .hs-footer {
                 background-color: lightgray;
                 position: absolute;
@@ -538,9 +538,30 @@
                 top: 100%;
                 /* height: 30%; */
             }
+            
+            /* 中デバイス（タブレット, 992px 未満） */
+            @media (max-width: 991.98px) {
+                .hs-footer{
+                background-color: lightgray;
+                position: absolute;
+                left: 0;
+                width: 100%;
+                /* height: 30%; */
+                top: 200%;
+            }
+            .hs-nav-conteiner{
+                padding-top: 3rem;
+            }
+        }
+
+
+        /* タブレット以上 */
+        @media (min-width: 768px) {
+
+
 
             .w-55 {
-                width: 55% !important;
+                width: 85% !important;
                 margin: 0 auto;
             }
 
@@ -573,6 +594,7 @@
             }
         }
 
+        /* 横向きモバイル未満 */
         @media (max-width: 767.98px) {
             .hs-footer {
                 background-color: lightgray;
@@ -580,6 +602,7 @@
                 left: 0;
                 width: 100%;
                 top: 100%;
+                padding: 2%;
                 /* height: 35%; */
             }
 
@@ -624,3 +647,4 @@
                 margin-right: 0;
             }
         }
+

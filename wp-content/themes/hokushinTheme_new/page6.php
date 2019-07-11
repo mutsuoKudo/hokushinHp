@@ -1,6 +1,7 @@
-<!-- 新規TOP用 -->
-<?php /* Template Name: 新規TOP用  */ ?>
-<?php get_header(); ?>
+<!-- ポリシー用ページ -->
+<?php /* Template Name: ポリシー用ページ */ ?>
+
+<?php get_header(2); ?>
 
 <?php if(have_posts()): while(have_posts()): the_post();?>
 

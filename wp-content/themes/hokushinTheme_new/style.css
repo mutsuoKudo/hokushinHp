@@ -3,6 +3,7 @@
 body{
     color:#444 !important;
     background-color: transparent !important;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none !important;
