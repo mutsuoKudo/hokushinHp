@@ -3,9 +3,21 @@
 body{
     color:#444 !important;
     background-color: transparent !important;
+    overflow-x: hidden;
 }
+/* a{
+    text-decoration: none !important;
+} */
+
 a{
     text-decoration: none !important;
+    color: #444 !important;
+    
+}
+a:hover{
+    text-decoration: none !important;
+    color: #f39e15 !important;
+    
 }
 
 nav {
@@ -72,3 +84,33 @@ address{
     /* color: #020202; */
     color: #444;
 }
+
+
+.hs-body-start {
+        animation-name: body-start;
+        /* 一回分の時間 */
+        animation-duration: 3s;
+        /* 繰り返し回数 */
+        animation-iteration-count: 1;
+        /* ゆっくり始まってゆっくり終わる */
+        animation-timing-function: ease;
+        /* 終了後の状態 */
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes body-start {
+        0% {
+            visibility: hidden;
+            opacity: 0;
+        }
+        50% {
+            visibility: visible;
+            opacity: 1;
+        }
+        100% {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+

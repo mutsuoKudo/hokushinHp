@@ -1,5 +1,5 @@
-<!-- ナビゲーションバーのコンテンツ用　*ABOUT・SERVICE・RECRUIT・CONTACT -->
-<?php /* Template Name: ナビゲーションバーのコンテンツ用 */ ?>
+<!-- 新規HP（ナビゲーションバーのコンテンツ）用　*ABOUT・SERVICE・RECRUIT・CONTACT -->
+<?php /* Template Name: 新規ナビゲーションバーコンテンツ用 */ ?>
 
 <?php get_header(2); ?>
 <?php $slug_name = $post->post_name; ?>
