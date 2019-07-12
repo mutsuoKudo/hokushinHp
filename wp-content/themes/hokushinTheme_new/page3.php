@@ -1,4 +1,5 @@
-<?php /* Template Name: page3 */ ?>
+<!-- 新規HP（募集要項）用ページ -->
+<?php /* Template Name: 新規募集要項用ページ */ ?>
 
 <?php get_header(3); ?>
 

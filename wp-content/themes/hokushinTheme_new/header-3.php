@@ -1,3 +1,4 @@
+<!-- 新規HP（募集要項）用ヘッダー -->
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -9,19 +10,20 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- <link rel="stylesheet" href="../main.css"> -->
+  <!-- style.cssを読み込む -->
+  <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
-
-
-  <!-- <link rel="stylesheet" href="http://hokusys.jp/wp-content/themes/hokushinTheme/style.css" /> -->
+  <!-- hokushin_old.cssを読み込む -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" />
+
+  <!-- recruit.cssを読み込む -->
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/recruit.css" rel="stylesheet">
+
+  <!-- common.cssを読み込む -->
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/common.css" rel="stylesheet">
 
 
   <!-- <link rel="shortcut icon" href="http://hokusys.jp/wp-content/themes/hokushinTheme/images/favicon.ico"> -->
-
-
-  <!-- <link rel="stylesheet" href="recruit.css"> -->
-
 
 
   <!-- Bootstrap CSS -->
@@ -31,16 +33,21 @@
 
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
   <script src="<?php bloginfo('stylesheet_directory'); ?>/jQuery_341.js"></script>
+
+  <?php wp_head(); ?>
 </head>
 
 <body>
 
-    <header class="w-max">
+    <header class="w-max"><!-- START header -->
         <div class="hs-w-980 w-980 clearfix">
             <h1 id="header-logo" class="hs-h1"><a href="<?php bloginfo('url'); ?>/"></a></h1>
             <nav class="menu-head-container">
                 <!-- <a href="recruit.html" class="btn-border">募集職種一覧へ</a> -->
-                <a href="<?php bloginfo('url'); ?>/new-recruit" class="btn-square-shadow">募集職種一覧へ</a>
+                <div class="hs-a-button">
+                  <a href="<?php bloginfo('url'); ?>/recruit" class="btn-square-shadow">募集職種一覧へ</a>
+                </div>
             </nav>
         </div>
-    </header>
+
+    </header><!-- END header -->

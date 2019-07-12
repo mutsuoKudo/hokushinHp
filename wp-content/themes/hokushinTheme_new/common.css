@@ -1,0 +1,70 @@
+/* 共通CSS */
+
+body{
+    color:#444 !important;
+}
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    width: 100%;
+    display: block;
+    text-align: center;
+    float: left;
+}
+
+a{
+    text-decoration: none !important;
+    /* color: #020202 !important; */
+    /* color: #444 !important; */
+    color: #444;
+    
+}
+
+
+/* ナビゲーションバーデザイン */
+
+.hs-nav-effect a {
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+    outline: none;
+    /* color: #020202; */
+    color: #444;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-weight: 900;
+    font-size: 0.7rem;
+    overflow: hidden;
+    padding: 0 4px;
+    height: 1.5em;
+    font-family: "brandon-grotesque", sans-serif;
+}
+
+.hs-nav-effect a span {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.hs-nav-effect a span::before {
+    position: absolute;
+    top: 100%;
+    content: attr(data-hover);
+    font-weight: 900;
+    transform: translate3d(0, 0, 0);
+}
+
+.hs-nav-effect a:hover span,
+.hs-nav-effect a:focus span {
+    transform: translateY(-100%);
+    outline: none;
+}
+
+
