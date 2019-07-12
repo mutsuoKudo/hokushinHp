@@ -47,18 +47,22 @@
         <ul class="hs-nav-effect">
           <li id="menu-item-18" <?php if (is_front_page() && is_home()) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/"><span data-hover="home">home</span></a></li>
 
-          <li id="menu-item-22" <?php if (is_page('company')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/company"><span data-hover="about">about</span></a></li>
+          <!-- ドロップダウン -->
+          <li id="menu-item-22" class="dropdown" <?php if (is_page('company')) echo ' class="current"'; ?>>
+            <a href="<?php bloginfo('url'); ?>/company" class="dropdown-toggle" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span data-hover="about">about</span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <a class="dropdown-item hs-dropdown-item" style="margin-top:0 !important" href="<?php bloginfo('url'); ?>/company" >company</a>
+              <a class="dropdown-item hs-dropdown-item" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a>
+            </div>
+          </li>
 
           <li id="menu-item-20" <?php if (is_page('service')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/service"><span data-hover="service">service</span></a></li>
 
           <li id="menu-item-23" <?php if (is_page('recruit')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/recruit"><span data-hover="recruit">recruit</span></a></li>
 
           <li id="menu-item-19" <?php if (is_page('contact')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/contact"><span data-hover="contact">contact</span></a></li>
-          <!-- <li id="menu-item-18"><a href="../index.html"><span data-hover="home">home</span></a></li>
-          <li id="menu-item-22"><a href="#"><span data-hover="about">about</span></a></li>
-          <li id="menu-item-20"><a href="#"><span data-hover="service">service</span></a></li>
-          <li id="menu-item-23" class="current"><a href="#"><span data-hover="recruit">recruit</span></a></li>
-          <li id="menu-item-19"><a href="#"><span data-hover="contact">contact</span></a></li> -->
+
         </ul>
       </nav>
     </div>
@@ -78,17 +82,24 @@
             <!-- <a class="nav-link nav-link-font" href="../index.html">HOME <span class="sr-only">(現位置)</span></a> -->
             <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/">HOME <span class="sr-only">(現位置)</span></a>
           </li>
+
+          <!-- ドロップダウン -->
+          <li class="nav-item dropdown">
+            <a class="nav-link hs-nav-link-font dropdown-toggle"  id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">ABOUT</a>
+            <div class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item text-center" href="<?php bloginfo('url'); ?>/company">company</a>
+              <a class="dropdown-item text-center" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a>
+            </div>
+          </li>
+          
           <li class="nav-item">
-            <a class="nav-link hs-nav-link-font text-dark" href="<?php bloginfo('url'); ?>/company">ABOUT</a>
+            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/service">SERVICE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link hs-nav-link-font text-dark" href="<?php bloginfo('url'); ?>/service">SERVICE</a>
+            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/recruit">RECRUIT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link hs-nav-link-font text-dark" href="<?php bloginfo('url'); ?>/recruit">RECRUIT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hs-nav-link-font text-dark" href="<?php bloginfo('url'); ?>/contact">CONTACT</a>
+            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/contact">CONTACT</a>
           </li>
 
         </ul>

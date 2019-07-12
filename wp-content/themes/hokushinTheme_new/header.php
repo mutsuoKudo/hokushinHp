@@ -14,7 +14,7 @@
 
   <!-- style.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
-  
+
   <!-- bootstrap -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -31,7 +31,7 @@
 
   <div class="hs-base-conteiner hs-body-start">
 
-    <!-- ロゴ帯 -->
+    <!-- 小さくなったら表示 -->
     <nav class="navbar navbar-expand-md navbar-light mb-4" style="z-index: 2000; background-color: lightgray;">
       <a class="navbar-brand hs-logo-a" href="#">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/ホクシンlogo_7.png" alt="" width="auto" height="30">
@@ -44,9 +44,16 @@
           <li class="nav-item">
             <a class="nav-link" href="<?php bloginfo('url'); ?>/old-home" style="font-size:0.8rem; font-weight:normal;">HOME</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php bloginfo('url'); ?>/company" style="font-size:0.8rem; font-weight:normal;">ABOUT</a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="font-size:0.8rem; font-weight:normal;" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">ABOUT</a>
+            <div class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item text-center" href="<?php bloginfo('url'); ?>/company">company</a>
+              <a class="dropdown-item text-center" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a>
+            </div>
           </li>
+
+
           <li class="nav-item">
             <a class="nav-link" href="<?php bloginfo('url'); ?>/service" style="font-size:0.8rem; font-weight:normal;">SERVICE</a>
           </li>
@@ -67,10 +74,29 @@
       <nav class="d-none d-md-block hs-nav-conteiner">
         <div class="hs-nav-effect p-1">
           <a href="<?php bloginfo('url'); ?>/old-home"><span data-hover="home">home</span></a>
-          <a href="<?php bloginfo('url'); ?>/company"><span data-hover="about">about</span></a>
+
+          <!-- <div class="dropdown active"> -->
+          <a href="<?php bloginfo('url'); ?>/about" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            <span data-hover="about">about</span>
+          </a>
+
+          <ul class="dropdown-menu pt-3" role="menu">
+            <li class="text-center">
+              <a href="<?php bloginfo('url'); ?>/company" class="m-2 text-center" style="margin:0 !important;">company</a>
+            </li>
+            <li class="text-center"><a href="<?php bloginfo('url'); ?>/partner-synergy" class="m-2" style="margin:0 !important;">partner-synergy</a>
+            </li>
+          </ul>
+          <!-- </div> -->
+
+
           <a href="<?php bloginfo('url'); ?>/service"><span data-hover="service">service</span></a>
+
           <a href="<?php bloginfo('url'); ?>/recruit"><span data-hover="recruit">recruit</span></a>
+
+
           <a href="<?php bloginfo('url'); ?>/contact"><span data-hover="contact">contact</span></a>
+
         </div>
       </nav>
     </div>
