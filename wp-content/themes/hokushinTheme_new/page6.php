@@ -1,5 +1,5 @@
 <!-- ポリシー用ページ -->
-<?php /* Template Name: ポリシー用ページ */ ?>
+<?php /* Template Name: 見出し文字数多いやつ用ページ （ポリシー系、パートナーシナジー系）*/ ?>
 
 <?php get_header(2); ?>
 
