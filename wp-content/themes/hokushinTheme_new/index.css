@@ -197,7 +197,8 @@
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    top: 10%;
+    /* top: 10%; */
+    top: 5%;
     left: 0;
 }
 
@@ -248,7 +249,8 @@
 /* トップ画像（左）レイアウト設定①(モバイル・タブレット用)*/
 
 .hs-mbtb-topimage-left-layout1 {
-    padding-top: 90%;
+    /* padding-top: 90%; */
+    padding-top: 86%;
     margin: 0 50% 0 0;
     display: inline-block;
     padding-bottom: 10vh;
@@ -305,7 +307,8 @@
 
 .hs-mbtb-topimage-center-layout1 {
     bottom: auto;
-    padding-top: 15%;
+    /* padding-top: 15%; */
+    padding-top: 10%;
     padding-bottom: 0.5%;
     padding-right: 0;
 }
@@ -333,7 +336,8 @@
 .hs-mbtb-topimage-right-tablecell {
     display: table-cell !important;
     text-align: center;
-    padding-top: 88%;
+    /* padding-top: 88%; */
+    padding-top: 83%;
 }
 
 
@@ -546,8 +550,7 @@
                 position: absolute;
                 left: 0;
                 width: 100%;
-                /* height: 30%; */
-                top: 200%;
+                top: 120%;
             }
             .hs-nav-conteiner{
                 padding-top: 3rem;
