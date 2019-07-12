@@ -1,3 +1,5 @@
+<!-- 新規TOP用 -->
+<?php /* Template Name: 新規TOP用  */ ?>
 <?php get_header(); ?>
 
 <?php if(have_posts()): while(have_posts()): the_post();?>

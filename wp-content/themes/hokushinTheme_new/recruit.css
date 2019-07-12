@@ -1,3 +1,4 @@
+/* 採用ページCSS */
 
 /* 既存HPにあった直書きCSS */
 .simplemap img {
@@ -35,9 +36,10 @@ img.emoji {
   min-width: 100% !important;
 }
 
-.w-980 {
+.hs-w-980 {
   width: 85%;
   padding: 0 5%;
+  margin: auto;
 }
 
 #footer-content {
@@ -51,13 +53,20 @@ img.emoji {
 
 /* 高橋が付け足したCSS */
 /* ナビゲーションバーデザイン */
+.hs-a a:hover{
+  color: #cf8816;
+}
+.hs-a a{
+  color: #444;
+}
 
 .hs-nav-effect a {
   position: relative;
   display: inline-block;
   margin: 15px 25px;
   outline: none;
-  color: #020202;
+  /* color: #020202; */
+  color: #444;
   text-decoration: none !important;
   text-transform: uppercase;
   letter-spacing: 0.2px;
@@ -136,8 +145,20 @@ img.emoji {
 }
 
 .hs-recruit-chart-ul a:hover {
-  color: #f39e15 !important;
+  color: #f39e15;
 }
+.hs-recruit-chart-ul a {
+  color: #444;
+}
+
+.hs-a-button a:hover{
+  color: #FFF;
+}
+.hs-a-button a:hover{
+  color: #444;
+}
+
+
 
 
 /* タブレットよりも大きいサイズで適用 　*/
@@ -364,6 +385,7 @@ img.emoji {
           left: 0;
           width: 100%;
           top: 100%;
+          padding: 2%;
         }
   
         .w-980 {
