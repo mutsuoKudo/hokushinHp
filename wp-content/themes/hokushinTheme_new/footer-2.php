@@ -49,6 +49,7 @@
  </div>
 
  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/index.js"></script>
+ <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/common.js"></script>
 
  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script> -->
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/jQuery@3.js"></script>
