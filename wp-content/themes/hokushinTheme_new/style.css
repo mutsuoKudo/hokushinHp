@@ -41,6 +41,15 @@ address{
 
 /* ナビゲーションバーデザイン */
 
+
+.hs-sub-nuv-btn{
+    box-shadow: none !important;
+    margin: 0 auto;
+    font-size: 0.8rem !important;
+    color: #444 !important;
+}
+
+
 .hs-nav-effect a {
     position: relative;
     display: inline-block;

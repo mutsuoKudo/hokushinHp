@@ -5,7 +5,7 @@
 <?php $slug_name = $post->post_name; ?>
 
 
-<div class="page-content-image page-content-recruit"></div>
+<div class="page-content-image page-content-<?php echo $slug_name ?>"></div>
   <div class="page-contenet content-out-box w-max">
     <div class="content-inner-box w-980 clearfix">
     <?php while(have_posts()): the_post(); ?>
