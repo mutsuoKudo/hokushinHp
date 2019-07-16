@@ -45,21 +45,36 @@
             <a class="nav-link" href="<?php bloginfo('url'); ?>/old-home" style="font-size:0.8rem; font-weight:normal;">HOME</a>
           </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" style="font-size:0.8rem; font-weight:normal;" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">ABOUT</a>
-            <div class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="navbarDropdown2">
-              <a class="dropdown-item text-center" href="<?php bloginfo('url'); ?>/company">company</a>
-              <a class="dropdown-item text-center" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a>
-            </div>
+          <!-- ABOUTドロップダウン -->
+          <li class="nav-item">
+            <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonCompany" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ABOUT
+              <span class="caret"></span>
+            </button>
+            <!-- ドロップメニューの設定 -->
+            <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonCompany">
+              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/company">company</a></li>
+              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a></li>
+            </ul>
           </li>
-
 
           <li class="nav-item">
             <a class="nav-link" href="<?php bloginfo('url'); ?>/service" style="font-size:0.8rem; font-weight:normal;">SERVICE</a>
           </li>
+
+          <!-- RECRUITドロップダウン -->
           <li class="nav-item">
-            <a class="nav-link" href="<?php bloginfo('url'); ?>/recruit" style="font-size:0.8rem; font-weight:normal;">RECRUIT</a>
+            <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonRECRUIT" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              RECRUIT
+              <span class="caret"></span>
+            </button>
+            <!-- ドロップメニューの設定 -->
+            <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonRecruit">
+              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/recruitment-list">recruitment list</a></li>
+              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices"></a>voices</li>
+            </ul>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="<?php bloginfo('url'); ?>/contact" style="font-size:0.8rem; font-weight:normal;">CONTACT</a>
           </li>
@@ -91,8 +106,20 @@
 
 
           <a href="<?php bloginfo('url'); ?>/service"><span data-hover="service">service</span></a>
+          
+          
+          <a href="<?php bloginfo('url'); ?>/recruit" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            <span data-hover="recruit">recruit</span>
+          </a>
 
-          <a href="<?php bloginfo('url'); ?>/recruit"><span data-hover="recruit">recruit</span></a>
+          <ul class="dropdown-menu pt-3" role="menu">
+            <li class="text-center">
+              <a href="<?php bloginfo('url'); ?>/recruitmeent-list" class="m-2 text-center" style="margin:0 !important;">recruitmeent list</a>
+            </li>
+            <li class="text-center"><a href="<?php bloginfo('url'); ?>/voices" class="m-2" style="margin:0 !important;">voices</a>
+            </li>
+          </ul>
+
 
 
           <a href="<?php bloginfo('url'); ?>/contact"><span data-hover="contact">contact</span></a>
