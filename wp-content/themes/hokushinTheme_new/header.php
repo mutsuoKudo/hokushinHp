@@ -88,42 +88,43 @@
       <!-- ナビゲーションバー　デスクトップ用（タブレット以上で表示） -->
       <nav class="d-none d-md-block hs-nav-conteiner">
         <div class="hs-nav-effect p-1">
-          <a href="<?php bloginfo('url'); ?>/old-home"><span data-hover="home">home</span></a>
+          <div class="d-inline-block">
+            <a href="<?php bloginfo('url'); ?>/old-home"><span data-hover="home">home</span></a>
+          </div>
 
-          <!-- <div class="dropdown active"> -->
-          <a href="<?php bloginfo('url'); ?>/about" class="dropdown-toggle" data-toggle="dropdown" role="button">
-            <span data-hover="about">about</span>
-          </a>
+          <div class="d-inline-block">
+            <a href="<?php bloginfo('url'); ?>/about" class="dropdown-toggleCompany" data-toggle="dropdown" role="button">
+              <span data-hover="about">about</span>
+            </a>
+            <ul class="dropdown-menu pt-3" role="menu">
+              <li class="text-center">
+                <a href="<?php bloginfo('url'); ?>/company" class="m-2 text-center" style="margin:0 !important;">company</a>
+              </li>
+              <li class="text-center"><a href="<?php bloginfo('url'); ?>/partner-synergy" class="m-2" style="margin:0 !important;">partner-synergy</a>
+              </li>
+            </ul>
+          </div>
 
-          <ul class="dropdown-menu pt-3" role="menu">
-            <li class="text-center">
-              <a href="<?php bloginfo('url'); ?>/company" class="m-2 text-center" style="margin:0 !important;">company</a>
-            </li>
-            <li class="text-center"><a href="<?php bloginfo('url'); ?>/partner-synergy" class="m-2" style="margin:0 !important;">partner-synergy</a>
-            </li>
-          </ul>
-          <!-- </div> -->
+          <div class="d-inline-block">
+            <a href="<?php bloginfo('url'); ?>/service"><span data-hover="service">service</span></a>
+          </div>
 
+          <div class="d-inline-block">
+              <a href="<?php bloginfo('url'); ?>/recruit" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                <span data-hover="recruit">recruit</span>
+              </a>
+              <ul class="dropdown-menu pt-3" role="menu">
+                <li class="text-center">
+                  <a href="<?php bloginfo('url'); ?>/recruitment-list" class="m-2 text-center" style="margin:0 !important;">recruitmeent list</a>
+                </li>
+                <li class="text-center"><a href="<?php bloginfo('url'); ?>/voices" class="m-2" style="margin:0 !important;">voices</a>
+                </li>
+              </ul>
+          </div>
 
-          <a href="<?php bloginfo('url'); ?>/service"><span data-hover="service">service</span></a>
-          
-          
-          <a href="<?php bloginfo('url'); ?>/recruit" class="dropdown-toggle" data-toggle="dropdown" role="button">
-            <span data-hover="recruit">recruit</span>
-          </a>
-
-          <ul class="dropdown-menu pt-3" role="menu">
-            <li class="text-center">
-              <a href="<?php bloginfo('url'); ?>/recruitmeent-list" class="m-2 text-center" style="margin:0 !important;">recruitmeent list</a>
-            </li>
-            <li class="text-center"><a href="<?php bloginfo('url'); ?>/voices" class="m-2" style="margin:0 !important;">voices</a>
-            </li>
-          </ul>
-
-
-
-          <a href="<?php bloginfo('url'); ?>/contact"><span data-hover="contact">contact</span></a>
-
+          <div class="d-inline-block">
+            <a href="<?php bloginfo('url'); ?>/contact"><span data-hover="contact">contact</span></a>
+          </div>
         </div>
       </nav>
     </div>
