@@ -93,7 +93,7 @@
           </div>
 
           <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/about" class="dropdown-toggleCompany" data-toggle="dropdown" role="button">
+            <a href="<?php bloginfo('url'); ?>/about" class="dropdown-toggle" data-toggle="dropdown" role="button">
               <span data-hover="about">about</span>
             </a>
             <ul class="dropdown-menu pt-3" role="menu">
