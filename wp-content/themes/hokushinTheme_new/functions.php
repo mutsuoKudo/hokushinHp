@@ -15,5 +15,6 @@ function custom_mime_types( $mimes ) {
   return $mimes;
 }
 add_filter( 'upload_mimes', 'custom_mime_types' );
+
 ?>
 
