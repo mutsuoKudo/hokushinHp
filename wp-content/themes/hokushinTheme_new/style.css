@@ -1,23 +1,24 @@
-
 /* 既存HPのCSS（hokushin_old.css）に上書き+ナビゲーションバーのCSS */
-body{
-    color:#444 !important;
+
+body {
+    color: #444 !important;
     background-color: transparent !important;
     overflow-x: hidden;
 }
+
+
 /* a{
     text-decoration: none !important;
 } */
 
-a{
+a {
     text-decoration: none !important;
     color: #444 !important;
-    
 }
-a:hover{
+
+a:hover {
     text-decoration: none !important;
     color: #f39e15 !important;
-    
 }
 
 nav {
@@ -27,28 +28,27 @@ nav {
     float: left;
 }
 
-address{
+address {
     color: #fff;
 }
 
-#home-content #home-pol a:hover{
-    color:#f39e15 !important;
+#home-content #home-pol a:hover {
+    color: #f39e15 !important;
 }
 
-#home-content #home-pol a{
+#home-content #home-pol a {
     color: #444;
 }
 
+
 /* ナビゲーションバーデザイン */
 
-
-.hs-sub-nuv-btn{
+.hs-sub-nuv-btn {
     box-shadow: none !important;
     margin: 0 auto;
     font-size: 0.8rem !important;
     color: #444 !important;
 }
-
 
 .hs-nav-effect a {
     position: relative;
@@ -94,32 +94,65 @@ address{
     color: #444;
 }
 
-
 .hs-body-start {
-        animation-name: body-start;
-        /* 一回分の時間 */
-        animation-duration: 3s;
-        /* 繰り返し回数 */
-        animation-iteration-count: 1;
-        /* ゆっくり始まってゆっくり終わる */
-        animation-timing-function: ease;
-        /* 終了後の状態 */
-        animation-fill-mode: forwards;
+    animation-name: body-start;
+    /* 一回分の時間 */
+    animation-duration: 3s;
+    /* 繰り返し回数 */
+    animation-iteration-count: 1;
+    /* ゆっくり始まってゆっくり終わる */
+    animation-timing-function: ease;
+    /* 終了後の状態 */
+    animation-fill-mode: forwards;
+}
+
+@keyframes body-start {
+    0% {
+        visibility: hidden;
+        opacity: 0;
     }
-    
-    @keyframes body-start {
-        0% {
-            visibility: hidden;
-            opacity: 0;
-        }
-        50% {
-            visibility: visible;
-            opacity: 1;
-        }
-        100% {
-            visibility: visible;
-            opacity: 1;
-        }
+    50% {
+        visibility: visible;
+        opacity: 1;
     }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
 
 
+/* 応募フォームのエラー処理 ここから*/
+
+input+div .invalid {
+    display: none;
+}
+
+input+div .valid {
+    display: none;
+}
+
+input:focus:required:valid {
+    background-color: #CDFAD1;
+}
+
+input:focus:required:invalid {
+    background-color: #F1BDBE;
+}
+
+input:focus:required:valid+div .valid {
+    display: inline-block;
+    margin-top: 0.25rem;
+    color: #1BB006;
+    font-size: 0.85rem;
+}
+
+input:focus:required:invalid+div .invalid {
+    display: inline-block;
+    margin-top: 0.25rem;
+    color: #CB2629;
+    font-size: 0.85rem;
+}
+
+
+/* 応募フォームのエラー処理 ここまで*/

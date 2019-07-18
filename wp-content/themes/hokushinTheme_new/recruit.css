@@ -195,8 +195,10 @@ img.emoji {
 
 @media (min-width: 768px) {
     .page-main-title {
-        width: 15% !important;
-        margin: 0 5% 10% 5% !important;
+        /* width: 15% !important; */
+        width: auto !important;
+        /* margin: 0 5% 10% 5% !important; */
+        margin: 0 5% 5% 5% !important;
         font-size: 1.2rem !important;
     }
     .page-title-en {
@@ -231,11 +233,12 @@ img.emoji {
     }
     .hs-recruit-message {
         position: relative;
-        width: 60%;
+        /* width: 60%; */
+        width: 83%;
         height: auto;
         top: 30%;
         margin: 0 auto;
-        left: 15%;
+        /* left: 15%; */
     }
     .hs-recruit-message-p {
         font-size: 0.8rem;

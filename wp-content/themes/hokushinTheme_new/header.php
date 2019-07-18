@@ -70,7 +70,7 @@
             </button>
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonRecruit">
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/recruitment-list">recruitment list</a></li>
+              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">job category</a></li>
               <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices"></a>voices</li>
             </ul>
           </li>
@@ -115,7 +115,7 @@
               </a>
               <ul class="dropdown-menu pt-3" role="menu">
                 <li class="text-center">
-                  <a href="<?php bloginfo('url'); ?>/recruitment-list" class="m-2 text-center" style="margin:0 !important;">recruitmeent list</a>
+                  <a href="<?php bloginfo('url'); ?>/job category" class="m-2 text-center" style="margin:0 !important;">job category</a>
                 </li>
                 <li class="text-center"><a href="<?php bloginfo('url'); ?>/voices" class="m-2" style="margin:0 !important;">voices</a>
                 </li>

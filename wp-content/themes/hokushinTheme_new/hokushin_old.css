@@ -848,11 +848,6 @@ footer #privacymark-logo {
     }
 }
 
-.page-content-voices {
-    background-image: url(images/voices.png);
-    height: 40vh;
-}
-
 
 /* 極小デバイス（縦向きモバイル, 576px 未満） */
 
@@ -861,4 +856,14 @@ footer #privacymark-logo {
         background-image: url(images/voices2.png);
         height: 35vh;
     }
+}
+
+.page-content-voices {
+    background-image: url(images/voices.png);
+    height: 40vh;
+}
+
+.page-content-application-form {
+    background-image: url(images/rec_img.jpg);
+    height: 15vh;
 }
