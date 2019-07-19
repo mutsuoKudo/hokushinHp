@@ -45,7 +45,7 @@
             <nav class="menu-head-container">
                 <!-- <a href="recruit.html" class="btn-border">募集職種一覧へ</a> -->
                 <div class="hs-a-button">
-                  <a href="<?php bloginfo('url'); ?>/recruit" class="btn-square-shadow">募集職種一覧へ</a>
+                  <a href="<?php bloginfo('url'); ?>/job-category" class="btn-square-shadow">募集職種一覧へ</a>
                 </div>
             </nav>
         </div>
