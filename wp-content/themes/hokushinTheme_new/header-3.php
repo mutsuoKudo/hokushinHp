@@ -43,7 +43,6 @@
         <div class="hs-w-980 w-980 clearfix">
             <h1 id="header-logo" class="hs-h1"><a href="<?php bloginfo('url'); ?>/"></a></h1>
             <nav class="menu-head-container">
-                <!-- <a href="recruit.html" class="btn-border">募集職種一覧へ</a> -->
                 <div class="hs-a-button">
                   <a href="<?php bloginfo('url'); ?>/job-category" class="btn-square-shadow">募集職種一覧へ</a>
                 </div>

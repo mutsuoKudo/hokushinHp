@@ -832,38 +832,3 @@ footer #privacymark-logo {
     border-radius: .2em;
     float: left;
 }
-
-
-/* takahashi add */
-
-
-/* 中デバイス（タブレット, 992px 未満） */
-
-@media (max-width: 991.98px) {
-    .page-contenet .page-main-content {
-        float: left;
-        width: 100%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-}
-
-
-/* 極小デバイス（縦向きモバイル, 576px 未満） */
-
-@media (max-width: 575.98px) {
-    .page-content-voices {
-        background-image: url(images/voices2.png);
-        height: 35vh;
-    }
-}
-
-.page-content-voices {
-    background-image: url(images/voices.png);
-    height: 40vh;
-}
-
-.page-content-application-form {
-    background-image: url(images/rec_img.jpg);
-    height: 15vh;
-}

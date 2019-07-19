@@ -29,6 +29,7 @@
   </div>
 </footer><!-- END footer -->
 
+<!-- 共通JS -->
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/common.js"></script>
 
 <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script> -->
