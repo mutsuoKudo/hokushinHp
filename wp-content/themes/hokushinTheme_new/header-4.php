@@ -71,7 +71,7 @@
       </nav>
     </div>
 
-    <!-- ロゴ帯 -->
+    <!-- ロゴ+帯 -->
     <!-- mdサイズ（991px）以下でのみ表示させる -->
     <nav class="navbar navbar-expand-lg navbar-light d-block d-lg-none hs-recruit-logo fixed-top">
       <a class="navbar-brand hs-logo-a" href="#">
@@ -113,7 +113,7 @@
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonRecruit">
               <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">job category</a></li>
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices"></a>voices</li>
+              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">voices</a></li>
             </ul>
           </li>
 

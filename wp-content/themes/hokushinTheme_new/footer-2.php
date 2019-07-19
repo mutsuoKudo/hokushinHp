@@ -48,7 +48,9 @@
      </div>
  </div>
 
+ <!-- 新規トップページ用JS -->
  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/index.js"></script>
+ <!-- 共通JS -->
  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/common.js"></script>
 
  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script> -->

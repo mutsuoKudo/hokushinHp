@@ -1,4 +1,4 @@
-/* 既存HPのCSS（hokushin_old.css）に上書き+ナビゲーションバーのCSS */
+/* 共通CSS */
 
 body {
     color: #444 !important;
@@ -6,10 +6,9 @@ body {
     overflow-x: hidden;
 }
 
-
-/* a{
-    text-decoration: none !important;
-} */
+li {
+    list-style-type: none;
+}
 
 a {
     text-decoration: none !important;
@@ -32,6 +31,9 @@ address {
     color: #fff;
 }
 
+
+/* hokushin_old.cssの上書き */
+
 #home-content #home-pol a:hover {
     color: #f39e15 !important;
 }
@@ -42,6 +44,9 @@ address {
 
 
 /* ナビゲーションバーデザイン */
+
+
+/* ホバーしたらくるくまわるところ */
 
 .hs-sub-nuv-btn {
     box-shadow: none !important;
@@ -63,7 +68,7 @@ address {
     font-weight: 900;
     font-size: 0.7rem;
     overflow: hidden;
-    padding: 0 4px;
+    padding: 0 4px !important;
     height: 1.5em;
     font-family: "brandon-grotesque", sans-serif;
 }
@@ -121,6 +126,11 @@ address {
     }
 }
 
+.hs-nav-link-font {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
 
 /* 応募フォームのエラー処理 ここから*/
 
@@ -156,3 +166,43 @@ input:focus:required:invalid+div .invalid {
 
 
 /* 応募フォームのエラー処理 ここまで*/
+
+
+/* takahashi add */
+
+
+/* 中デバイス（タブレット, 992px 未満） */
+
+@media (max-width: 991.98px) {
+    .page-contenet .page-main-content {
+        float: left;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+
+/* 極小デバイス（縦向きモバイル, 576px 未満） */
+
+@media (max-width: 575.98px) {
+    .page-content-voices {
+        background-image: url(images/voices2.png);
+        height: 35vh;
+    }
+}
+
+.page-content-voices {
+    background-image: url(images/voices.png);
+    height: 40vh;
+}
+
+.page-content-application-form {
+    background-image: url(images/rec_img.jpg);
+    height: 15vh;
+}
+
+.page-content-partner-synergy {
+    background-image: url(images/com_img.jpg);
+    height: 15vh;
+}
