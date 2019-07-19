@@ -28,21 +28,22 @@
 </head>
 
 <body class="hs-body-start hs-hide hs-body">
-
+<!-- *このdivはhome.php内で閉じられるのでここでは閉じなくてOK -->
   <div class="hs-base-conteiner hs-body-start">
 
-    <!-- 小さくなったら表示 -->
+    <!-- ロゴ+帯 -->
     <nav class="navbar navbar-expand-md navbar-light mb-4" style="z-index: 2000; background-color: lightgray;">
       <a class="navbar-brand hs-logo-a" href="#">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/ホクシンlogo_7.png" alt="" width="auto" height="30">
+        <img src="wp-content/uploads/2019/07/e76cd8347bc0116329d4b7104bf0d76c.png" alt="" width="auto" height="30">
       </a>
+      <!-- ハンバーガーメニューは画面小さくなったら表示 -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav mr-auto d-block d-md-none" style="width:100%">
           <li class="nav-item">
-            <a class="nav-link" href="<?php bloginfo('url'); ?>/old-home" style="font-size:0.8rem; font-weight:normal;">HOME</a>
+            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/old-home">HOME</a>
           </li>
 
           <!-- ABOUTドロップダウン -->
@@ -59,7 +60,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="<?php bloginfo('url'); ?>/service" style="font-size:0.8rem; font-weight:normal;">SERVICE</a>
+            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/service">SERVICE</a>
           </li>
 
           <!-- RECRUITドロップダウン -->
@@ -71,17 +72,16 @@
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonRecruit">
               <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">job category</a></li>
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices"></a>voices</li>
+              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">voices</a></li>
             </ul>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="<?php bloginfo('url'); ?>/contact" style="font-size:0.8rem; font-weight:normal;">CONTACT</a>
+            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/contact">CONTACT</a>
           </li>
 
         </ul>
     </nav>
-
 
     <!-- ナビゲーションバー -->
     <div class="hs-nav">
@@ -110,16 +110,16 @@
           </div>
 
           <div class="d-inline-block">
-              <a href="<?php bloginfo('url'); ?>/recruit" class="dropdown-toggle" data-toggle="dropdown" role="button">
-                <span data-hover="recruit">recruit</span>
-              </a>
-              <ul class="dropdown-menu pt-3" role="menu">
-                <li class="text-center">
-                  <a href="<?php bloginfo('url'); ?>/job category" class="m-2 text-center" style="margin:0 !important;">job category</a>
-                </li>
-                <li class="text-center"><a href="<?php bloginfo('url'); ?>/voices" class="m-2" style="margin:0 !important;">voices</a>
-                </li>
-              </ul>
+            <a href="<?php bloginfo('url'); ?>/recruit" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <span data-hover="recruit">recruit</span>
+            </a>
+            <ul class="dropdown-menu pt-3" role="menu">
+              <li class="text-center">
+                <a href="<?php bloginfo('url'); ?>/job category" class="m-2 text-center" style="margin:0 !important;">job category</a>
+              </li>
+              <li class="text-center"><a href="<?php bloginfo('url'); ?>/voices" class="m-2" style="margin:0 !important;">voices</a>
+              </li>
+            </ul>
           </div>
 
           <div class="d-inline-block">
@@ -128,3 +128,4 @@
         </div>
       </nav>
     </div>
+  

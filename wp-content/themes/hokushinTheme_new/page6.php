@@ -1,5 +1,5 @@
 <!-- ポリシー用ページ -->
-<?php /* Template Name: 見出し文字数多いやつ用ページ （ポリシー系、パートナーシナジー系）*/ ?>
+<?php /* Template Name: ポリシー系ページ */ ?>
 
 <?php get_header(2); ?>
 
@@ -8,7 +8,5 @@
 <?php the_content(); ?>
 
 <?php endwhile; endif; ?>
-
-
 
 <?php get_footer(); ?>
