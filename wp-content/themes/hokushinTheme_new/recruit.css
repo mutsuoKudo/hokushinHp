@@ -1,4 +1,4 @@
-/* 採用ページCSS */
+/* 新設トップページ以外の新設ページ用CSS（主に採用ページ･･･） */
 
 
 /* 既存HPにあった直書きCSS */
@@ -33,7 +33,7 @@ img.emoji {
 }
 
 
-/* 既存HPにあったCSSに上書き */
+/* hokushin_old.cssに上書き */
 
 .w-max {
     min-width: 100% !important;
@@ -67,61 +67,6 @@ img.emoji {
     color: #444;
 }
 
-.hs-nav-effect a {
-    position: relative;
-    display: inline-block;
-    margin: 15px 25px;
-    outline: none;
-    /* color: #020202; */
-    color: #444;
-    text-decoration: none !important;
-    text-transform: uppercase;
-    letter-spacing: 0.2px;
-    font-weight: 900;
-    font-size: 0.7rem;
-    overflow: hidden;
-    padding: 0 4px !important;
-    height: 1.5em;
-    font-family: "brandon-grotesque", sans-serif;
-}
-
-.hs-nav-effect a span {
-    position: relative;
-    display: inline-block;
-    transition: transform 0.2s;
-}
-
-.hs-nav-effect a span::before {
-    position: absolute;
-    top: 100%;
-    content: attr(data-hover);
-    font-weight: 900;
-    transform: translate3d(0, 0, 0);
-}
-
-.hs-nav-effect a:hover span,
-.hs-nav-effect a:focus span {
-    transform: translateY(-100%);
-    outline: none;
-}
-
-.hs-img-zoom {
-    overflow: hidden;
-}
-
-.hs-img-zoom img {
-    display: block;
-    transition-duration: 0.3s;
-    /*変化に掛かる時間*/
-}
-
-.hs-img-zoom a:hover img {
-    transform: scale(1.1);
-    /*画像の拡大率*/
-    transition-duration: 0.3s;
-    /*変化に掛かる時間*/
-}
-
 .hs-recruit-main-img {
     position: relative;
     width: 100%;
@@ -146,11 +91,6 @@ img.emoji {
     background-color: lightgray;
 }
 
-.hs-nav-link-font {
-    font-size: 0.8rem;
-    font-weight: normal;
-}
-
 .hs-recruit-chart-ul a:hover {
     color: #f39e15;
 }
@@ -159,16 +99,11 @@ img.emoji {
     color: #444;
 }
 
-.hs-a-button a:hover {
-    color: #FFF;
-}
 
-.hs-a-button a:hover {
-    color: #444;
-}
+/* ナビゲーションバーのドロップダウンの表示する場所設定 */
 
 
-/* 消しちゃダメ！！！ */
+/* home.phpでは設定しなくてよい */
 
 .dropdown-menu.show {
     top: 20% !important;
@@ -190,13 +125,31 @@ img.emoji {
     color: #202020;
 }
 
+.hs-td {
+    font-size: 0.8rem;
+    padding: 1.2em 0 1.2em 3em;
+}
+
+.hs-tr {
+    border-bottom: 1px dotted #444;
+}
+
+.hs-th {
+    padding: 1.2em 0 1.2em .5em;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
 
 /* タブレットよりも大きいサイズで適用 　*/
 
 @media (min-width: 768px) {
     .page-main-title {
-        width: 15% !important;
-        margin: 0 5% 10% 5% !important;
+        /* width: 15% !important; */
+        width: auto !important;
+        /* margin: 0 5% 10% 5% !important; */
+        margin: 0 5% 5% 5% !important;
         font-size: 1.2rem !important;
     }
     .page-title-en {
@@ -231,11 +184,12 @@ img.emoji {
     }
     .hs-recruit-message {
         position: relative;
-        width: 60%;
+        /* width: 60%; */
+        width: 83%;
         height: auto;
         top: 30%;
         margin: 0 auto;
-        left: 15%;
+        /* left: 15%; */
     }
     .hs-recruit-message-p {
         font-size: 0.8rem;
@@ -457,22 +411,6 @@ img.emoji {
     }
 }
 
-.hs-td {
-    font-size: 0.8rem;
-    padding: 1.2em 0 1.2em 3em;
-}
-
-.hs-tr {
-    border-bottom: 1px dotted #444;
-}
-
-.hs-th {
-    padding: 1.2em 0 1.2em .5em;
-    text-align: left;
-    white-space: nowrap;
-    vertical-align: top;
-}
-
 
 /* エントリーボタン */
 
@@ -518,6 +456,9 @@ img.emoji {
     border-bottom: none;
 }
 
+
+/* 社員の声ここから */
+
 .hs-recruit-card-title {
     font-size: 0.9rem;
 }
@@ -555,3 +496,6 @@ img.emoji {
 .modal {
     padding-right: 0px !important;
 }
+
+
+/* 社員の声ここまで */

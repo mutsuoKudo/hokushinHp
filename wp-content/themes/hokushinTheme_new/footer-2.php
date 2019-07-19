@@ -36,19 +36,21 @@
      <div class="hs-load-conteiner d-none d-lg-block">
          <div class="hs-dt-load-inner-conteiner">
              <!-- <img src="loading.svg" alt="" style="z-index:1000; width:100%; height:100%; position:absolute; top:0; left:0"> -->
-             <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/loading.svg" alt="">
+             <img src="wp-content/uploads/2019/07/loading.svg" alt="">
          </div>
      </div>
      <!-- モバイルタブレット用 -->
      <div class="hs-load-conteiner d-block d-lg-none">
          <div class="hs-mbtb-load-inner-conteiner">
              <!-- <img src="loading.svg" alt="" style="z-index:1000; width:100%; height:100%; position:absolute; top:0; left:0"> -->
-             <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/loading.svg" alt="">
+             <img src="wp-content/uploads/2019/07/loading.svg" alt="">
          </div>
      </div>
  </div>
 
+ <!-- 新規トップページ用JS -->
  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/index.js"></script>
+ <!-- 共通JS -->
  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/common.js"></script>
 
  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script> -->

@@ -9,35 +9,35 @@ Template Name: Home
 <div class="hs-circle-icon-conteiner d-none d-lg-block">
     <div class="hs-circle-icon-inner-conteiner">
         <div class="hs-icon position-absolute" style="left: 0;bottom: 0;">
-            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
         </div>
 
         <div class="hs-icon position-absolute" style="left: 12.5%;top: 40%;">
-            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
         </div>
 
         <div class="hs-icon position-absolute" style="left: 25%;top: 15%;">
-            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
         </div>
 
         <div class="hs-icon position-absolute" style="left: 40%;top: 0;">
-            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
         </div>
 
         <div class="hs-icon position-absolute" style="right: 40%; top: 0;">
-            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
         </div>
 
         <div class="hs-icon position-absolute" style="right: 25%;top: 15%;">
-            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
         </div>
 
         <div class="hs-icon position-absolute" style="right: 12.5%;top: 40%;">
-            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
         </div>
 
         <div class="hs-icon position-absolute" style="right: 0; bottom: 0;">
-            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
         </div>
         <!-- つぼみ -->
         <!-- <div class="hs-icon-ani position-absolute"></div> -->
@@ -46,13 +46,13 @@ Template Name: Home
 
 <!-- 背景ぷかぷか -->
 <div class="d-none d-lg-block hs-back-icon-conteiner">
-    <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/noff_010.gif" class="position-absolute hs-back-icon1 hs-hide" style="top: 15%;left: 15%; width: 7%;">
+    <img src="wp-content/uploads/2019/07/noff_010.gif" class="position-absolute hs-back-icon1 hs-hide" style="top: 15%;left: 15%; width: 7%;">
 
-    <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/noff_066.gif" class="position-absolute hs-back-icon2 hs-hide" style="top: 43%;left: 6%; width: 7%;">
+    <img src="wp-content/uploads/2019/07/noff_066.gif" class="position-absolute hs-back-icon2 hs-hide" style="top: 43%;left: 6%; width: 7%;">
 
-    <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/noff_073.gif" class="position-absolute hs-back-icon3 hs-hide" style="top: 15%;left: 80%; width: 7%;">
+    <img src="wp-content/uploads/2019/07/noff_073.gif" class="position-absolute hs-back-icon3 hs-hide" style="top: 15%;left: 80%; width: 7%;">
 
-    <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/noff_074.gif" class="position-absolute hs-back-icon4 hs-hide" style="top: 41%;left: 86%; width: 7%;">
+    <img src="wp-content/uploads/2019/07/noff_074.gif" class="position-absolute hs-back-icon4 hs-hide" style="top: 41%;left: 86%; width: 7%;">
 </div>
 
 
@@ -67,53 +67,53 @@ Template Name: Home
 
                     <ul class="hs-topimage-ul">
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/inventoryManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/inventoryManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/autonomyTransition.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/autonomyTransition.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/autonomyForTaxDelinquency.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquency.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/propertyTax.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/propertyTax.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/nationalHealethInsurance.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/nationalHealethInsurance.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/long-termCareInsurance.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/long-termCareInsurance.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/forElderly.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/forElderly.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/registrationOfseniorResident.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/registrationOfseniorResident.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/electronicHealthRecord.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/electronicHealthRecord.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/posForpharmacy.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/posForpharmacy.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/packageForMedicalAndNursingCare.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCare.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/salesManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/salesManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <!-- 最後の画像に#lastをつける -->
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/smartphoneGame.svg" border="0" id="left-last" class="hs-hide hs-dt-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/smartphoneGame.svg" border="0" id="left-last" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                     </ul>
                 </h2>
@@ -354,53 +354,53 @@ Template Name: Home
                 <h2 class="hs-dt-topimage-right-layout1">
                     <ul class="hs-topimage-ul">
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/hrPayrollImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/salesForceAutomationImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/marchandiseManagementImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/inventoryManagementImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/autonomyTransitionImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/propertyTaxImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/forElderlyImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/forElderlyImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/electronicHealthRecordImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/posForpharmacyImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/salesManagementImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/salesManagementImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                         <!-- 最後の画像に.lastをつける -->
                         <li class="hs-topimage-li">
-                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/smartphoneGameImg.svg" border="0" id="right-last" class="hs-hide hs-dt-topimage-right-layout2">
+                            <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" border="0" id="right-last" class="hs-hide hs-dt-topimage-right-layout2">
                         </li>
                     </ul>
                 </h2>
@@ -417,53 +417,53 @@ Template Name: Home
             <h2 class="hs-mbtb-topimage-left-layout1">
                 <ul class="hs-topimage-ul">
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/inventoryManagement.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/inventoryManagement.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/autonomyTransition.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/autonomyTransition.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/autonomyForTaxDelinquency.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquency.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/propertyTax.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/propertyTax.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/nationalHealethInsurance.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/nationalHealethInsurance.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/long-termCareInsurance.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/long-termCareInsurance.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/forElderly.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/forElderly.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/registrationOfseniorResident.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/registrationOfseniorResident.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/electronicHealthRecord.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/electronicHealthRecord.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/posForpharmacy.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/posForpharmacy.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/packageForMedicalAndNursingCare.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCare.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/salesManagement.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/salesManagement.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <!-- 最後の画像に#lastをつける -->
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/smartphoneGame.svg" border="0" id="mbtb-left-last" class="hs-hide hs-mbtb-topimage-left-layout2">
+                        <img src="wp-content/uploads/2019/07/smartphoneGame.svg" border="0" id="mbtb-left-last" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                 </ul>
             </h2>
@@ -475,7 +475,7 @@ Template Name: Home
         <div class="hs-topimage-center-tablecell">
             <div class="hs-mbtb-topimage-center-layout1">
                 <a href="#">
-                    <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/top-image.svg" alt="" class="hs-mbtb-topimage-center-layout2">
+                    <img src="wp-content/uploads/2019/07/top-image.svg" alt="" class="hs-mbtb-topimage-center-layout2">
                 </a>
             </div>
         </div>
@@ -489,53 +489,53 @@ Template Name: Home
             <h2 class="hs-mbtb-topimage-right-layout1">
                 <ul class="hs-topimage-ul">
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/hrPayrollImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/salesForceAutomationImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/marchandiseManagementImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/inventoryManagementImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/autonomyTransitionImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/propertyTaxImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/forElderlyImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/forElderlyImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/electronicHealthRecordImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/posForpharmacyImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/salesManagementImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/salesManagementImg.svg" border="0" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                     <!-- 最後の画像に.lastをつける -->
                     <li class="hs-topimage-li">
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/smartphoneGameImg.svg" border="0" id="mbtb-right-last" class="hs-hide hs-mbtb-topimage-right-layout2">
+                        <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" border="0" id="mbtb-right-last" class="hs-hide hs-mbtb-topimage-right-layout2">
                     </li>
                 </ul>
             </h2>
