@@ -615,7 +615,8 @@ header .menu-head-container ul .current a {
 }
 
 .page-content-company {
-    background-image: url(images/com_img.jpg);
+    /* background-image: url(images/com_img.jpg); */
+    background-image: url(images/about.png);
 }
 
 .page-content-service {
