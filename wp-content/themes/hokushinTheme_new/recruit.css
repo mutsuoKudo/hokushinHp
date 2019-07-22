@@ -149,7 +149,7 @@ img.emoji {
         /* width: 15% !important; */
         width: auto !important;
         /* margin: 0 5% 10% 5% !important; */
-        margin: 0 5% 5% 5% !important;
+        margin: 0 5% 9% 5% !important;
         font-size: 1.2rem !important;
     }
     .page-title-en {
@@ -174,7 +174,8 @@ img.emoji {
     }
     .hs-recruit-chart-ul {
         display: flex;
-        margin-left: 60%;
+        /* margin-left: 60%; */
+        margin-left: 35%;
         padding-top: 0.2rem;
         width: 70%;
         margin-bottom: 0 !important;
@@ -454,6 +455,23 @@ img.emoji {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
     /*影を小さく*/
     border-bottom: none;
+}
+
+.hs-img-zoom {
+    overflow: hidden;
+}
+
+.hs-img-zoom img {
+    display: block;
+    /* 変化に掛かる時間 */
+    transition-duration: 0.5s;
+}
+
+.hs-img-zoom a:hover img {
+    /* 画像の拡大率 */
+    transform: scale(1.1);
+    /* 変化に掛かる時間 */
+    transition-duration: 0.5s;
 }
 
 

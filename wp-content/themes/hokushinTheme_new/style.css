@@ -1,7 +1,7 @@
 /* 共通CSS */
 
 body {
-    color: #444 !important;
+    color: #444;
     background-color: transparent !important;
     overflow-x: hidden;
 }
@@ -12,7 +12,8 @@ li {
 
 a {
     text-decoration: none !important;
-    color: #444 !important;
+    /* color: #444 !important; */
+    color: #444;
 }
 
 a:hover {
@@ -194,7 +195,7 @@ input:focus:required:invalid+div .invalid {
 
 .page-content-voices {
     background-image: url(images/voices.png);
-    height: 40vh;
+    height: 40vh !important;
 }
 
 .page-content-application-form {
@@ -206,3 +207,55 @@ input:focus:required:invalid+div .invalid {
     background-image: url(images/com_img.jpg);
     height: 15vh;
 }
+
+.page-content-job-category {
+    background-image: url(images/job-category.png);
+    height: 15vh;
+}
+
+
+/* Opening(loading画面ここから)
+-----------------------------------------*/
+
+.Opening {
+    position: relative;
+    background-color: #FFF;
+}
+
+.Opening ul li {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.Opening ul li img.Opening__text {
+    position: absolute;
+    /* top: 50%; */
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+.Opening ul li span {}
+
+.Opening ul li span img.Opening__img {
+    max-width: inherit;
+    width: 100%;
+    height: auto;
+}
+
+
+/*  小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .Opening__text {
+        width: 50%;
+    }
+}
+
+
+/* Opening(loading画面ここまで)
+-----------------------------------------*/
