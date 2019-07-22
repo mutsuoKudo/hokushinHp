@@ -32,35 +32,34 @@
 
  <!-- ロード画面 -->
  <div id="hs-load">
-     <!-- デスクトップ用 -->
-     <div class="hs-load-conteiner d-none d-lg-block">
-         <div class="hs-dt-load-inner-conteiner">
-             <!-- <img src="loading.svg" alt="" style="z-index:1000; width:100%; height:100%; position:absolute; top:0; left:0"> -->
-             <img src="wp-content/uploads/2019/07/loading.svg" alt="">
+     <div class="mod_body">
+         <div class="Opening">
+             <ul style="margin-bottom: 0; bottom: 0;">
+                 <li class="hs-load-conteiner" style="background-color: #fff; height: 100vh;">
+                     <span><img src="wp-content/uploads/2019/07/loading.svg" alt="" class="w-25 position-relative" style="top: 25%;"></span>
+                 </li>
+                 <li><span><img class="Opening__img" src="http://hokushinsystem.local/wp-content/uploads/2019/07/loading.jpg" alt="" data-pagespeed-url-hash="2479872132" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></span><img class="Opening__text" src="http://hokushinsystem.local/wp-content/uploads/2019/07/loading-text.png" alt="" data-pagespeed-url-hash="2266855761" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></li>
+             </ul>
+             <!-- /.Opening -->
          </div>
+         <!-- / .mod_body -->
      </div>
-     <!-- モバイルタブレット用 -->
-     <div class="hs-load-conteiner d-block d-lg-none">
-         <div class="hs-mbtb-load-inner-conteiner">
-             <!-- <img src="loading.svg" alt="" style="z-index:1000; width:100%; height:100%; position:absolute; top:0; left:0"> -->
-             <img src="wp-content/uploads/2019/07/loading.svg" alt="">
-         </div>
-     </div>
+     <!-- </div> -->
  </div>
-
  <!-- 新規トップページ用JS -->
- <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/index.js"></script>
+ <script src="<?php bloginfo('stylesheet_directory'); ?>/index.js"></script>
  <!-- 共通JS -->
- <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/common.js"></script>
+ <script src="<?php bloginfo('stylesheet_directory'); ?>/common.js"></script>
 
  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script> -->
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/jQuery@3.js"></script>
+ <script src="<?php bloginfo('stylesheet_directory'); ?>/jQuery@3.js"></script>
 
  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="<?php bloginfo('stylesheet_directory'); ?>/https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script> -->
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" ></script>
+ <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script> -->
+ <script src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+
 
  <?php wp_footer(); ?>
  </body>
