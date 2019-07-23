@@ -232,7 +232,7 @@ input:focus:required:invalid+div .invalid {
 .Opening ul li img.Opening__text {
     position: absolute;
     /* top: 50%; */
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);

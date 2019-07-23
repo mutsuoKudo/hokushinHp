@@ -43,83 +43,86 @@
     <div class="page-content-image page-content-job-category"></div>
     <div class="page-contenet content-out-box w-max">
         <div class="content-inner-box w-980 clearfix">
-            <h1 class="page-main-title"><span class="page-title-en">company</span><br>会社概要</h1>
+            <h1 class="page-main-title"><span class="page-title-en">Application-form</span><br>応募フォーム</h1>
 
-            <div class="hs-recruit-message w-100">
-                <p class="hs-recruit-message-p mb-0"></p>
+            <div class="hs-recruit-message">
+                <p class="hs-recruit-message-p mb-5">
+                    以下の応募フォームを入力ください。 入力をいただいた内容を基に書類選考をさせていただきます。
 
-                <h4>
-                    開発者にとって最適の会社を</h4>
-                <h5 class="p-0 m-0">
-                    個性を活かし育てることで
-                    <p class="p-0 m-0">仲間とともに成長していくことを目指しています。</p>
-                </h5>
-                <p class="p-0">株式会社ホクシンシステムでは、個性をお互い尊重しあい、切磋琢磨することで会社は大きく成長できると考えています。そのために。部門間の隔たりをなくし、会社全体で一つのチームという形にこだわることで情報を停滞させず、さまざまな意見を反映し易い環境を作り上げています。</p>
+            </div>
+            <div class="hs-recruit-main-conteiner1 pt-5">
+                <article id="inexperienced-person" style="padding-top: 8%">
+                    <form>
+                        <div class="form-row  justify-content-center">
+                            <div class="col-12 mb-3">
+                                <label class="text-white p-1" style="background-color: #f39E15">必須</label>
+                                <label for="inputState">希望職種</label>
+                                <select class="custom-select" id="menu-category">
+                                    <option value="">選択してください</option>
+                                    <option value="1" id="form-1">【未経験者】プログラマー（PHP）</option>
+                                    <option value="2" id="form-2">【未経験者】プログラマー（Java）</option>
+                                    <option value="3" id="form-3">【未経験者】プログラマー（C言語/Linux）</option>
+                                    <option value="4" id="form-4">【経験者】プログラマー（PHP）</option>
+                                    <option value="5" id="form-5">【経験者】プログラマー（Java）</option>
+                                    <option value="6" id="form-6">【経験者】プログラマー（C言語/Linux）</option>
+                                    <option value="7" id="form-7">【経験者】プログラマー（C++/C#）</option>
+                                    <option value="8" id="form-8">【経験者】プログラマー（ネットワーク管理）</option>
+                                    <option value="9" id="form-9">【経験者】プログラマー（営業）</option>
+                                </select></div>
+                            <div class="col-12 mt-4 mb-3">
+                                <label class="text-white p-1" style="background-color: #f39E15">必須</label>
+                                <label>お名前</label>
+                                <input type="text" class="form-control" placeholder="例）ホクシン太郎" value="" required="">
+                                <div>
+                                    <span class="invalid">入力してください</span>
+                                    <span class="valid"></span></div>
+                            </div>
+                            <div class="col-12 mt-4 mb-3">
+                                <label class="text-white p-1" style="background-color: #f39E15">必須</label>
+                                <label>電話番号</label>
+                                <input type="text" class="form-control" placeholder="例）080-1234-5678" value="" required="">
+                                <div>
+                                    <span class="invalid">入力してください</span>
+                                    <span class="valid"></span></div>
+                            </div>
+                            <div class="col-12 mt-4 mb-3">
+                                <label class="text-white p-1" style="background-color: #f39E15">必須</label>
+                                <label>メール</label>
+                                <input type="text" class="form-control" placeholder="info@hokusys.jp" value="" required="">
+                                <div>
+                                    <span class="invalid">入力してください</span>
+                                    <span class="valid"></span></div>
+                            </div>
+                            <div class="col-12 mt-4 mb-3">
+                                <label class="text-white p-1" style="background-color: darkgray">任意</label>
+                                <label for="exampleFormControlFile1">添付ファイル</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                <input type="file" class="form-control-file pt-2" id="exampleFormControlFile2">
+                                <input type="file" class="form-control-file pt-2" id="exampleFormControlFile3">
 
-                <div class="hs-recruit-main-conteiner1 pl-4">
-                    <article class="pt-5">
-                        <table class="w-100" style="border-top: 3px solid; margin: 0 auto;">
-                            <tbody>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <th class="pt-4 pb-4 pl-3">社名</th>
-                                    <td class="pt-4 pb-4 pl-4 text-center">株式会社 ホクシンシステム</td>
-                                </tr>
-                                <tr>
-                                    <th class="pt-4 pb-4" rowspan="2" style="border-bottom: 1px dotted;">所在地</th>
-                                    <td class="pt-4 pl-4">〒060-0053</td>
-                                </tr>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <td class="pb-4 pl-4">北海道札幌市中央区南3条東2丁目1番地サンシャインビル3階
-                                        <div class="simplemap">
-                                            <div class="simplemap-content" data-breakpoint="480" data-lat="" data-lng="" data-zoom="16" data-addr="" data-infowindow="close" data-map-type-control="false" data-map-type-id="ROADMAP" style="width:100%;height:300px;">
-                                                北海道札幌市中央区南3条東2丁目1番地サンシャインビル3階</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <th class="pt-4 pb-4">電話番号</th>
-                                    <td class="pt-4 pb-4 pl-4">011-522-9234</td>
-                                </tr>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <th class="pt-4 pb-4">代表取締役</th>
-                                    <td class="pt-4 pb-4 pl-4">熊谷典久</td>
-                                </tr>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <th class="pt-4 pb-4">設立</th>
-                                    <td class="pt-4 pb-4 pl-4">2015年9月17日</td>
-                                </tr>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <th class="pt-4 pb-4">資本金</th>
-                                    <td class="pt-4 pb-4 pl-4">2000万円</td>
-                                </tr>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <th class="pt-4 pb-4">社員数</th>
-                                    <td class="pt-4 pb-4 pl-4">31名（2019年3月）</td>
-                                </tr>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <th class="pt-4 pb-4">取引銀行</th>
-                                    <td class="pt-4 pb-4 pl-4">みずほ銀行、三井住友銀行、北海道銀行</td>
-                                </tr>
-                                <tr>
-                                    <th class="pt-4">一般労働者</th>
-                                    <td class="pt-2 pl-4" rowspan="2" style="border-bottom: 1px dotted;">派 01-300703</td>
-                                </tr>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <th class="pb-4">派遣事業</th>
-                                    <td class="pt-4 pl-4"></td>
-                                </tr>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <th class="pt-4 pb-4">有料職業紹介事業</th>
-                                    <td class="pt-4 pb-4 pl-4">01-ユ-300450</td>
-                                </tr>
-                                <tr style="border-bottom: 1px dotted;">
-                                    <th class="pt-4 pb-4">プライバシーマーク</th>
-                                    <td class="pt-4 pb-4 pl-4">26000148(01)</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </article>
-                </div>
+                                <p class="pt-2 mb-0" style="font-size: 0.8rem;">
+                                    ※履歴書・職務経歴書・ポートフォリオなどをファイルで送る方はこちら。（合計15MB以下）</p>
+                                <p class="pt-2" style="font-size: 0.8rem">※ファイル形式は Excel、HTML、PDF、PowerPoint、Word、テキスト、画像（GIF/JPEG/TIFF）です。）
+                                </p>
+
+                            </div>
+                            <div class="col-12 mt-4 mb-3">
+                                <label class="text-white p-1" style="background-color: darkgray">任意</label>
+                                <label>備考</label>
+                                <textarea class="form-control" aria-label="biko" placeholder="質問やご相談などございましたらこちらにご入力ください。"></textarea></div>
+                            <div class="form-group col-12 mt-4 text-center">
+                                <div class="form-check text-center">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required="">
+                                    <label class="form-check-label" for="invalidCheck2">当サイトの個人情報に取り扱い明示事項に同意する</label>
+                                </div>
+                                <a href="#"><small style="color: #f39E15">個人情報取得に対する明示事項について</small></a>
+
+                            </div>
+                            <button class="btn-flat-border mt-3 font-weight-bold" type="submit">上記の内容でエントリー</button>
+
+                        </div>
+                    </form>
+                </article>
             </div>
 </body>
 

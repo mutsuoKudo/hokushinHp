@@ -149,7 +149,7 @@ img.emoji {
         /* width: 15% !important; */
         width: auto !important;
         /* margin: 0 5% 10% 5% !important; */
-        margin: 0 5% 9% 5% !important;
+        margin: 0 5% 14% 5% !important;
         font-size: 1.2rem !important;
     }
     .page-title-en {
@@ -502,6 +502,11 @@ img.emoji {
     padding-left: 0 !important;
     border-radius: 0 !important;
     filter: drop-shadow(7px 7px 7px darkgray);
+}
+
+.hs-voices-p {
+    font-weight: normal;
+    line-height: 2em;
 }
 
 
