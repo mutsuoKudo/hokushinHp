@@ -275,7 +275,7 @@ img.emoji {
         width: 35%;
     }
     .hs-recruit-chart-ul {
-        display: flex;
+        display: block;
         margin-left: 30%;
         padding-top: 0.2rem;
         width: 70%;
