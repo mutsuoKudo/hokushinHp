@@ -140,10 +140,10 @@ $(function() {
 //     }
 // });
 
-//4秒たったら強制的にロード画面を非表示
+//6秒たったら強制的にロード画面を非表示
 $(function() {
-    setTimeout('imgTimer();', 3800);
-    setTimeout('stopload()', 4000);
+    setTimeout('imgTimer();', 6000);
+    setTimeout('stopload()', 6000);
 });
 
 // ロード画面を非表示にしてメイン画面と動きをスタートさせる
