@@ -52,7 +52,8 @@
             <a href="<?php bloginfo('url'); ?>/company" class="dropdown-toggle" id="navbarDropdownCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span data-hover="about">about</span></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
-              <a class="dropdown-item hs-dropdown-item" style="margin-top:0 !important" href="<?php bloginfo('url'); ?>/company">company</a>
+              <a class="dropdown-item hs-dropdown-item mt-0" href="<?php bloginfo('url'); ?>/company">company</a>
+              <a class="dropdown-item hs-dropdown-item" href="<?php bloginfo('url'); ?>/philosophy">philosophy</a>
               <a class="dropdown-item hs-dropdown-item" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a>
             </div>
           </li>
@@ -60,8 +61,8 @@
           <li id="menu-item-20" <?php if (is_page('service')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/service"><span data-hover="service">service</span></a></li>
 
           <!-- RECRUITドロップダウン -->
-          <li id="menu-item-22" class="dropdown" <?php if (is_page('recruit')) echo ' class="current"'; ?>>
-            <a href="<?php bloginfo('url'); ?>/recruit" class="dropdown-toggle" id="navbarDropdownRecruit" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li id="menu-item-22" class="dropdown" <?php if (is_page('job-category')) echo ' class="current"'; ?>>
+            <a href="<?php bloginfo('url'); ?>/job-category" class="dropdown-toggle" id="navbarDropdownRecruit" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span data-hover="recruit">recruit</span></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownRecruit">
               <a class="dropdown-item hs-dropdown-item mt-0" href="<?php bloginfo('url'); ?>/job-category">job category</a>
@@ -99,8 +100,9 @@
             </button>
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonCompany">
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/company">company</a></li>
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a></li>
+              <li class="text-center hs-a"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/company">company</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/philosophy">philosophy</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a></li>
             </ul>
           </li>
 
@@ -116,8 +118,8 @@
             </button>
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonRecruit">
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">job category</a></li>
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">voices</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">job category</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">voices</a></li>
             </ul>
           </li>
 
