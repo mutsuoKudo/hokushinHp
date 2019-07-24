@@ -34,7 +34,43 @@
 
 
     <style>
-
+        .hs-phi-bg-1 {
+            background: linear-gradient(rgba(95, 164, 255, 0.349), rgba(0, 60, 255, 0.6));
+        }
+        
+        .hs-phi-bg-2 {
+            background: linear-gradient(rgba(95, 164, 255, 0.349), rgba(36, 105, 253, 0.6));
+        }
+        
+        .hs-phi-bg-3 {
+            background: linear-gradient(rgba(150, 196, 255, 0.349), rgba(74, 152, 255, 0.6));
+        }
+        
+        .hs-phi-bg-4 {
+            background: linear-gradient(rgba(150, 196, 255, 0.349), rgba(112, 174, 255, 0.6));
+        }
+        
+        figure {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        
+        figcaption {
+            position: absolute;
+            bottom: -70px;
+            left: 3%;
+            z-index: 2;
+            width: 93%;
+            height: 70px;
+            background: rgba(0, 0, 0, .6);
+            -webkit-transition: .3s;
+            transition: .3s;
+        }
+        
+        figure:hover figcaption {
+            bottom: 0;
+        }
     </style>
 </head>
 
@@ -43,87 +79,50 @@
     <div class="page-content-image page-content-job-category"></div>
     <div class="page-contenet content-out-box w-max">
         <div class="content-inner-box w-980 clearfix">
-            <h1 class="page-main-title"><span class="page-title-en">Application-form</span><br>応募フォーム</h1>
+            <h1 class="page-main-title"><span class="page-title-en">Philosophy</span><br>理念</h1>
 
-            <div class="hs-recruit-message">
-                <p class="hs-recruit-message-p mb-5">
-                    以下の応募フォームを入力ください。 入力をいただいた内容を基に書類選考をさせていただきます。
 
-            </div>
-            <div class="hs-recruit-main-conteiner1 pt-5">
-                <article id="inexperienced-person" style="padding-top: 8%">
-                    <form>
-                        <div class="form-row  justify-content-center">
-                            <div class="col-12 mb-3">
-                                <label class="text-white p-1" style="background-color: #f39E15">必須</label>
-                                <label for="inputState">希望職種</label>
-                                <select class="custom-select" id="menu-category">
-                                    <option value="">選択してください</option>
-                                    <option value="1" id="form-1">【未経験者】プログラマー（PHP）</option>
-                                    <option value="2" id="form-2">【未経験者】プログラマー（Java）</option>
-                                    <option value="3" id="form-3">【未経験者】プログラマー（C言語/Linux）</option>
-                                    <option value="4" id="form-4">【経験者】プログラマー（PHP）</option>
-                                    <option value="5" id="form-5">【経験者】プログラマー（Java）</option>
-                                    <option value="6" id="form-6">【経験者】プログラマー（C言語/Linux）</option>
-                                    <option value="7" id="form-7">【経験者】プログラマー（C++/C#）</option>
-                                    <option value="8" id="form-8">【経験者】プログラマー（ネットワーク管理）</option>
-                                    <option value="9" id="form-9">【経験者】プログラマー（営業）</option>
-                                </select></div>
-                            <div class="col-12 mt-4 mb-3">
-                                <label class="text-white p-1" style="background-color: #f39E15">必須</label>
-                                <label>お名前</label>
-                                <input type="text" class="form-control" placeholder="例）ホクシン太郎" value="" required="">
-                                <div>
-                                    <span class="invalid">入力してください</span>
-                                    <span class="valid"></span></div>
-                            </div>
-                            <div class="col-12 mt-4 mb-3">
-                                <label class="text-white p-1" style="background-color: #f39E15">必須</label>
-                                <label>電話番号</label>
-                                <input type="text" class="form-control" placeholder="例）080-1234-5678" value="" required="">
-                                <div>
-                                    <span class="invalid">入力してください</span>
-                                    <span class="valid"></span></div>
-                            </div>
-                            <div class="col-12 mt-4 mb-3">
-                                <label class="text-white p-1" style="background-color: #f39E15">必須</label>
-                                <label>メール</label>
-                                <input type="text" class="form-control" placeholder="info@hokusys.jp" value="" required="">
-                                <div>
-                                    <span class="invalid">入力してください</span>
-                                    <span class="valid"></span></div>
-                            </div>
-                            <div class="col-12 mt-4 mb-3">
-                                <label class="text-white p-1" style="background-color: darkgray">任意</label>
-                                <label for="exampleFormControlFile1">添付ファイル</label>
-                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                <input type="file" class="form-control-file pt-2" id="exampleFormControlFile2">
-                                <input type="file" class="form-control-file pt-2" id="exampleFormControlFile3">
+            <div class="hs-recruit-main-conteiner1" style="padding-top: 25%;">
+                <article class="row">
+                    <div class="col-12 pb-5">
+                        <h5 class="p-2 hs-phi-bg-1 text-white font-weight-bold text-center"><img src="http://hokushinsystem.local/wp-content/uploads/2019/07/hokushin-mark.png" alt="" class="mr-2" style="width: 3%;">社是</h5>
+                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/purokuma-shaze.png" alt="" class="pt-5" style=" width: 20%; position: relative; top: 0; left: 40%;">
+                        <p class="pt-5 font-weight-bold text-center">人が活きると笑顔が生まれる</p>
 
-                                <p class="pt-2 mb-0" style="font-size: 0.8rem;">
-                                    ※履歴書・職務経歴書・ポートフォリオなどをファイルで送る方はこちら。（合計15MB以下）</p>
-                                <p class="pt-2" style="font-size: 0.8rem">※ファイル形式は Excel、HTML、PDF、PowerPoint、Word、テキスト、画像（GIF/JPEG/TIFF）です。）
-                                </p>
+                    </div>
+                    <div class="col-12 pb-5">
+                        <h5 class="p-2 hs-phi-bg-2 text-white font-weight-bold text-center"><img src="http://hokushinsystem.local/wp-content/uploads/2019/07/hokushin-mark.png" alt="" class="mr-2" style="width: 3%;">企業理念</h5>
+                        <p class="pt-5 font-weight-bold text-center">人の成長が企業の成長</p>
+                        <p class="pt-2 font-weight-bold text-center">人間力を高めることが企業の成長につながる</p>
 
-                            </div>
-                            <div class="col-12 mt-4 mb-3">
-                                <label class="text-white p-1" style="background-color: darkgray">任意</label>
-                                <label>備考</label>
-                                <textarea class="form-control" aria-label="biko" placeholder="質問やご相談などございましたらこちらにご入力ください。"></textarea></div>
-                            <div class="form-group col-12 mt-4 text-center">
-                                <div class="form-check text-center">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required="">
-                                    <label class="form-check-label" for="invalidCheck2">当サイトの個人情報に取り扱い明示事項に同意する</label>
-                                </div>
-                                <a href="#"><small style="color: #f39E15">個人情報取得に対する明示事項について</small></a>
+                    </div>
+                    <div class="col-12 pb-5">
+                        <h5 class="p-2 hs-phi-bg-3 text-white font-weight-bold text-center"><img src="http://hokushinsystem.local/wp-content/uploads/2019/07/hokushin-mark.png" alt="" class="mr-2" style="width: 3%;">経営理念</h5>
+                        <p class="pt-5 font-weight-bold col-md-5 col-11" style="margin: 0 auto;">1.社員のモチベーションでいいサービスを実現</p>
+                        <p class="pt-1 font-weight-bold col-md-5 col-11" style="margin: 0 auto;">2.IT技術で社会の発展に貢献</p>
+                        <p class="pt-1 font-weight-bold col-md-5 col-11" style="margin: 0 auto;">3.私たちのサービスで人を幸せにする</p>
 
-                            </div>
-                            <button class="btn-flat-border mt-3 font-weight-bold" type="submit">上記の内容でエントリー</button>
+                    </div>
+                    <div class="col-12 pb-5">
+                        <h5 class="p-2 hs-phi-bg-4 text-white font-weight-bold text-center"><img src="http://hokushinsystem.local/wp-content/uploads/2019/07/hokushin-mark.png" alt="" class="mr-2" style="width: 3%;">行動指針</h5>
+                        <p class="pt-5 font-weight-bold col-md-5 col-11" style="margin: 0 auto;">1.自立と自己研鑽</p>
+                        <p class="col-md-5 col-11" style="margin: 0 auto; font-size: 0.8rem;">自立・独立した個人を意識し、常に貪欲に努力する</p>
+                        <p class="pt-3 font-weight-bold col-md-5 col-11" style="margin: 0 auto;">2.チャレンジ精神</p>
+                        <p class="col-md-5 col-11" style="margin: 0 auto; font-size: 0.8rem;">やらなければ成長はない　リスクはチャンスだ</p>
+                        <p class="col-md-5 col-11" style="margin: 0 auto; font-size: 0.8rem;">だったらやろう</p>
+                        <p class="pt-3 font-weight-bold col-md-5 col-11" style="margin: 0 auto;">3.パーソナルリレーショナルシップ</p>
+                        <p class="col-md-5 col-11" style="margin: 0 auto; font-size: 0.8rem;">周りの人との人間関係の構築</p>
+                        <p class="col-md-5 col-11" style="margin: 0 auto; font-size: 0.8rem;">信頼関係なくして何もできない</p>
 
+
+                        <div class="pt-5" style="position: relative; top:0; left: 15%;">
+                            <img src="phi-img.png" alt="" width="70%">
                         </div>
-                    </form>
+
+                    </div>
                 </article>
             </div>
+
 </body>
 
 </html>

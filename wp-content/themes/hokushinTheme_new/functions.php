@@ -7,6 +7,8 @@ function custom_mime_types( $mimes ) {
 }
 add_filter( 'upload_mimes', 'custom_mime_types' );
 
+
+//エントリーボタンから応募フォームに希望職種を渡す
 function kaiza_form_select_filter($tag) {
   $formName = 'job-category'; //プルダウン名
   if ( ! is_array( $tag ) )
@@ -25,5 +27,7 @@ function kaiza_form_select_filter($tag) {
   return $tag;
 }
 add_filter( 'wpcf7_form_tag', 'kaiza_form_select_filter', 11, 2);
+
+
 ?>
 

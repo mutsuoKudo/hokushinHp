@@ -513,11 +513,12 @@ header .menu-head-container ul .current a {
     margin-left: 0.5em;
 }
 
-#home-content article section {
+
+/* #home-content article section {
     width: 25%;
     height: 245px;
     float: left;
-}
+} */
 
 #home-content article section h1 {
     position: relative;
@@ -541,7 +542,8 @@ header .menu-head-container ul .current a {
   text-align: center;
 } */
 
-#home-content article #home-ser-sec1 a,
+
+/* #home-content article #home-ser-sec1 a,
 #home-content article #home-ser-sec2 a,
 #home-content article #home-ser-sec3 a,
 #home-content article #home-ser-sec4 a {
@@ -553,7 +555,7 @@ header .menu-head-container ul .current a {
     background-size: contain;
     background-repeat: no-repeat;
     color: white;
-}
+} */
 
 #home-content article #home-ser-sec1 a:hover,
 #home-content article #home-ser-sec2 a:hover,
@@ -571,13 +573,14 @@ header .menu-head-container ul .current a {
     background-image: url(images/h_s_sec2.jpg);
 }
 
-#home-content article #home-ser-sec3 a {
+
+/* #home-content article #home-ser-sec3 a {
     background-image: url(images/h_s_sec3.jpg);
 }
 
 #home-content article #home-ser-sec4 a {
     background-image: url(images/h_s_sec4.jpg);
-}
+} */
 
 #home-content #home-news dl dd {
     padding: 1em .2em;
@@ -731,13 +734,14 @@ header .menu-head-container ul .current a {
     background-image: url(images/se_photo02.jpg);
 }
 
-.page-contenet .page-main-content .service-03 {
+
+/* .page-contenet .page-main-content .service-03 {
     background-image: url(images/se_photo03.jpg);
 }
 
 .page-contenet .page-main-content .service-04 {
     background-image: url(images/se_photo04.jpg);
-}
+} */
 
 .page-contenet .page-main-content .contact-click {
     color: #f39e15;

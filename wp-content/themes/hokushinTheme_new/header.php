@@ -28,7 +28,7 @@
 </head>
 
 <body class="hs-body-start hs-hide hs-body">
-<!-- *このdivはhome.php内で閉じられるのでここでは閉じなくてOK -->
+  <!-- *このdivはhome.php内で閉じられるのでここでは閉じなくてOK -->
   <div class="hs-base-conteiner hs-body-start">
 
     <!-- ロゴ+帯 -->
@@ -54,8 +54,9 @@
             </button>
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonCompany">
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/company">company</a></li>
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a></li>
+              <li class="text-center hs-a"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/company">company</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/philosophy">philosophy</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a></li>
             </ul>
           </li>
 
@@ -71,8 +72,8 @@
             </button>
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonRecruit">
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">job category</a></li>
-              <li class="text-center"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">voices</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">job category</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">voices</a></li>
             </ul>
           </li>
 
@@ -92,15 +93,21 @@
             <a href="<?php bloginfo('url'); ?>/old-home"><span data-hover="home">home</span></a>
           </div>
 
+          <!-- ABOUTドロップダウン -->
           <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/about" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            <a href="<?php bloginfo('url'); ?>/company" class="dropdown-toggle" data-toggle="dropdown" role="button">
               <span data-hover="about">about</span>
             </a>
+
             <ul class="dropdown-menu pt-3" role="menu">
               <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/company" class="m-2 text-center" style="margin:0 !important;">company</a>
+                <a href="<?php bloginfo('url'); ?>/company" class="m-0 text-center">company</a>
               </li>
-              <li class="text-center"><a href="<?php bloginfo('url'); ?>/partner-synergy" class="m-2" style="margin:0 !important;">partner-synergy</a>
+              <li class="text-center">
+                <a href="<?php bloginfo('url'); ?>/philosophy" class="m-0 text-center">philosophy</a>
+              </li>
+              <li class="text-center">
+                <a href="<?php bloginfo('url'); ?>/partner-synergy" class="m-0 text-center">partner-synergy</a>
               </li>
             </ul>
           </div>
@@ -109,15 +116,17 @@
             <a href="<?php bloginfo('url'); ?>/service"><span data-hover="service">service</span></a>
           </div>
 
+          <!-- RECRUITドロップダウン -->
           <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/recruit" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            <a href="<?php bloginfo('url'); ?>/job-category" class="dropdown-toggle" data-toggle="dropdown" role="button">
               <span data-hover="recruit">recruit</span>
             </a>
             <ul class="dropdown-menu pt-3" role="menu">
               <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/job category" class="m-2 text-center" style="margin:0 !important;">job category</a>
+                <a href="<?php bloginfo('url'); ?>/job-category" class="m-0 text-center">job category</a>
               </li>
-              <li class="text-center"><a href="<?php bloginfo('url'); ?>/voices" class="m-2" style="margin:0 !important;">voices</a>
+              <li class="text-center">
+                <a href="<?php bloginfo('url'); ?>/voices" class="m-0 text-center">voices</a>
               </li>
             </ul>
           </div>
@@ -128,4 +137,3 @@
         </div>
       </nav>
     </div>
-  
