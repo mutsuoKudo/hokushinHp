@@ -29,5 +29,11 @@ function kaiza_form_select_filter($tag) {
 add_filter( 'wpcf7_form_tag', 'kaiza_form_select_filter', 11, 2);
 
 
+//shortcode
+function svg_func( $atts, $content = "" )  {
+    return '<svg class="m-icon--'.$content.'"><use xlink:href="#'.$content.'"></use></svg>';
+}
+add_shortcode( 'svg', 'svg_func' );
+
 ?>
 

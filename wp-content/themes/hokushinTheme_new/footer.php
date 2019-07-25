@@ -29,8 +29,6 @@
   </div>
 </footer><!-- END footer -->
 
-<!-- 共通JS -->
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/common.js"></script>
 
 <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script> -->
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/jQuery@3.js"></script>
@@ -40,6 +38,12 @@
 
 <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script> -->
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" ></script>
+
+<!-- clickablemapのレスポンシブ対応用 ＊common.jsより下にすると（jQuery('img[usemap]').rwdImageMaps();より先に読み込まないと）動かなくなるので注意-->
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/jquery.rwdImageMaps.js"></script>
+
+ <!-- 共通JS -->
+ <script src="<?php bloginfo('stylesheet_directory'); ?>/common.js"></script>
 
 <?php wp_footer(); ?>
 </body>
