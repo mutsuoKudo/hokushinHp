@@ -660,17 +660,95 @@ figure {
 figcaption {
     position: absolute;
     bottom: -70px;
-    left: 3%;
+    /* left: 3%; */
     z-index: 2;
-    width: 93%;
+    width: 100%;
     height: 70px;
     background: rgba(0, 0, 0, .6);
-    -webkit-transition: .3s;
     transition: .3s;
 }
 
 figure:hover figcaption {
     bottom: 0;
+}
+
+
+/* .hs-map-wrap {
+    width: 300px;
+    height: 226px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hs-map-wrap img {
+    width: 100%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.hs-map-wrap:hover img {
+    opacity: 0.6;
+    transition-duration: 0.3s;
+} */
+
+
+/* .hs-map a:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    transition-duration: 0.3s;
+} */
+
+.hs-map {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.hs-map-hover-mask {
+    position: absolute;
+    width: 84.8%;
+    top: 7%;
+    bottom: 0;
+    left: 7.6%;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    height: 17%;
+}
+
+.hs-map:hover .hs-map-hover-mask {
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+
+/* 小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .hs-map-p {
+        padding-left: 10%;
+    }
+    .hs-map-p p:first-child {
+        padding-top: 0 !important;
+    }
+    .hs-map-p p {
+        font-size: 0.7rem !important;
+    }
+}
+
+
+/* 中デバイス（タブレット, 768px 以上） */
+
+@media (min-width: 768px) {
+    .hs-map-p {
+        float: left;
+        padding-top: 20%;
+    }
 }
 
 

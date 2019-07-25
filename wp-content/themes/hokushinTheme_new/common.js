@@ -54,3 +54,6 @@ function getParameter() {
     }
     return paramsArray;
 };
+
+// clidkablemapのレスポンシブ対応　*jquery.rwdImageMaps.jsより先に読み込まれてしまうと動作しないので注意
+jQuery('img[usemap]').rwdImageMaps();
