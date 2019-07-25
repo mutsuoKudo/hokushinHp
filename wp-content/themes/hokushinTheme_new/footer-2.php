@@ -1,4 +1,4 @@
- <!-- フッター -->
+ <!-- 新規top用フッター -->
  <footer class="hs-footer d-flex">
      <div id="footer-content" class="w-55">
          <div class="clearfix footer-add-wrap">

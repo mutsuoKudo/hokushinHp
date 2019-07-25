@@ -48,7 +48,7 @@
           <li id="menu-item-18" <?php if (is_front_page() && is_home()) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/"><span data-hover="home">home</span></a></li>
 
           <!-- ABOUTドロップダウン -->
-          <li id="menu-item-22" class="dropdown" <?php if (is_page('company')) echo ' class="current"'; ?>>
+          <li id="menu-item-22" class="dropdown" <?php if (is_page('philosophy')) echo ' class="current"'; ?>>
             <a href="<?php bloginfo('url'); ?>/company" class="dropdown-toggle" id="navbarDropdownCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span data-hover="about">about</span></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
