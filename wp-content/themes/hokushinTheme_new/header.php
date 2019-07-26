@@ -29,7 +29,7 @@
 
 <body class="hs-body-start hs-hide hs-body">
   <!-- *このdivはhome.php内で閉じられるのでここでは閉じなくてOK -->
-  <div class="hs-base-conteiner hs-body-start">
+  <div class="hs-base-container hs-body-start">
 
     <!-- ロゴ+帯 -->
     <nav class="navbar navbar-expand-md navbar-light mb-4" style="z-index: 2000; background-color: lightgray;">
@@ -87,7 +87,7 @@
     <!-- ナビゲーションバー -->
     <div class="hs-nav">
       <!-- ナビゲーションバー　デスクトップ用（タブレット以上で表示） -->
-      <nav class="d-none d-md-block hs-nav-conteiner">
+      <nav class="d-none d-md-block hs-nav-container">
         <div class="hs-nav-effect p-1">
           <div class="d-inline-block">
             <a href="<?php bloginfo('url'); ?>/old-home"><span data-hover="home">home</span></a>

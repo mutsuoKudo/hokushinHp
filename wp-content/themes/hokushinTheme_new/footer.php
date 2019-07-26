@@ -4,7 +4,7 @@
     <div class="clearfix footer-add-wrap">
 
       <div id="footer-comtent-comp" class="clearfix hs-w80">
-        <div id="footer-comtent-comp-left" class="hs-footer-logo-conteiner">
+        <div id="footer-comtent-comp-left" class="hs-footer-logo-container">
           <a href="<?php bloginfo('url'); ?>/">
             <!-- ホクシンシステムのロゴ -->
             <div id="footer-logo"></div>

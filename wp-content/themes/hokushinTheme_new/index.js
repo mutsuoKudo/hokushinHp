@@ -149,7 +149,7 @@ $(function() {
 // ロード画面を非表示にしてメイン画面と動きをスタートさせる
 function stopload() {
     setTimeout(function() {
-        $('.hs-base-conteiner').fadeIn().css('display', 'block');
+        $('.hs-base-container').fadeIn().css('display', 'block');
 
         // デスクトップ用左側スライドショー
         $(function() {
