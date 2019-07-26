@@ -6,8 +6,8 @@ Template Name: Home
 <?php get_header(); ?>
 <!-- 円周上アイコン デスクトップ用　-->
 <!-- 円周アイコン　lg以上表示/lg以下非表示 -->
-<div class="hs-circle-icon-conteiner d-none d-lg-block">
-    <div class="hs-circle-icon-inner-conteiner">
+<div class="hs-circle-icon-container d-none d-lg-block">
+    <div class="hs-circle-icon-inner-container">
         <div class="hs-icon position-absolute" style="left: 0;bottom: 0;">
             <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
         </div>
@@ -45,7 +45,7 @@ Template Name: Home
 </div>
 
 <!-- 背景ぷかぷか -->
-<div class="d-none d-lg-block hs-back-icon-conteiner">
+<div class="d-none d-lg-block hs-back-icon-container">
     <img src="wp-content/uploads/2019/07/noff_010.gif" class="position-absolute hs-back-icon1 hs-hide" style="top: 15%;left: 15%; width: 7%;">
 
     <img src="wp-content/uploads/2019/07/noff_066.gif" class="position-absolute hs-back-icon2 hs-hide" style="top: 43%;left: 6%; width: 7%;">
@@ -57,11 +57,11 @@ Template Name: Home
 
 
 <!-- トップ画像　デスクトップ用 -->
-<div class="hs-dt-topimage-conteiner" id="hs-layer2">
+<div class="hs-dt-topimage-container" id="hs-layer2">
     <!--ぷかぷか -->
     <div data-depth="0.2">
         <!-- 左の画像 -->
-        <div class="d-none d-lg-table hs-topimage-innner-conteiner">
+        <div class="d-none d-lg-table hs-topimage-innner-container">
             <div class="hs-topimage-left-tablecell" style="vertical-align: middle;">
                 <h2 class="hs-dt-topimage-left-layout1">
 
@@ -121,7 +121,7 @@ Template Name: Home
         </div>
 
         <!-- 中央の画像 -->
-        <div class="d-none d-lg-table hs-topimage-innner-conteiner">
+        <div class="d-none d-lg-table hs-topimage-innner-container">
             <div class="hs-topimage-center-tablecell" style="vertical-align: middle;">
                 <!-- <div style="position: absolute; width:100%; z-index:30; vertical-align: middle;"> -->
                 <div class="hs-dt-topimage-center-layout1">
@@ -349,7 +349,7 @@ Template Name: Home
             </div>
         </div>
         <!-- 右の画像 -->
-        <div class="d-none d-lg-table hs-topimage-innner-conteiner">
+        <div class="d-none d-lg-table hs-topimage-innner-container">
             <div class="hs-dt-topimage-right-tablecell" style="vertical-align: middle;">
                 <h2 class="hs-dt-topimage-right-layout1">
                     <ul class="hs-topimage-ul">
@@ -410,9 +410,9 @@ Template Name: Home
 </div>
 
 <!-- トップ画像　タブレット・モバイル用 -->
-<div class="hs-mbtb-topimage-conteiner d-table d-lg-none hs-tbmb" style="z-index: -1000">
+<div class="hs-mbtb-topimage-container d-table d-lg-none hs-tbmb" style="z-index: -1000">
     <!-- 左の画像 タブレットとモバイルで表示-->
-    <div class="d-table d-lg-none hs-topimage-innner-conteiner">
+    <div class="d-table d-lg-none hs-topimage-innner-container">
         <div class="hs-topimage-left-tablecell">
             <h2 class="hs-mbtb-topimage-left-layout1">
                 <ul class="hs-topimage-ul">
@@ -471,7 +471,7 @@ Template Name: Home
     </div>
 
     <!-- 中央の画像 タブレットとモバイルで表示-->
-    <div class="d-table d-lg-none hs-topimage-innner-conteiner">
+    <div class="d-table d-lg-none hs-topimage-innner-container">
         <div class="hs-topimage-center-tablecell">
             <div class="hs-mbtb-topimage-center-layout1">
                 <a href="#">
@@ -481,9 +481,9 @@ Template Name: Home
         </div>
     </div>
     <!-- 右の画像 タブレットのみ表示-->
-    <!-- <div class="d-none d-md-table d-lg-none hs-topimage-innner-conteiner"> -->
+    <!-- <div class="d-none d-md-table d-lg-none hs-topimage-innner-container"> -->
     <!-- 右の画像 タブレットのみ表示-->
-    <div class="d-table d-lg-none hs-topimage-innner-conteiner">
+    <div class="d-table d-lg-none hs-topimage-innner-container">
         <div class="hs-mbtb-topimage-right-tablecell">
             <!-- <h2 style="padding-top: 2%; margin: 0 0% 0 18%; display: inline-block; padding-bottom: 10vh; width: 45%;"> -->
             <h2 class="hs-mbtb-topimage-right-layout1">

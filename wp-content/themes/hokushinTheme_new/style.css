@@ -188,8 +188,8 @@ input:focus:required:invalid+div .invalid {
 
 @media (max-width: 575.98px) {
     .page-content-voices {
-        background-image: url(images/voices2.png);
-        height: 35vh;
+        background-image: url(images/voices2.png) !important;
+        height: 35vh !important;
     }
 }
 
