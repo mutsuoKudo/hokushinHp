@@ -4,7 +4,7 @@
          <div class="clearfix footer-add-wrap">
 
              <div id="footer-comtent-comp" class="clearfix hs-w80">
-                 <div id="footer-comtent-comp-left" class="hs-footer-logo-conteiner">
+                 <div id="footer-comtent-comp-left" class="hs-footer-logo-container">
                      <a href="http://hokusys.jp">
                          <div id="footer-logo"></div>
                      </a>
@@ -35,7 +35,7 @@
      <div class="mod_body">
          <div class="Opening">
              <ul style="margin-bottom: 0; bottom: 0;">
-                 <li class="hs-load-conteiner" style="background-color: #fff; height: 100vh;">
+                 <li class="hs-load-container" style="background-color: #fff; height: 100vh;">
                      <span><img src="wp-content/uploads/2019/07/loading.svg" alt="" class="hs-load-img"></span>
                  </li>
                  <li><span><img class="Opening__img" src="http://hokushinsystem.local/wp-content/uploads/2019/07/loading.jpg" alt="" data-pagespeed-url-hash="2479872132" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></span><img class="Opening__text" src="http://hokushinsystem.local/wp-content/uploads/2019/07/loading-text.png" alt="" data-pagespeed-url-hash="2266855761" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></li>

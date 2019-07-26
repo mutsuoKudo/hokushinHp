@@ -39,7 +39,7 @@
 
 /* 一番下に敷いたコンテナ */
 
-.hs-base-conteiner {
+.hs-base-container {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -52,7 +52,7 @@
 
 /* ローディング画面 */
 
-.hs-load-conteiner {
+.hs-load-container {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -63,7 +63,7 @@
 
 /* デスクトップ用 */
 
-.hs-dt-load-inner-conteiner {
+.hs-dt-load-inner-container {
     position: absolute;
     width: 30%;
     height: auto;
@@ -74,7 +74,7 @@
 
 /* モバイルタブレット用 */
 
-.hs-mbtb-load-inner-conteiner {
+.hs-mbtb-load-inner-container {
     position: absolute;
     width: 100%;
     height: auto;
@@ -93,7 +93,7 @@
     z-index: 1100;
 }
 
-.hs-nav-conteiner {
+.hs-nav-container {
     width: 100%;
     float: left;
     display: block;
@@ -122,7 +122,7 @@
 
 /* 円周上に配置したアイコンをまとめたコンテナ */
 
-.hs-circle-icon-conteiner {
+.hs-circle-icon-container {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -131,7 +131,7 @@
     z-index: 50;
 }
 
-.hs-circle-icon-inner-conteiner {
+.hs-circle-icon-inner-container {
     position: absolute;
     width: 50%;
     height: 15vmax;
@@ -172,7 +172,7 @@
 
 /* 背景ぷかぷか */
 
-.hs-back-icon-conteiner {
+.hs-back-icon-container {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -216,7 +216,7 @@
 
 /* トップ画像をまとめたコンテナ(デスクトップ用) */
 
-.hs-dt-topimage-conteiner {
+.hs-dt-topimage-container {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -228,7 +228,7 @@
 
 /* トップ画像をまとめたコンテナ(タブレット・モバイル用) */
 
-.hs-mbtb-topimage-conteiner {
+.hs-mbtb-topimage-container {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -241,7 +241,7 @@
 
 /* トップ画像それぞれまとめたコンテナ z-index20(全画面幅共通)*/
 
-.hs-topimage-innner-conteiner {
+.hs-topimage-innner-container {
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -592,11 +592,11 @@
         width: 100%;
         top: 120%;
     }
-    .hs-nav-conteiner {
+    .hs-nav-container {
         padding-top: 3rem;
     }
     /* トップ画像をまとめたコンテナ(タブレット・モバイル用) */
-    .hs-mbtb-topimage-conteiner {
+    .hs-mbtb-topimage-container {
         position: absolute;
         width: 100%;
         height: 100vh;
@@ -670,7 +670,7 @@
         width: auto;
         padding: 1em 2em 1em 0 !important;
     }
-    .hs-footer-logo-conteiner {
+    .hs-footer-logo-container {
         margin-right: 5%;
         margin-bottom: 15%;
     }
@@ -709,7 +709,7 @@
     .hs-w80 {
         width: 60%;
     }
-    .hs-footer-logo-conteiner {
+    .hs-footer-logo-container {
         margin-right: 5%;
         margin-bottom: 5%;
     }
@@ -736,7 +736,7 @@
         margin-right: 0;
     }
     /* トップ画像をまとめたコンテナ(タブレット・モバイル用) */
-    .hs-mbtb-topimage-conteiner {
+    .hs-mbtb-topimage-container {
         position: absolute;
         width: 100%;
         height: 100vh;

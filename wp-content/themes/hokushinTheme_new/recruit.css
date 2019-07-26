@@ -161,7 +161,7 @@ img.emoji {
         letter-spacing: -0.1rem !important;
         line-height: 5rem !important;
     }
-    .hs-recruit-link-conteiner {
+    .hs-recruit-link-container {
         width: 90%;
         border-top: 1px solid;
         border-bottom: 1px solid;
@@ -197,11 +197,11 @@ img.emoji {
         font-size: 0.8rem;
     }
     /* メイン */
-    .hs-recruit-main-conteiner1 {
+    .hs-recruit-main-container1 {
         width: 90%;
         margin: 0 auto;
     }
-    .hs-recruit-heading-conteiner {
+    .hs-recruit-heading-container {
         width: 100%;
     }
     .hs-recruit-main-ul {
@@ -228,7 +228,7 @@ img.emoji {
         width: auto;
         padding: 1em 2em 1em 0 !important;
     }
-    .hs-footer-logo-conteiner {
+    .hs-footer-logo-container {
         margin-right: 5%;
         margin-bottom: 15%;
     }
@@ -253,7 +253,7 @@ img.emoji {
         margin: 0 auto;
     }
     /* メイン */
-    .hs-sub-recruit-main-conteiner1 {
+    .hs-sub-recruit-main-container1 {
         width: 100%;
         margin: 0 auto;
     }
@@ -263,7 +263,7 @@ img.emoji {
 /* 横向きモバイルより小さいサイズで適用 */
 
 @media (max-width: 767.98px) {
-    .hs-recruit-link-conteiner {
+    .hs-recruit-link-container {
         width: 100%;
         border-top: 1px solid;
         border-bottom: 1px solid;
@@ -296,18 +296,18 @@ img.emoji {
         font-size: 0.8rem;
     }
     /* メイン */
-    .hs-recruit-main-conteiner1 {
+    .hs-recruit-main-container1 {
         width: 90%;
         margin: 0 auto;
     }
-    /* .hs-recruit-main-conteiner2 {
+    /* .hs-recruit-main-container2 {
           position: relative;
           height: 100vh;
           width: 100%;
           left: 0;
           top: 10%;
         } */
-    .hs-recruit-heading-conteiner {
+    .hs-recruit-heading-container {
         width: 100%;
     }
     .hs-recruit-main-ul {
@@ -334,7 +334,7 @@ img.emoji {
     .hs-w80 {
         width: 60%;
     }
-    .hs-footer-logo-conteiner {
+    .hs-footer-logo-container {
         margin-right: 5%;
         margin-bottom: 5%;
     }
@@ -358,7 +358,7 @@ img.emoji {
         font-size: 1.5rem !important;
     }
     /* メイン */
-    .hs-sub-recruit-main-conteiner1 {
+    .hs-sub-recruit-main-container1 {
         width: 90%;
         margin: 0 auto;
     }
@@ -615,6 +615,9 @@ img.emoji {
         background-repeat: no-repeat;
         color: white;
     }
+    #main-copy {
+        zoom: 70%;
+    }
 }
 
 #home-content article #home-ser-sec3 a {
@@ -727,27 +730,37 @@ figure:hover figcaption {
 }
 
 
-/* 小デバイス（横向きモバイル, 768px 未満） */
-
-@media (max-width: 767.98px) {
-    .hs-map-p {
-        padding-left: 10%;
-    }
-    .hs-map-p p:first-child {
-        padding-top: 0 !important;
-    }
-    .hs-map-p p {
-        font-size: 0.7rem !important;
-    }
-}
-
-
 /* 中デバイス（タブレット, 768px 以上） */
 
 @media (min-width: 768px) {
     .hs-map-p {
-        float: left;
         padding-top: 20%;
+        padding-right: 1.5rem;
+    }
+    .hs-mb-map-message p {
+        font-size: 0.8rem !important;
+        padding-left: 8%;
+    }
+}
+
+
+/* 小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .hs-map-p p:first-child {
+        padding-top: 5% !important;
+    }
+    .hs-map-p img {
+        width: 10% !important;
+    }
+    .hs-mb-map-message p {
+        /* padding-right: 8% !important; */
+        font-size: 0.7rem !important;
+        /* padding-left: 17% !important; */
+    }
+    .hs-mb-map-message {
+        width: 70%;
+        margin: 0 auto;
     }
 }
 
