@@ -1,5 +1,6 @@
-<!-- 新規HP（ナビゲーションバーのコンテンツ）用　*ABOUT・SERVICE・RECRUIT・CONTACT -->
-<?php /* Template Name: 新規ナビゲーションバーコンテンツ用 */ ?>
+
+<!-- 新規HP（スラッグにハイフン入っているナビゲーションバーのコンテンツ）用　*パートナーシナジー、募集一覧 -->
+<?php /* Template Name: ハイフン付きナビゲーションバーコンテンツ用 */ ?>
 
 <?php get_header(2); ?>
 <?php $slug_name = $post->post_name; ?>
@@ -9,7 +10,6 @@
   <div class="page-contenet content-out-box w-max">
   <div class="content-inner-box w-980 row w-100" style="margin: 0 auto !important;">
     <?php while(have_posts()): the_post(); ?>
-    <h1 class="page-main-title col-12 col-sm-3 m-0"><span class="page-title-en"><?php echo ucfirst($slug_name) ?></span><br><?php the_title(); ?></h1>
 
     <!-- *勝手にpタグやbrタグが入らないようにする -->
       <?php remove_filter('the_content', 'wpautop'); ?>
@@ -17,3 +17,4 @@
       <?php endwhile; ?>
 
 <?php get_footer(); ?>
+

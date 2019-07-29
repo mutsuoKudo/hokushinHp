@@ -150,7 +150,7 @@ img.emoji {
         /* width: 15% !important; */
         width: auto !important;
         /* margin: 0 5% 10% 5% !important; */
-        margin: 0 5% 14% 5% !important;
+        margin: 0% 5% !important;
         font-size: 1.2rem !important;
     }
     .page-title-en {
@@ -766,3 +766,15 @@ figure:hover figcaption {
 
 
 /* 会社概要ここまで */
+
+
+/* 福利厚生ここから */
+
+.hs-welfare-main-title {
+    color: #444;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+/* 福利厚生ここまで */

@@ -244,7 +244,8 @@ input:focus:required:invalid+div .invalid {
     z-index: 9;
 }
 
-.Opening ul li span {}
+
+/* .Opening ul li span {} */
 
 .Opening ul li span img.Opening__img {
     max-width: inherit;
