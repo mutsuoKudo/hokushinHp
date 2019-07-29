@@ -66,6 +66,7 @@
               <span data-hover="recruit">recruit</span></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownRecruit">
               <a class="dropdown-item hs-dropdown-item mt-0" href="<?php bloginfo('url'); ?>/job-category">job category</a>
+              <a class="dropdown-item hs-dropdown-item" href="<?php bloginfo('url'); ?>/welfare">welfare</a>
               <a class="dropdown-item hs-dropdown-item" href="<?php bloginfo('url'); ?>/voices">voices</a>
             </div>
           </li>
@@ -119,6 +120,7 @@
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonRecruit">
               <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">job category</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/welfare">welfare</a></li>
               <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">voices</a></li>
             </ul>
           </li>
