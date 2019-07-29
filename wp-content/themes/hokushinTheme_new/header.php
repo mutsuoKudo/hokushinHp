@@ -73,6 +73,7 @@
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonRecruit">
               <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">job category</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/welfare">welfare</a></li>
               <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">voices</a></li>
             </ul>
           </li>
@@ -124,6 +125,9 @@
             <ul class="dropdown-menu pt-3" role="menu">
               <li class="text-center">
                 <a href="<?php bloginfo('url'); ?>/job-category" class="m-0 text-center">job category</a>
+              </li>
+              <li class="text-center">
+                <a href="<?php bloginfo('url'); ?>/welfare" class="m-0 text-center">welfare</a>
               </li>
               <li class="text-center">
                 <a href="<?php bloginfo('url'); ?>/voices" class="m-0 text-center">voices</a>
