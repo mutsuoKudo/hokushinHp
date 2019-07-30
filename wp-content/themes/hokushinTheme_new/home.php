@@ -8,37 +8,113 @@ Template Name: Home
 <!-- 円周アイコン　lg以上表示/lg以下非表示 -->
 <div class="hs-circle-icon-container d-none d-lg-block">
     <div class="hs-circle-icon-inner-container">
-        <div class="hs-icon position-absolute" style="left: 0;bottom: 0;">
-            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+        <div class="position-absolute" style="left: 0;bottom: 0;">
+            <div class="hs-circle-icon-fukidashi-container">
+                <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/company">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                    </a></p>
+                <p class="hs-circle-icon-fukidashi">会社概要</p>
+            </div>
+        </div>
+        <div class="position-absolute" style="left: 12.5%;top: 40%;">
+            <div class="hs-circle-icon-fukidashi-container">
+                <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/philosophy">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                    </a></p>
+                <p class="hs-circle-icon-fukidashi">企業理念</p>
+            </div>
+        </div>
+        <div class="position-absolute" style="left: 25%;top: 15%;">
+            <div class="hs-circle-icon-fukidashi-container">
+                <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/partner-synergy">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                    </a></p>
+                <p class="hs-circle-icon-fukidashi" style="width:180px">パートナーシナジー</p>
+            </div>
+        </div>
+        <div class="position-absolute"  style="left: 40%;top: 0;">
+            <div class="hs-circle-icon-fukidashi-container">
+                <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/service">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                    </a></p>
+                <p class="hs-circle-icon-fukidashi">サービス</p>
+            </div>
+        </div>
+        <div class="position-absolute"  style="right: 40%; top: 0;">
+            <div class="hs-circle-icon-fukidashi-container">
+                <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/job-category">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                    </a></p>
+                <p class="hs-circle-icon-fukidashi">募集一覧</p>
+            </div>
+        </div>
+        <div class="position-absolute"  style="right: 25%;top: 15%;">
+            <div class="hs-circle-icon-fukidashi-container">
+                <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/welfare">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                    </a></p>
+                <p class="hs-circle-icon-fukidashi">福利厚生</p>
+            </div>
+        </div>
+        <div class="position-absolute"  style="right: 12.5%;top: 40%;">
+            <div class="hs-circle-icon-fukidashi-container">
+                <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/training">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                    </a></p>
+                <p class="hs-circle-icon-fukidashi" style="width:120px">教育・研修</p>
+            </div>
+        </div>
+        <div class="position-absolute"  style="right: 0; bottom: 0;">
+            <div class="hs-circle-icon-fukidashi-container">
+                <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/voices">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                    </a></p>
+                <p class="hs-circle-icon-fukidashi">社員の声</p>
+            </div>
         </div>
 
-        <div class="hs-icon position-absolute" style="left: 12.5%;top: 40%;">
-            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-        </div>
 
-        <div class="hs-icon position-absolute" style="left: 25%;top: 15%;">
-            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-        </div>
+        <!-- <div class="hs-icon position-absolute" style="left: 12.5%;top: 40%;">
+            <a href="<?php bloginfo('url'); ?>/philosophy">
+                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            </a>
+        </div> -->
 
-        <div class="hs-icon position-absolute" style="left: 40%;top: 0;">
-            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-        </div>
+        <!-- <div class="hs-icon position-absolute" style="left: 25%;top: 15%;">
+            <a href="<?php bloginfo('url'); ?>/partner-synergy">
+                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            </a>
+        </div> -->
 
-        <div class="hs-icon position-absolute" style="right: 40%; top: 0;">
-            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-        </div>
+        <!-- <div class="hs-icon position-absolute" style="left: 40%;top: 0;">
+            <a href="<?php bloginfo('url'); ?>/service">
+                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            </a>
+        </div> -->
 
-        <div class="hs-icon position-absolute" style="right: 25%;top: 15%;">
-            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-        </div>
+        <!-- <div class="hs-icon position-absolute" style="right: 40%; top: 0;">
+            <a href="<?php bloginfo('url'); ?>/job-category">
+                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            </a>
+        </div> -->
 
-        <div class="hs-icon position-absolute" style="right: 12.5%;top: 40%;">
-            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-        </div>
+        <!-- <div class="hs-icon position-absolute" style="right: 25%;top: 15%;">
+            <a href="<?php bloginfo('url'); ?>/welfare">
+                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            </a>
+        </div> -->
 
-        <div class="hs-icon position-absolute" style="right: 0; bottom: 0;">
-            <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-        </div>
+        <!-- <div class="hs-icon position-absolute" style="right: 12.5%;top: 40%;">
+            <a href="<?php bloginfo('url'); ?>/training">
+                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            </a>
+        </div> -->
+
+        <!-- <div class="hs-icon position-absolute" style="right: 0; bottom: 0;">
+            <a href="<?php bloginfo('url'); ?>/voices">
+                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+            </a>
+        </div> -->
         <!-- つぼみ -->
         <!-- <div class="hs-icon-ani position-absolute"></div> -->
     </div>

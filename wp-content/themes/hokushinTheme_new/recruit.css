@@ -105,6 +105,10 @@ img.emoji {
 
 /* home.phpでは設定しなくてよい */
 
+.dropdown-menu {
+    font-size: 0.8rem !important;
+}
+
 .dropdown-menu.show {
     top: 20% !important;
     left: -40% !important;
@@ -169,6 +173,10 @@ img.emoji {
         padding: 1% 0;
         margin: 0 auto;
     }
+    .hs-recruit-link-title {
+        display: flex;
+        width: 20%;
+    }
     .hs-recruit-heading-chart-p {
         margin: 0 5%;
         width: 30%;
@@ -182,7 +190,8 @@ img.emoji {
         margin-bottom: 0 !important;
     }
     .hs-recruit-chart-li {
-        margin-left: 10%;
+        /* margin-left: 10%; */
+        margin-left: 5%;
     }
     .hs-recruit-message {
         position: relative;
@@ -270,6 +279,10 @@ img.emoji {
         display: flex;
         padding: 1% 0;
         margin-top: 10%;
+    }
+    .hs-recruit-link-title {
+        display: flex;
+        width: 50%;
     }
     .hs-recruit-heading-chart-p {
         margin: 0 5%;
@@ -739,7 +752,7 @@ figure:hover figcaption {
     }
     .hs-mb-map-message p {
         font-size: 0.8rem !important;
-        padding-left: 8%;
+        padding-left: 5%;
     }
 }
 
@@ -776,5 +789,43 @@ figure:hover figcaption {
     font-size: 1.3rem;
 }
 
+.hs-welfare-title {
+    margin-top: 0 !important;
+    padding-left: 1.5rem !important;
+    margin-bottom: 0 !important;
+    width: 100% !important;
+}
+
+
+/* 中デバイス（タブレット, 768px 以上） */
+
+@media (min-width: 768px) {
+    .hs-welfare-title {
+        padding-left: 1.5rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 0 !important;
+        width: 100% !important;
+    }
+}
+
 
 /* 福利厚生ここまで */
+
+
+/* 教育・研修ここから */
+
+.hs-training-img {
+    width: 100%;
+}
+
+
+/* 中デバイス（タブレット, 768px 以上） */
+
+@media (min-width: 768px) {
+    .hs-training-img {
+        width: 75%;
+    }
+}
+
+
+/* 教育・研修ここまで */

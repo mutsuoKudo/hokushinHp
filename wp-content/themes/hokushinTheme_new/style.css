@@ -203,18 +203,17 @@ input:focus:required:invalid+div .invalid {
     height: 15vh;
 }
 
-.page-content-partner-synergy {
-    background-image: url(images/about.png);
-    height: 15vh;
-}
-
-.page-content-job-category {
-    background-image: url(images/job-category.png);
-    height: 15vh;
-}
-
+.page-content-partner-synergy,
 .page-content-philosophy {
     background-image: url(images/about.png);
+    height: 15vh;
+}
+
+.page-content-job-category,
+.page-content-welfare,
+.page-content-application-form,
+.page-content-training {
+    background-image: url(images/job-category.png);
     height: 15vh;
 }
 
