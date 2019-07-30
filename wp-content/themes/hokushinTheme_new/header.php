@@ -43,43 +43,45 @@
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav mr-auto d-block d-md-none" style="width:100%">
           <li class="nav-item">
-            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/old-home">HOME</a>
+            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/old-home">ホーム</a>
           </li>
 
           <!-- ABOUTドロップダウン -->
           <li class="nav-item">
             <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonCompany" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              ABOUT
+              企業情報
               <span class="caret"></span>
             </button>
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonCompany">
-              <li class="text-center hs-a"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/company">company</a></li>
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/philosophy">philosophy</a></li>
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/partner-synergy">partner-synergy</a></li>
+              <li class="text-center hs-a"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/company">会社概要</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/philosophy">企業理念</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/partner-synergy">パートナーシナジー</a></li>
             </ul>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/service">SERVICE</a>
+            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/service">サービス</a>
           </li>
 
           <!-- RECRUITドロップダウン -->
           <li class="nav-item">
             <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonRECRUIT" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              RECRUIT
+              採用情報
               <span class="caret"></span>
             </button>
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonRecruit">
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">job category</a></li>
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/welfare">welfare</a></li>
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">voices</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">募集一覧</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/welfare">福利厚生</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/training">教育・研修</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">社員の声</a></li>
+              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/application-form">エントリー</a></li>
             </ul>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/contact">CONTACT</a>
+            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/contact">お問合せ</a>
           </li>
 
         </ul>
@@ -91,52 +93,58 @@
       <nav class="d-none d-md-block hs-nav-container">
         <div class="hs-nav-effect p-1">
           <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/old-home"><span data-hover="home">home</span></a>
+            <a href="<?php bloginfo('url'); ?>/old-home"><span data-hover="ホーム">ホーム</span></a>
           </div>
 
           <!-- ABOUTドロップダウン -->
           <div class="d-inline-block">
             <a href="<?php bloginfo('url'); ?>/company" class="dropdown-toggle" data-toggle="dropdown" role="button">
-              <span data-hover="about">about</span>
+              <span data-hover="企業情報">企業情報</span>
             </a>
 
             <ul class="dropdown-menu pt-3" role="menu">
               <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/company" class="m-0 text-center">company</a>
+                <a href="<?php bloginfo('url'); ?>/company" class="m-0 text-center">会社概要</a>
               </li>
               <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/philosophy" class="m-0 text-center">philosophy</a>
+                <a href="<?php bloginfo('url'); ?>/philosophy" class="m-0 text-center">企業理念</a>
               </li>
               <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/partner-synergy" class="m-0 text-center">partner-synergy</a>
+                <a href="<?php bloginfo('url'); ?>/partner-synergy" class="m-0 text-center">パートナーシナジー</a>
               </li>
             </ul>
           </div>
 
           <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/service"><span data-hover="service">service</span></a>
+            <a href="<?php bloginfo('url'); ?>/service"><span data-hover="サービス">サービス</span></a>
           </div>
 
           <!-- RECRUITドロップダウン -->
           <div class="d-inline-block">
             <a href="<?php bloginfo('url'); ?>/job-category" class="dropdown-toggle" data-toggle="dropdown" role="button">
-              <span data-hover="recruit">recruit</span>
+              <span data-hover="採用情報">採用情報</span>
             </a>
             <ul class="dropdown-menu pt-3" role="menu">
               <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/job-category" class="m-0 text-center">job category</a>
+                <a href="<?php bloginfo('url'); ?>/job-category" class="m-0 text-center">募集一覧</a>
               </li>
               <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/welfare" class="m-0 text-center">welfare</a>
+                <a href="<?php bloginfo('url'); ?>/welfare" class="m-0 text-center">福利厚生</a>
               </li>
               <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/voices" class="m-0 text-center">voices</a>
+                <a href="<?php bloginfo('url'); ?>/training" class="m-0 text-center">教育・研修</a>
+              </li>
+              <li class="text-center">
+                <a href="<?php bloginfo('url'); ?>/voices" class="m-0 text-center">社員の声</a>
+              </li>
+              <li class="text-center">
+                <a href="<?php bloginfo('url'); ?>/application-form" class="m-0 text-center">エントリー</a>
               </li>
             </ul>
           </div>
 
           <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/contact"><span data-hover="contact">contact</span></a>
+            <a href="<?php bloginfo('url'); ?>/contact"><span data-hover="お問合せ">お問合せ</span></a>
           </div>
         </div>
       </nav>
