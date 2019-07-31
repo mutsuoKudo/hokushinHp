@@ -574,6 +574,31 @@ img.emoji {
     background-image: url(images/recruitment.png);
 }
 
+.hs-service-table-top th {
+    background: #00A4B3;
+    color: #fff;
+}
+
+.hs-service-table-side th {
+    /* background: #e0ffff; */
+    background: #A2D7DE;
+    vertical-align: middle !important;
+}
+
+.hs-service-table {
+    border: 1px solid #00ced1 !important;
+    margin-top: 15%;
+}
+
+.hs-service-table tr,
+th,
+td {
+    border: 1px solid #00ced1 !important;
+    text-align: center !important;
+    padding: 1em 0.5em !important;
+    white-space: normal !important;
+}
+
 
 /* サービスページここまで */
 

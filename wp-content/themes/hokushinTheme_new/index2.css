@@ -1,5 +1,18 @@
 /* 新設トップページ用CSS */
 
+
+/* body {
+    display: none;
+} */
+
+#hs-layer2 {
+    pointer-events: unset !important;
+    position: unset !important;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
 .hs-body {
     transition: all 2s;
     overflow-x: hidden;
@@ -39,14 +52,22 @@
 
 /* 一番下に敷いたコンテナ */
 
-.hs-base-container {
+
+/* .hs-base-container {
     position: relative;
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
     padding: 0;
-    /* top: -650px; */
     display: none;
+} */
+
+.hs-base-container {
+    /* width: 100%;
+    height: 100vh;
+    padding: 0; */
+    display: none;
+    overflow: hidden;
 }
 
 
@@ -90,7 +111,7 @@
     top: 10%;
     left: 0;
     width: 100%;
-    /* z-index: 1100; */
+    z-index: 1000;
 }
 
 .hs-nav-container {
@@ -278,11 +299,11 @@
 /* トップ画像（左）レイアウト設定②(デスクトップ用)*/
 
 .hs-dt-topimage-left-layout2 {
-    width: 70%;
-    padding-bottom: 1.12vh;
+    width: 60%;
+    /* padding-bottom: 1.12vh;
     padding-right: 10%;
     max-width: 100%;
-    height: auto;
+    height: auto; */
 }
 
 
@@ -332,12 +353,10 @@
 /* トップ画像（中央）レイアウト設定②(デスクトップ用)*/
 
 .hs-dt-topimage-center-layout2 {
-    /* width: 24%; */
     width: 20%;
     position: absolute;
     left: 40%;
-    /* top: 35%; */
-    top: 38%;
+    top: 42%;
     z-index: 31;
     max-width: 100%;
     margin-right: 3%
@@ -398,10 +417,9 @@
 
 .hs-dt-topimage-right-layout2 {
     width: 70%;
-    /* margin-top: 1%; */
-    margin-left: 51%;
+    /* margin-left: 51%;
     max-width: 100%;
-    height: auto;
+    height: auto; */
 }
 
 
@@ -880,4 +898,37 @@
 .hs-icon:hover+.hs-circle-icon-fukidashi {
     display: block;
     transition: all 2s;
+}
+
+
+/* 小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .hs-dt-topimage-center-layout2 {
+        width: 50%;
+        position: absolute;
+        left: 25%;
+        top: 15%;
+        z-index: 31;
+        max-width: 100%;
+        margin-right: 3%;
+    }
+    .hs-test-left-layout {
+        left: 0% !important;
+        top: 75% !important;
+    }
+    .hs-test-right-layout {
+        left: 50% !important;
+        top: 75% !important;
+    }
+}
+
+.hs-test-left-layout {
+    left: 18%;
+    top: 60%;
+}
+
+.hs-test-right-layout {
+    left: 63%;
+    top: 60%;
 }
