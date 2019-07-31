@@ -19,7 +19,7 @@
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- index.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index.css">
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index2.css">
   <!-- common.cssを読み込む -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/common.css">
   <!-- hokushin_old.cssを読み込む -->
@@ -29,10 +29,11 @@
 
 <body class="hs-body-start hs-hide hs-body">
   <!-- *このdivはhome.php内で閉じられるのでここでは閉じなくてOK -->
-  <div class="hs-base-container hs-body-start">
+  <!-- <div class="hs-base-container hs-body-start"> 7/31より前-->
+  <div class="hs-base-container">
 
     <!-- ロゴ+帯 -->
-    <nav class="navbar navbar-expand-md navbar-light mb-4" style="z-index: 2000; background-color: lightgray;">
+    <nav class="navbar navbar-expand-md navbar-light" style="z-index: 2000; background-color: lightgray;">
       <a class="navbar-brand hs-logo-a" href="#">
         <img src="wp-content/uploads/2019/07/e76cd8347bc0116329d4b7104bf0d76c.png" alt="" width="auto" height="30">
       </a>
