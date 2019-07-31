@@ -6,8 +6,9 @@ Template Name: Home
 <?php get_header(); ?>
 <!-- 円周上アイコン デスクトップ用　-->
 <!-- 円周アイコン　lg以上表示/lg以下非表示 -->
-<div class="hs-circle-icon-container d-none d-lg-block">
-    <div class="hs-circle-icon-inner-container">
+<!-- <div class="hs-circle-icon-container d-none d-lg-block"> -->
+<div class="d-none d-lg-block">
+    <div class="hs-circle-icon-inner-container" style="top:20%">
         <div class="position-absolute" style="left: 0;bottom: 0;">
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/company">
@@ -29,10 +30,10 @@ Template Name: Home
                 <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/partner-synergy">
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
                     </a></p>
-                <p class="hs-circle-icon-fukidashi" style="width:180px">パートナーシナジー</p>
+                <p class="hs-circle-icon-fukidashi" style="width:180px; left:-140%">パートナーシナジー</p>
             </div>
         </div>
-        <div class="position-absolute"  style="left: 40%;top: 0;">
+        <div class="position-absolute" style="left: 40%;top: 0;">
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/service">
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
@@ -40,7 +41,7 @@ Template Name: Home
                 <p class="hs-circle-icon-fukidashi">サービス</p>
             </div>
         </div>
-        <div class="position-absolute"  style="right: 40%; top: 0;">
+        <div class="position-absolute" style="right: 40%; top: 0;">
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/job-category">
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
@@ -48,7 +49,7 @@ Template Name: Home
                 <p class="hs-circle-icon-fukidashi">募集一覧</p>
             </div>
         </div>
-        <div class="position-absolute"  style="right: 25%;top: 15%;">
+        <div class="position-absolute" style="right: 25%;top: 15%;">
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/welfare">
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
@@ -56,15 +57,15 @@ Template Name: Home
                 <p class="hs-circle-icon-fukidashi">福利厚生</p>
             </div>
         </div>
-        <div class="position-absolute"  style="right: 12.5%;top: 40%;">
+        <div class="position-absolute" style="right: 12.5%;top: 40%;">
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/training">
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
                     </a></p>
-                <p class="hs-circle-icon-fukidashi" style="width:120px">教育・研修</p>
+                <p class="hs-circle-icon-fukidashi" style="width:120px; left:-80%">教育・研修</p>
             </div>
         </div>
-        <div class="position-absolute"  style="right: 0; bottom: 0;">
+        <div class="position-absolute" style="right: 0; bottom: 0;">
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon"><a href="<?php bloginfo('url'); ?>/voices">
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
@@ -72,56 +73,11 @@ Template Name: Home
                 <p class="hs-circle-icon-fukidashi">社員の声</p>
             </div>
         </div>
-
-
-        <!-- <div class="hs-icon position-absolute" style="left: 12.5%;top: 40%;">
-            <a href="<?php bloginfo('url'); ?>/philosophy">
-                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-            </a>
-        </div> -->
-
-        <!-- <div class="hs-icon position-absolute" style="left: 25%;top: 15%;">
-            <a href="<?php bloginfo('url'); ?>/partner-synergy">
-                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-            </a>
-        </div> -->
-
-        <!-- <div class="hs-icon position-absolute" style="left: 40%;top: 0;">
-            <a href="<?php bloginfo('url'); ?>/service">
-                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-            </a>
-        </div> -->
-
-        <!-- <div class="hs-icon position-absolute" style="right: 40%; top: 0;">
-            <a href="<?php bloginfo('url'); ?>/job-category">
-                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-            </a>
-        </div> -->
-
-        <!-- <div class="hs-icon position-absolute" style="right: 25%;top: 15%;">
-            <a href="<?php bloginfo('url'); ?>/welfare">
-                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-            </a>
-        </div> -->
-
-        <!-- <div class="hs-icon position-absolute" style="right: 12.5%;top: 40%;">
-            <a href="<?php bloginfo('url'); ?>/training">
-                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-            </a>
-        </div> -->
-
-        <!-- <div class="hs-icon position-absolute" style="right: 0; bottom: 0;">
-            <a href="<?php bloginfo('url'); ?>/voices">
-                <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
-            </a>
-        </div> -->
-        <!-- つぼみ -->
-        <!-- <div class="hs-icon-ani position-absolute"></div> -->
     </div>
 </div>
 
 <!-- 背景ぷかぷか -->
-<div class="d-none d-lg-block hs-back-icon-container">
+<!-- <div class="d-none d-lg-block hs-back-icon-container">
     <img src="wp-content/uploads/2019/07/noff_010.gif" class="position-absolute hs-back-icon1 hs-hide" style="top: 15%;left: 15%; width: 7%;">
 
     <img src="wp-content/uploads/2019/07/noff_066.gif" class="position-absolute hs-back-icon2 hs-hide" style="top: 43%;left: 6%; width: 7%;">
@@ -129,7 +85,7 @@ Template Name: Home
     <img src="wp-content/uploads/2019/07/noff_073.gif" class="position-absolute hs-back-icon3 hs-hide" style="top: 15%;left: 80%; width: 7%;">
 
     <img src="wp-content/uploads/2019/07/noff_074.gif" class="position-absolute hs-back-icon4 hs-hide" style="top: 41%;left: 86%; width: 7%;">
-</div>
+</div> -->
 
 
 <!-- トップ画像　デスクトップ用 -->
@@ -143,13 +99,13 @@ Template Name: Home
 
                     <ul class="hs-topimage-ul">
                         <li class="hs-topimage-li">
-                            <img src="wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                                <img src="wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                                <img src="wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
-                            <img src="wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                                <img src="wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
                         </li>
                         <li class="hs-topimage-li">
                             <img src="wp-content/uploads/2019/07/inventoryManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
@@ -491,15 +447,16 @@ Template Name: Home
     <div class="d-table d-lg-none hs-topimage-innner-container">
         <div class="hs-topimage-left-tablecell">
             <h2 class="hs-mbtb-topimage-left-layout1">
+            <a href="http://hokushinsystem.local/service#service-works">
                 <ul class="hs-topimage-ul">
                     <li class="hs-topimage-li">
-                        <img src="wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
-                        <img src="wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
+                            <img src="wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                     <li class="hs-topimage-li">
                         <img src="wp-content/uploads/2019/07/inventoryManagement.svg" border="0" class="hs-hide hs-mbtb-topimage-left-layout2">
@@ -542,6 +499,7 @@ Template Name: Home
                         <img src="wp-content/uploads/2019/07/smartphoneGame.svg" border="0" id="mbtb-left-last" class="hs-hide hs-mbtb-topimage-left-layout2">
                     </li>
                 </ul>
+                </a>
             </h2>
         </div>
     </div>
@@ -617,8 +575,18 @@ Template Name: Home
             </h2>
         </div>
     </div>
-</div>
 
+</div>
+<!-- 背景ぷかぷか -->
+<div class="d-none d-lg-block hs-back-icon-container">
+    <img src="wp-content/uploads/2019/07/noff_010.gif" class="position-absolute hs-back-icon1 hs-hide" style="top: 15%;left: 15%; width: 7%;">
+
+    <img src="wp-content/uploads/2019/07/noff_066.gif" class="position-absolute hs-back-icon2 hs-hide" style="top: 43%;left: 6%; width: 7%;">
+
+    <img src="wp-content/uploads/2019/07/noff_073.gif" class="position-absolute hs-back-icon3 hs-hide" style="top: 15%;left: 80%; width: 7%;">
+
+    <img src="wp-content/uploads/2019/07/noff_074.gif" class="position-absolute hs-back-icon4 hs-hide" style="top: 41%;left: 86%; width: 7%;">
+</div>
 
 
 <?php get_footer(2); ?>
