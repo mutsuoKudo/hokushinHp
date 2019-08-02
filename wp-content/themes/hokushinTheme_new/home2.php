@@ -102,89 +102,89 @@ Template Name: Home2
         <div id="hs-layer2">
             <div data-depth="0.2">
                 <!-- デスクトプ画面用 -->
-                <div class="hs-topimage-innner-container">
+                <div class="hs-topimage-container">
                     <div class="hs-topimage-left-tablecell" style="vertical-align: middle;">
 
                         <!-- 左の画像 -->
-                        <div class="hs-dt-topimage-center-layout1">
-                            <div class="hs-dt-topimage-center-layout2 hs-test-left-layout">
+                        <!-- <div class="hs-dt-topimage-center-layout1"> -->
+                            <div class="hs-topimage-inner-container hs-test-left-layout">
 
                                 <ul class="hs-topimage-ul">
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2">
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-left-topimage">
                                         </a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/inventoryManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/inventoryManagement.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/autonomyTransition.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/autonomyTransition.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquency.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquency.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/propertyTax.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/propertyTax.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/nationalHealethInsurance.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/nationalHealethInsurance.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/long-termCareInsurance.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/long-termCareInsurance.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/forElderly.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/forElderly.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/registrationOfseniorResident.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/registrationOfseniorResident.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/electronicHealthRecord.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/electronicHealthRecord.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/posForpharmacy.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/posForpharmacy.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCare.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCare.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/salesManagement.svg" border="0" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/salesManagement.svg" border="0" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                     <!-- 最後の画像に#lastをつける -->
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/smartphoneGame.svg" border="0" id="left-last" class="hs-hide hs-dt-topimage-left-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/smartphoneGame.svg" border="0" id="left-last" class="hs-hide hs-left-topimage"></a>
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        <!-- </div> -->
 
 
 
                         <!-- 中央の画像 -->
-                        <div class="hs-dt-topimage-center-layout1">
-                            <div class="hs-dt-topimage-center-layout2">
+                        <!-- <div class="hs-dt-topimage-center-layout1"> -->
+                            <div class="hs-topimage-inner-container">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 140.5 175.48">
                                     <defs>
                                         <style>
@@ -661,84 +661,84 @@ Template Name: Home2
                                     </g>
                                 </svg>
                             </div>
-                        </div>
+                        <!-- </div> -->
 
 
 
                         <!-- 右の画像 -->
-                        <div class="hs-dt-topimage-center-layout1">
-                            <div class="hs-dt-topimage-center-layout2 hs-test-right-layout">
+                        <!-- <div class="hs-dt-topimage-center-layout1"> -->
+                            <div class="hs-topimage-inner-container hs-test-right-layout">
 
                                 <ul class="hs-topimage-ul">
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/forElderlyImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/forElderlyImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/salesManagementImg.svg" border="0" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/salesManagementImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                     <!-- 最後の画像に.lastをつける -->
                                     <li class="hs-topimage-li">
-                                        <a href="http://hokushinsystem.local/service#service-it">
-                                            <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" border="0" id="right-last" class="hs-hide hs-dt-topimage-right-layout2"></a>
+                                        <a href="http://hokushinsystem.local/service#service-works">
+                                            <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" border="0" id="right-last" class="hs-hide hs-right-topimage"></a>
                                     </li>
                                 </ul>
                                 </h2>
                             </div>
-                        </div>
+                        <!-- </div> -->
 
                     </div>
                 </div>

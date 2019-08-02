@@ -588,11 +588,24 @@ img.emoji {
 .hs-service-table {
     border: 1px solid #00ced1 !important;
     margin-top: 15%;
+    box-shadow: 8px 8px 7px 2px grey;
 }
 
-.hs-service-table tr,
-th,
-td {
+.hs-service-table tr {
+    border: 1px solid #00ced1 !important;
+    text-align: center !important;
+    padding: 1em 0.5em !important;
+    white-space: normal !important;
+}
+
+.hs-service-table th {
+    border: 1px solid #00ced1 !important;
+    text-align: center !important;
+    padding: 1em 0.5em !important;
+    white-space: normal !important;
+}
+
+.hs-service-table td {
     border: 1px solid #00ced1 !important;
     text-align: center !important;
     padding: 1em 0.5em !important;
