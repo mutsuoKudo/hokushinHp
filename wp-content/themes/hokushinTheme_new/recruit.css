@@ -690,11 +690,13 @@ img.emoji {
 
 #home-content article section p {
     position: relative;
-    top: -50%;
+    /* top: -50%; */
+    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: 1.1em;
+    font-weight: normal;
     text-align: center;
     color: #fff;
 }
@@ -867,3 +869,7 @@ figure:hover figcaption {
 
 
 /* 教育・研修ここまで */
+
+.hs-none {
+    display: none;
+}
