@@ -1,4 +1,4 @@
-/* 新設トップページ用CSS */
+/* 新設トップページ用　旧CSS */
 
 .hs-body {
     transition: all 2s;
@@ -475,7 +475,7 @@
 }
 
 
-/* 左側スライドショー */
+/* 右側スライドショー */
 
 .hs-right-fade {
     animation-name: right-fadein;
@@ -538,6 +538,11 @@
 
 
 /* 中央画像の背景切り替え */
+
+.hs-fill1 {
+    fill: rgb(82, 47, 96) !important;
+    transition: all 2s;
+}
 
 .hs-fill2 {
     fill: rgb(162, 32, 65) !important;
