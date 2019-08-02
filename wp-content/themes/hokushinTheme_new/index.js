@@ -153,14 +153,14 @@ function stopload() {
 
         // デスクトップ用左側スライドショー
         $(function() {
-            $(".hs-dt-topimage-left-layout2").each(function(i) {
+            $(".hs-left-topimage").each(function(i) {
                 if (i == 0) {
                     setTimeout(function() {
-                        $(".hs-dt-topimage-left-layout2").eq(0).addClass("hs-left-fade");
+                        $(".hs-left-topimage").eq(0).addClass("hs-left-fade");
                     }, 0);
                 }
                 setTimeout(function() {
-                    $(".hs-dt-topimage-left-layout2").eq(i).addClass("hs-left-fade");
+                    $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
                 }, 5000 * i);
             });
         });
@@ -169,17 +169,17 @@ function stopload() {
 
         $(function() {
             $("#left-last").on('webkitAnimationEnd', function() {
-                $(".hs-dt-topimage-left-layout2").removeClass("hs-left-fade");
+                $(".hs-left-topimage").removeClass("hs-left-fade");
 
                 $(function() {
-                    $(".hs-dt-topimage-left-layout2").each(function(i) {
+                    $(".hs-left-topimage").each(function(i) {
                         if (i == 0) {
                             setTimeout(function() {
-                                $(".hs-dt-topimage-left-layout2").eq(i).addClass("hs-left-fade");
+                                $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
                             }, 10000);
                         }
                         setTimeout(function() {
-                            $(".hs-dt-topimage-left-layout2").eq(i).addClass("hs-left-fade");
+                            $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
                         }, 5000 * i);
                     });
                 });
@@ -189,31 +189,31 @@ function stopload() {
 
         // デスクトップ用右側スライドショー
         $(function() {
-            $(".hs-dt-topimage-right-layout2").each(function(i) {
+            $(".hs-right-topimage").each(function(i) {
                 if (i == 0) {
                     setTimeout(function() {
-                        $(".hs-dt-topimage-right-layout2").eq(i).addClass("hs-right-fade");
+                        $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
                     }, 0 * i);
                 }
                 setTimeout(function() {
-                    $(".hs-dt-topimage-right-layout2").eq(i).addClass("hs-right-fade");
+                    $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
                 }, 5000 * i);
             });
         });
 
         $(function() {
             $("#right-last").on('webkitAnimationEnd', function() {
-                $(".hs-dt-topimage-right-layout2").removeClass("hs-right-fade");
+                $(".hs-right-topimage").removeClass("hs-right-fade");
 
                 $(function() {
-                    $(".hs-dt-topimage-right-layout2").each(function(i) {
+                    $(".hs-right-topimage").each(function(i) {
                         if (i == 0) {
                             setTimeout(function() {
-                                $(".hs-dt-topimage-right-layout2").eq(i).addClass("hs-right-fade");
+                                $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
                             }, 0 * i);
                         }
                         setTimeout(function() {
-                            $(".hs-dt-topimage-right-layout2").eq(i).addClass("hs-right-fade");
+                            $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
                         }, 5000 * i);
                     });
                 });

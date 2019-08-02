@@ -1,16 +1,54 @@
 /* 新設トップページ用CSS */
 
 
-/* body {
-    display: none;
-} */
+/* ローディング画面ここから */
 
-#hs-layer2 {
-    pointer-events: unset !important;
-    position: unset !important;
+.hs-load-container {
+    position: absolute;
     width: 100%;
-    height: 100vh;
-    padding: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+/* ローディング画像サイズ↓（画面幅に応じて可変）*/
+
+
+/* 中デバイス（タブレット, 992px 未満） */
+
+@media (max-width: 991.98px) {
+    .hs-load-img {
+        width: 75%;
+        position: relative;
+        top: 25%;
+    }
+}
+
+
+/* 大デバイス（デスクトップ, 992px 以上） */
+
+@media (min-width: 992px) {
+    .hs-load-img {
+        width: 25%;
+        position: relative;
+        top: 25%;
+    }
+}
+
+
+/* ローディング画面ここまで */
+
+
+/* 最初の読み込み部分ここから */
+
+
+/* すべてを包むコンテナ。画面からはみ出る部分は隠して、最初は隠しておく。
+のちのanimationでdisplay:blockになるよ。 */
+
+.hs-base-container {
+    display: none;
+    overflow: hidden;
 }
 
 .hs-body {
@@ -50,61 +88,10 @@
 }
 
 
-/* 一番下に敷いたコンテナ */
+/* 最初の読み込み部分ここまで */
 
 
-/* .hs-base-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    padding: 0;
-    display: none;
-} */
-
-.hs-base-container {
-    /* width: 100%;
-    height: 100vh;
-    padding: 0; */
-    display: none;
-    overflow: hidden;
-}
-
-
-/* ローディング画面 */
-
-.hs-load-container {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-
-/* デスクトップ用 */
-
-.hs-dt-load-inner-container {
-    position: absolute;
-    width: 30%;
-    height: auto;
-    top: 10%;
-    left: 35%;
-}
-
-
-/* モバイルタブレット用 */
-
-.hs-mbtb-load-inner-container {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 10%;
-    left: 0%;
-}
-
-
-/* ナビゲーションバー */
+/* ナビゲーションバーここから */
 
 .hs-nav {
     position: absolute;
@@ -121,13 +108,15 @@
     text-align: center;
 }
 
+@media (max-width: 991.98px) {
+    .hs-nav-container {
+        padding-top: 3rem;
+    }
+}
+
 .dropdown-menu.show {
     top: 0% !important;
     left: 0% !important;
-}
-
-.hs-dropdown-item {
-    margin: 8% 0 0 0 !important;
 }
 
 .hs-sub-dropdown-menu {
@@ -135,31 +124,31 @@
     border: none !important;
 }
 
-.dropdown-item:hover {
-    background-color: transparent !important;
-    transform: rotate(10deg);
-}
-
-
-/* 円周上に配置したアイコンをまとめたコンテナ */
-
-.hs-circle-icon-container {
-    position: absolute;
+.hs-logo-a {
     width: 100%;
-    /* height: 100%; */
-    height: 80%;
-    /* top: 0; */
-    /* top: 20%; */
-    top: 22%;
-    left: 0;
-    z-index: 50;
+    margin-right: 0;
 }
+
+
+/* 小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .hs-logo-a {
+        width: 70% !important;
+        margin-right: 0 !important;
+    }
+}
+
+
+/* ナビゲーションバーここまで */
+
+
+/* 円周上に配置したアイコンここから */
 
 .hs-circle-icon-inner-container {
     position: absolute;
     width: 50%;
     height: 15vmax;
-    /* top: 20%; */
     left: 25%;
 }
 
@@ -171,13 +160,6 @@
     height: 100%;
 }
 
-.hs-icon-ani {
-    width: 45px;
-    height: 45px;
-    background: url('icon/icon-spring2.svg');
-    background-repeat: no-repeat;
-}
-
 
 /* アイコンホバー */
 
@@ -186,24 +168,36 @@
     transform: scale(1.5) rotateZ(180deg);
 }
 
-.hs-icon-ani:hover {
-    background: url('icon/icon-spring.svg');
-    background-repeat: no-repeat;
-    transition: all .3s;
-    transform: scale(1.5) rotateZ(180deg);
+.hs-circle-icon-fukidashi-container {
+    padding: 0;
+    margin: 0;
 }
 
-
-/* 背景ぷかぷか */
-
-.hs-back-icon-container {
+.hs-circle-icon-fukidashi {
+    display: none;
+    width: 100px;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -499;
+    top: -80%;
+    left: -63%;
+    padding: 8px 6px;
+    border-radius: 5px;
+    color: #444;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1200;
+    font-size: 0.8rem;
 }
+
+.hs-icon:hover+.hs-circle-icon-fukidashi {
+    display: block;
+    transition: all 2s;
+}
+
+
+/* 円周上に配置したアイコンここまで */
+
+
+/* 背景ぷかぷかここから */
 
 .hs-back-icon-animation {
     animation-name: hs-back-icon-fadein;
@@ -238,34 +232,23 @@
 }
 
 
-/* トップ画像をまとめたコンテナ(デスクトップ用) */
+/* 背景ぷかぷかここまで */
 
-.hs-dt-topimage-container {
-    position: absolute;
+
+/* トップ画像についてここから */
+
+#hs-layer2 {
+    pointer-events: unset !important;
+    position: unset !important;
     width: 100%;
     height: 100vh;
-    box-sizing: border-box;
-    top: 0;
-    left: 0;
+    padding: 0;
 }
 
 
-/* トップ画像をまとめたコンテナ(タブレット・モバイル用) */
+/* トップ画像まとめたコンテナ*/
 
-.hs-mbtb-topimage-container {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    /* top: 10%; */
-    top: 5%;
-    left: 0;
-}
-
-
-/* トップ画像それぞれまとめたコンテナ z-index20(全画面幅共通)*/
-
-.hs-topimage-innner-container {
+.hs-topimage-container {
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -276,171 +259,72 @@
 }
 
 
-/* トップ画像（左）テーブルセル設定(全画面幅共通)*/
+/* 小デバイス（横向きモバイル, 768px 未満） */
 
-.hs-topimage-left-tablecell {
-    display: table-cell !important;
-    text-align: center;
+@media (max-width: 767.98px) {
+    .hs-topimage-inner-container {
+        width: 40% !important;
+        position: absolute !important;
+        left: 30% !important;
+        top: 18% !important;
+        z-index: 31 !important;
+        max-width: 100% !important;
+        margin-right: 3% !important;
+    }
 }
 
 
-/* トップ画像（左）レイアウト設定①(デスクトップ用)*/
+/* トップ画像それぞれまとめたコンテナ z-index20(全画面幅共通)*/
 
-.hs-dt-topimage-left-layout1 {
-    /* padding-top: 10%; */
-    padding-top: 13%;
-    margin: 0 45% 0 0;
-    display: inline-block;
-    padding-bottom: 10vh;
-    width: 24%
-}
-
-
-/* トップ画像（左）レイアウト設定②(デスクトップ用)*/
-
-.hs-dt-topimage-left-layout2 {
-    width: 60%;
-    /* padding-bottom: 1.12vh;
-    padding-right: 10%;
-    max-width: 100%;
-    height: auto; */
-}
-
-
-/* トップ画像（左）レイアウト設定①(モバイル・タブレット用)*/
-
-.hs-mbtb-topimage-left-layout1 {
-    /* padding-top: 90%; */
-    padding-top: 86%;
-    margin: 0 50% 0 0;
-    display: inline-block;
-    padding-bottom: 10vh;
-    width: 45%;
-}
-
-
-/* トップ画像（左）レイアウト設定②(モバイル・タブレット用)*/
-
-.hs-mbtb-topimage-left-layout2 {
-    width: 70%;
-    padding-bottom: 1.12vh;
-    padding-right: 5%;
-    max-width: 100%;
-    height: auto;
-}
-
-
-/* トップ画像（中央）テーブルセル設定(全画面幅共通)*/
-
-.hs-topimage-center-tablecell {
-    display: table-cell!important;
-    /* position: static!important; */
-    text-align: center;
-    /* vertical-align: middle; */
-    z-index: 30;
-}
-
-
-/* トップ画像（中央）レイアウト設定①(デスクトップ用)*/
-
-.hs-dt-topimage-center-layout1 {
-    bottom: auto;
-    padding-top: 15%;
-    padding-bottom: 0.5%;
-}
-
-
-/* トップ画像（中央）レイアウト設定②(デスクトップ用)*/
-
-.hs-dt-topimage-center-layout2 {
+.hs-topimage-inner-container {
     width: 20%;
     position: absolute;
-    left: 40%;
+    left: 39%;
     top: 42%;
     z-index: 31;
     max-width: 100%;
-    margin-right: 3%
+    /* margin-right: 3% */
 }
 
 
-/* トップ画像（中央）レイアウト設定①(モバイル・タブレット用)*/
+/* トップ画像（左）サイズ設定②*/
 
-.hs-mbtb-topimage-center-layout1 {
-    bottom: auto;
-    /* padding-top: 15%; */
-    padding-top: 10%;
-    padding-bottom: 0.5%;
-    padding-right: 0;
-}
-
-
-/* トップ画像（中央）レイアウト設定②(モバイル・タブレット用)*/
-
-.hs-mbtb-topimage-center-layout2 {
+.hs-left-topimage {
     width: 60%;
-    z-index: 31;
 }
 
 
-/* トップ画像（右）テーブルセル設定(デスクトップ用)*/
+/* トップ画像（右）サイズ設定*/
 
-.hs-dt-topimage-right-tablecell {
-    display: table-cell !important;
-    text-align: center;
-    /* padding-top: 1%; */
-}
-
-
-/* トップ画像（右）テーブルセル設定(モバイル・タブレット用)*/
-
-.hs-mbtb-topimage-right-tablecell {
-    display: table-cell !important;
-    text-align: center;
-    /* padding-top: 88%; */
-    padding-top: 83%;
-}
-
-
-/* トップ画像（右）レイアウト設定①(デスクトップ用)*/
-
-.hs-dt-topimage-right-layout1 {
-    /* padding-top: 10%; */
-    padding-top: 13%;
-    margin: 0 0 0 33%;
-    display: inline-block;
-    padding-bottom: 10vh;
-    width: 24%;
-}
-
-
-/* トップ画像（右）レイアウト設定②(デスクトップ用)*/
-
-.hs-dt-topimage-right-layout2 {
+.hs-right-topimage {
     width: 70%;
-    /* margin-left: 51%;
-    max-width: 100%;
-    height: auto; */
 }
 
 
-/* トップ画像（右）レイアウト設定②(モバイル・タブレット用)*/
+/* 左右の画像の位置決め */
 
-.hs-mbtb-topimage-right-layout1 {
-    padding-top: 2%;
-    margin: 0 0% 0 18%;
-    display: inline-block;
-    padding-bottom: 10vh;
-    width: 45%;
+.hs-test-left-layout {
+    left: 20%;
+    top: 60%;
+}
+
+.hs-test-right-layout {
+    left: 65%;
+    top: 60%;
 }
 
 
-/* トップ画像（右）レイアウト設定②(モバイル・タブレット用)*/
+/* 小デバイス（横向きモバイル, 768px 未満） */
 
-.hs-mbtb-topimage-right-layout2 {
-    width: 70%;
-    margin-left: 50%;
-    max-width: 100%;
-    height: auto;
+@media (max-width: 767.98px) {
+    .hs-test-left-layout {
+        left: 15% !important;
+        top: 70% !important;
+    }
+    .hs-test-right-layout {
+        left: 55% !important;
+        top: 69% !important;
+    }
 }
 
 
@@ -527,7 +411,6 @@
     100% {
         opacity: 0;
         transform: translateY(-10%);
-        /*  110%にしないとだめかも*/
         visibility: hidden;
     }
 }
@@ -592,6 +475,12 @@
     transition: all 2s;
 }
 
+
+/* トップ画像についてここまで */
+
+
+/* フッターここから */
+
 #footer-content {
     text-align: left !important;
 }
@@ -602,7 +491,6 @@
     left: 0;
     width: 100%;
     top: 100%;
-    /* height: 30%; */
 }
 
 
@@ -616,74 +504,10 @@
         width: 100%;
         top: 120%;
     }
-    .hs-nav-container {
-        padding-top: 3rem;
-    }
-    /* トップ画像をまとめたコンテナ(タブレット・モバイル用) */
-    .hs-mbtb-topimage-container {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        box-sizing: border-box;
-        /* top: 10%; */
-        top: 5%;
-        left: 0;
-    }
-    /* トップ画像（左）レイアウト設定①(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-left-layout1 {
-        /* padding-top: 90%; */
-        padding-top: 84%;
-        margin: 0 50% 0 0;
-        display: inline-block;
-        padding-bottom: 10vh;
-        width: 45%;
-    }
-    /* トップ画像（左）レイアウト設定②(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-left-layout2 {
-        width: 70%;
-        padding-bottom: 1.12vh;
-        padding-right: 5%;
-        max-width: 100%;
-        height: auto;
-    }
-    /* トップ画像（中央）レイアウト設定①(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-center-layout1 {
-        bottom: auto;
-        padding-top: 13%;
-        padding-bottom: 0.5%;
-        padding-right: 0;
-    }
-    /* トップ画像（中央）レイアウト設定②(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-center-layout2 {
-        width: 60%;
-        z-index: 31;
-    }
-    /* トップ画像（右）テーブルセル設定(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-right-tablecell {
-        display: table-cell !important;
-        text-align: center;
-        padding-top: 82%;
-        /* padding-top: 83%; */
-    }
-    /* トップ画像（右）レイアウト設定②(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-right-layout1 {
-        padding-top: 2%;
-        margin: 0 0% 0 18%;
-        display: inline-block;
-        padding-bottom: 10vh;
-        width: 45%;
-    }
-    /* トップ画像（右）レイアウト設定②(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-right-layout2 {
-        width: 70%;
-        margin-left: 50%;
-        max-width: 100%;
-        height: auto;
-    }
 }
 
 
-/* タブレット以上 */
+/* 中デバイス（タブレット, 768px 以上）*/
 
 @media (min-width: 768px) {
     .w-55 {
@@ -708,14 +532,10 @@
     small {
         font-size: 0.2rem;
     }
-    .hs-logo-a {
-        width: 100%;
-        margin-right: 0;
-    }
 }
 
 
-/* 横向きモバイル未満 */
+/* 小デバイス（横向きモバイル, 768px 未満） */
 
 @media (max-width: 767.98px) {
     .hs-footer {
@@ -725,10 +545,6 @@
         width: 100%;
         top: 100%;
         padding: 2%;
-        /* height: 35%; */
-    }
-    .w-980 {
-        width: 100% !important;
     }
     .hs-w80 {
         width: 60%;
@@ -755,180 +571,7 @@
     #footer-content {
         padding-top: 1em;
     }
-    .hs-logo-a {
-        width: 70%;
-        margin-right: 0;
-    }
-    /* トップ画像をまとめたコンテナ(タブレット・モバイル用) */
-    .hs-mbtb-topimage-container {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        box-sizing: border-box;
-        /* top: 10%; */
-        top: 5%;
-        left: 0;
-    }
-    /* トップ画像（左）レイアウト設定①(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-left-layout1 {
-        /* padding-top: 115%; */
-        padding-top: 86%;
-        margin: 0 50% 0 0;
-        display: inline-block;
-        padding-bottom: 10vh;
-        width: 45%;
-    }
-    /* トップ画像（左）レイアウト設定②(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-left-layout2 {
-        width: 70%;
-        padding-bottom: 1.12vh;
-        padding-right: 5%;
-        max-width: 100%;
-        height: auto;
-    }
-    /* トップ画像（中央）レイアウト設定①(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-center-layout1 {
-        bottom: auto;
-        /* padding-top: 40%; */
-        padding-top: 10%;
-        padding-bottom: 0.5%;
-        padding-right: 0;
-    }
-    /* トップ画像（中央）レイアウト設定②(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-center-layout2 {
-        width: 60%;
-        z-index: 31;
-    }
-    /* トップ画像（右）テーブルセル設定(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-right-tablecell {
-        display: table-cell !important;
-        text-align: center;
-        padding-top: 85%;
-        /* padding-top: 112%; */
-    }
-    /* トップ画像（右）レイアウト設定②(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-right-layout1 {
-        padding-top: 2%;
-        margin: 0 0% 0 18%;
-        display: inline-block;
-        padding-bottom: 10vh;
-        width: 45%;
-    }
-    /* トップ画像（右）レイアウト設定②(モバイル・タブレット用)*/
-    .hs-mbtb-topimage-right-layout2 {
-        width: 70%;
-        margin-left: 50%;
-        max-width: 100%;
-        height: auto;
-    }
 }
 
 
-/* ローディング用 */
-
-
-/* 中デバイス（タブレット, 992px 未満） */
-
-@media (max-width: 991.98px) {
-    .hs-load-img {
-        width: 75%;
-        position: relative;
-        top: 25%;
-    }
-}
-
-
-/* 大デバイス（デスクトップ, 992px 以上） */
-
-@media (min-width: 992px) {
-    .hs-load-img {
-        width: 25%;
-        position: relative;
-        top: 25%;
-    }
-}
-
-.hs-circle-icon-fukidashi-container {
-    padding: 0;
-    margin: 0;
-}
-
-.hs-circle-icon-fukidashi {
-    /* display: none;
-    width: 100px;
-    position: absolute;
-    top: -100%;
-    left: 0;
-    padding: 8px 6px;
-    border-radius: 5px;
-    background: lightgray;
-    color: #444;
-    font-weight: bold;
-    text-align: center;
-    z-index: 1200; */
-    display: none;
-    width: 100px;
-    position: absolute;
-    top: -80%;
-    left: -63%;
-    padding: 8px 6px;
-    border-radius: 5px;
-    color: #444;
-    font-weight: bold;
-    text-align: center;
-    z-index: 1200;
-    font-size: 0.8rem;
-}
-
-.hs-circle-icon-fukidashi:after {
-    /* position: absolute;
-    width: 0;
-    height: 0;
-    left: 0;
-    bottom: -19px;
-    margin-left: 10px;
-    border: solid transparent;
-    border-color: rgba(51, 204, 153, 0);
-    border-top-color: lightgray;
-    border-width: 10px;
-    pointer-events: none;
-    content: " "; */
-}
-
-.hs-icon:hover+.hs-circle-icon-fukidashi {
-    display: block;
-    transition: all 2s;
-}
-
-
-/* 小デバイス（横向きモバイル, 768px 未満） */
-
-@media (max-width: 767.98px) {
-    .hs-dt-topimage-center-layout2 {
-        width: 50%;
-        position: absolute;
-        left: 25%;
-        top: 15%;
-        z-index: 31;
-        max-width: 100%;
-        margin-right: 3%;
-    }
-    .hs-test-left-layout {
-        left: 0% !important;
-        top: 75% !important;
-    }
-    .hs-test-right-layout {
-        left: 50% !important;
-        top: 75% !important;
-    }
-}
-
-.hs-test-left-layout {
-    left: 18%;
-    top: 60%;
-}
-
-.hs-test-right-layout {
-    left: 63%;
-    top: 60%;
-}
+/* フッターここまで */
