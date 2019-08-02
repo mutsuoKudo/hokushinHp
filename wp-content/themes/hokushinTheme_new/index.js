@@ -1,5 +1,13 @@
 // ローディング画面
 
+var time = new Date().getTime();
+$(function() {
+    var h = $(window).height();
+    $('#hs-load').height(h).css('display', 'block');
+    $('#hs-load').css('overflow', 'hidden');
+    $('body').css('background-image', 'url("blank")');
+});
+
 (function($) {
 
     function setimage() {
@@ -121,12 +129,6 @@
 })(jQuery);
 
 
-var time = new Date().getTime();
-$(function() {
-    var h = $(window).height();
-    $('#hs-load').height(h).css('display', 'block');
-    $('body').css('background-image', 'url("blank")');
-});
 
 //全ての読み込みが完了したら実行
 // $(window).on('load', function () {
@@ -142,7 +144,7 @@ $(function() {
 
 //6秒たったら強制的にロード画面を非表示
 $(function() {
-    setTimeout('imgTimer();', 6000);
+    setTimeout('imgTimer();', 5000);
     setTimeout('stopload()', 6000);
 });
 
@@ -151,22 +153,26 @@ function stopload() {
     setTimeout(function() {
         $('.hs-base-container').fadeIn().css('display', 'block');
 
+
+
         // デスクトップ用左側スライドショー
         $(function() {
             $(".hs-left-topimage").each(function(i) {
+                console.log(i);
                 if (i == 0) {
                     setTimeout(function() {
                         $(".hs-left-topimage").eq(0).addClass("hs-left-fade");
-                    }, 0);
+                    }, 1000);
                 }
                 setTimeout(function() {
+                    $(".hs-left-topimage").eq(i - 1).removeClass("hs-left-fade");
                     $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
                 }, 5000 * i);
             });
         });
 
 
-
+        // ②週目以降
         $(function() {
             $("#left-last").on('webkitAnimationEnd', function() {
                 $(".hs-left-topimage").removeClass("hs-left-fade");
@@ -176,9 +182,10 @@ function stopload() {
                         if (i == 0) {
                             setTimeout(function() {
                                 $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
-                            }, 10000);
+                            }, 0);
                         }
                         setTimeout(function() {
+                            $(".hs-left-topimage").eq(i - 1).removeClass("hs-left-fade");
                             $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
                         }, 5000 * i);
                     });
@@ -187,22 +194,62 @@ function stopload() {
         });
 
 
+        // デスクトップ用左側スライドショー（旧）
+        // $(function() {
+        //     $(".hs-left-topimage").each(function(i) {
+        //         if (i == 0) {
+        //             setTimeout(function() {
+        //                 $(".hs-left-topimage").eq(0).addClass("hs-left-fade");
+        //             }, 0);
+        //         }
+        //         setTimeout(function() {
+        //             $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
+        //         }, 5000 * i);
+        //     });
+        // });
+
+
+
+        // $(function() {
+        //     $("#left-last").on('webkitAnimationEnd', function() {
+        //         $(".hs-left-topimage").removeClass("hs-left-fade");
+
+        //         $(function() {
+        //             $(".hs-left-topimage").each(function(i) {
+        //                 if (i == 0) {
+        //                     setTimeout(function() {
+        //                         $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
+        //                     }, 10000);
+        //                 }
+        //                 setTimeout(function() {
+        //                     $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
+        //                 }, 5000 * i);
+        //             });
+        //         });
+        //     });
+        // });
+
+
         // デスクトップ用右側スライドショー
         $(function() {
             $(".hs-right-topimage").each(function(i) {
+                console.log(i);
                 if (i == 0) {
                     setTimeout(function() {
-                        $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
-                    }, 0 * i);
+                        $(".hs-right-topimage").eq(0).addClass("hs-right-fade");
+                    }, 1000);
                 }
                 setTimeout(function() {
+                    $(".hs-right-topimage").eq(i - 1).removeClass("hs-right-fade");
                     $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
                 }, 5000 * i);
             });
         });
 
+
+        // ②週目以降
         $(function() {
-            $("#right-last").on('webkitAnimationEnd', function() {
+            $("#left-last").on('webkitAnimationEnd', function() {
                 $(".hs-right-topimage").removeClass("hs-right-fade");
 
                 $(function() {
@@ -210,106 +257,78 @@ function stopload() {
                         if (i == 0) {
                             setTimeout(function() {
                                 $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
-                            }, 0 * i);
+                            }, 0);
                         }
                         setTimeout(function() {
+                            $(".hs-right-topimage").eq(i - 1).removeClass("hs-right-fade");
                             $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
                         }, 5000 * i);
                     });
                 });
-
             });
         });
 
-        // タブレット・モバイル用左側スライドショー
-        $(function() {
-            $(".hs-mbtb-topimage-left-layout2").each(function(i) {
-                if (i == 0) {
-                    setTimeout(function() {
-                        $(".hs-mbtb-topimage-left-layout2").eq(i).addClass("hs-left-fade");
-                    }, 0 * i);
-                }
-                setTimeout(function() {
-                    $(".hs-mbtb-topimage-left-layout2").eq(i).addClass("hs-left-fade");
-                }, 5000 * i);
-            });
-        });
 
-        $(function() {
-            $("#mbtb-left-last").on('webkitAnimationEnd', function() {
-                $(".hs-mbtb-topimage-left-layout2").removeClass("hs-left-fade");
+        // // デスクトップ用右側スライドショー（旧）
+        // $(function() {
+        //     $(".hs-right-topimage").each(function(i) {
+        //         if (i == 0) {
+        //             setTimeout(function() {
+        //                 $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
+        //             }, 1000);
+        //         }
+        //         setTimeout(function() {
+        //             $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
+        //         }, 5000 * i);
+        //     });
+        // });
 
-                $(function() {
-                    $(".hs-mbtb-topimage-left-layout2").each(function(i) {
-                        if (i == 0) {
-                            setTimeout(function() {
-                                $(".hs-mbtb-topimage-left-layout2").eq(i).addClass("hs-left-fade");
-                            }, 0 * i);
-                        }
-                        setTimeout(function() {
-                            $(".hs-mbtb-topimage-left-layout2").eq(i).addClass("hs-left-fade");
-                        }, 5000 * i);
-                    });
-                });
+        // $(function() {
+        //     $("#right-last").on('webkitAnimationEnd', function() {
+        //         $(".hs-right-topimage").removeClass("hs-right-fade");
 
-            });
-        });
+        //         $(function() {
+        //             $(".hs-right-topimage").each(function(i) {
+        //                 if (i == 0) {
+        //                     setTimeout(function() {
+        //                         $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
+        //                     }, 0 * i);
+        //                 }
+        //                 setTimeout(function() {
+        //                     $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
+        //                 }, 5000 * i);
+        //             });
+        //         });
 
-        // モバイル・タブレット用右側スライドショー
-        $(function() {
-            $(".hs-mbtb-topimage-right-layout2").each(function(i) {
-                if (i == 0) {
-                    setTimeout(function() {
-                        $(".hs-mbtb-topimage-right-layout2").eq(i).addClass("hs-right-fade");
-                    }, 0 * i);
-                }
-                setTimeout(function() {
-                    $(".hs-mbtb-topimage-right-layout2").eq(i).addClass("hs-right-fade");
-                }, 5000 * i);
-            });
-        });
+        //     });
+        // });
 
-        $(function() {
-            $("#mbtb-right-last").on('webkitAnimationEnd', function() {
-                $(".hs-mbtb-topimage-right-layout2").removeClass("hs-right-fade");
 
-                $(function() {
-                    $(".hs-mbtb-topimage-right-layout2").each(function(i) {
-                        if (i == 0) {
-                            setTimeout(function() {
-                                $(".hs-mbtb-topimage-right-layout2").eq(i).addClass("hs-right-fade");
-                            }, 0 * i);
-                        }
-                        setTimeout(function() {
-                            $(".hs-mbtb-topimage-right-layout2").eq(i).addClass("hs-right-fade");
-                        }, 5000 * i);
-                    });
-                });
 
-            });
-        });
 
         // 中央画像色変え
         function roopFunc() {
-
+            setTimeout(function() {
+                $("#hokushin ").addClass("hs-fill1 ");
+            }, 0);
             setTimeout(function() {
                 $("#hokushin ").addClass("hs-fill2 ");
             }, 10000);
             setTimeout(function() {
                 $("#hokushin ").addClass("hs-fill3 ");
-            }, 20100);
+            }, 20000);
             setTimeout(function() {
                 $("#hokushin ").addClass("hs-fill4 ");
-            }, 30100);
+            }, 30000);
             setTimeout(function() {
                 $("#hokushin ").addClass("hs-fill5 ");
-            }, 40100);
+            }, 40000);
             setTimeout(function() {
                 $("#hokushin ").addClass("hs-fill6 ");
-            }, 50100);
+            }, 50000);
             setTimeout(function() {
                 $("#hokushin ").addClass("hs-fill7 ");
-            }, 60100);
+            }, 60000);
             setTimeout(function() {
                 $("#hokushin ").addClass("hs-fill8 ");
                 $("#hokushin ").removeClass("hs-fill2 ");
@@ -321,8 +340,8 @@ function stopload() {
                 setTimeout(function() {
                     $("#hokushin ").removeClass("hs-fill8 ");
                     roopFunc(); //最初へ
-                }, 10100);
-            }, 70100);
+                }, 10000);
+            }, 70000);
 
         };
         roopFunc();
@@ -333,19 +352,20 @@ function stopload() {
 }
 
 // 背景画像スライドショー
-img = new Array("http://hokushinsystem.local/wp-content/uploads/2019/07/bg-purple.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-red.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-orange.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-yellow.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-lightgreen.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-green.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-blue.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-lightblue.svg"); //*1
-count = -1; //*2
-// imgTimer();
+img = new Array("http://hokushinsystem.local/wp-content/uploads/2019/07/bg-purple.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-red.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-orange.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-yellow.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-lightgreen.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-green.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-blue.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-lightblue.svg");
+count = -1;
+
 
 function imgTimer() {
     //画像番号
-    count++; //*3
+    count++;
     //画像の枚数確認
-    if (count == img.length) count = 0; //*4
+    if (count == img.length) count = 0; //*配列変数imgの要素の数が画像の数なので、変数countがその数に達したら０に戻します。
+
     //画像出力
     document.body.style.backgroundImage = "url(" + img[count] + ")";
     //次のタイマー呼びだし
-    setTimeout("imgTimer()", 10000); //*6
+    setTimeout("imgTimer()", 10500);
 }
 
 
@@ -417,14 +437,14 @@ roopFunc2();
 
 
 // 画面幅が変わったらリロードする(画像の重なりと背景画像との色ずれ解消)
-// $(function () {
+// $(function() {
 //     var timer = false;
 //     var prewidth = $(window).width();
-//     $(window).resize(function () {
+//     $(window).resize(function() {
 //         if (timer !== false) {
 //             clearTimeout(timer);
 //         }
-//         timer = setTimeout(function () {
+//         timer = setTimeout(function() {
 //             var nowWidth = $(window).width();
 //             if (prewidth !== nowWidth) {
 //                 // if (nowWidth >= 992) {

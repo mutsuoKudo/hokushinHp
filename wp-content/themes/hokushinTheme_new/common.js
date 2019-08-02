@@ -2,7 +2,7 @@
 // #にダブルクォーテーションが必要
 
 $('a[href^="#"]').click(function() {
-    var speed = 400;
+    var speed = 500;
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
     var position = target.offset().top - 100;
@@ -10,25 +10,9 @@ $('a[href^="#"]').click(function() {
     return false;
 });
 
-//採用情報の募集ページからエントリーする際に、ドロップダウンが選択されるよう設定
-// window.addEventListener('DOMContentLoaded', function(e) {
-//     document.querySelector(location.hash).selected = true;
-// });
 
-// URLパラメータ文字列を取得する
-// var param = location.search;
-// // alert(param);
-// var job = (getParam('jobcategory'));
 
-// function getParam(name, url) {
-//     if (!url) url = window.location.href;
-//     name = name.replace(/[\[\]]/g, "\\$&");
-//     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-//         results = regex.exec(url);
-//     if (!results) return null;
-//     if (!results[2]) return '';
-//     return decodeURIComponent(results[2].replace(/\+/g, " "));
-// }
+
 
 //パラメータを取得する
 var params = getParameter();
@@ -55,5 +39,42 @@ function getParameter() {
     return paramsArray;
 };
 
+
+
 // clidkablemapのレスポンシブ対応　*jquery.rwdImageMaps.jsより先に読み込まれてしまうと動作しないので注意
 jQuery('img[usemap]').rwdImageMaps();
+
+$(document).ready(function() {
+    //URLのハッシュ値を取得
+    var urlHash = location.hash;
+    //ハッシュ値があればページ内スクロール
+    if (urlHash) {
+        //スクロールを0に戻す
+        $('body,html').stop().scrollTop(0);
+        setTimeout(function() {
+            //ロード時の処理を待ち、時間差でスクロール実行
+            scrollToAnker(urlHash);
+        }, 100);
+    }
+
+    //通常のクリック時
+    $('a[href^="#"]').click(function() {
+        //ページ内リンク先を取得
+        var href = $(this).attr("href");
+        //リンク先が#か空だったらhtmlに
+        var hash = href == "#" || href == "" ? 'html' : href;
+        //スクロール実行
+        scrollToAnker(hash);
+        //リンク無効化
+        return false;
+    });
+
+    // 関数：スムーススクロール
+    // 指定したアンカー(#ID)へアニメーションでスクロール
+    function scrollToAnker(hash) {
+        var target = $(hash);
+        var position = target.offset().top - 100;
+        // $('body,html').stop().animate({ scrollTop: position }, 500);
+        $('body,html').stop().animate({ scrollTop: position }, 500);
+    }
+})
