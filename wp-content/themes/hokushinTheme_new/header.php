@@ -19,7 +19,7 @@
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- index.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index2.css">
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index.css">
   <!-- common.cssを読み込む -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/common.css">
   <!-- hokushin_old.cssを読み込む -->
@@ -44,7 +44,7 @@
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav mr-auto d-block d-md-none" style="width:100%">
           <li class="nav-item">
-            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/old-home">ホーム</a>
+            <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/">ホーム</a>
           </li>
 
           <!-- ABOUTドロップダウン -->
@@ -94,7 +94,7 @@
       <nav class="d-none d-md-block hs-nav-container">
         <div class="hs-nav-effect p-1">
           <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/old-home"><span data-hover="ホーム">ホーム</span></a>
+            <a href="<?php bloginfo('url'); ?>/"><span data-hover="ホーム">ホーム</span></a>
           </div>
 
           <!-- ABOUTドロップダウン -->

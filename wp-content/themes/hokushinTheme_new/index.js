@@ -3,9 +3,9 @@
 var time = new Date().getTime();
 $(function() {
     var h = $(window).height();
-    $('#hs-load').height(h).css('display', 'block');
-    $('#hs-load').css('overflow', 'hidden');
-    $('body').css('background-image', 'url("blank")');
+    $('#hs-load').height(h).css('display', 'block'); //高さ
+    $('#hs-load').css('overflow', 'hidden');　 //幅
+    $('body').css('background-image', 'none');
 });
 
 (function($) {
@@ -23,7 +23,7 @@ $(function() {
             "height": $height
         });
 
-        if (win_ratio > 1.5) {
+        if (win_ratio > 1.5) {　 //画像の比率が大きかったら
 
             $(".Opening ul li img.Opening__img").css({
                 "width": "100%",
@@ -38,7 +38,7 @@ $(function() {
             $(".Opening ul li img.Opening__img").css({
                 "margin-top": -imgtopmargin
             });
-        } else if (win_ratio < 1.5) {
+        } else if (win_ratio < 1.5) {　 //画像の比率が小さかったら
 
             var imgwidth = (($height / 800)) * 1200;
             var winwidth = $(".Opening").width();
@@ -55,8 +55,8 @@ $(function() {
     //slide
     $(function() {
         setimage();
-        var $interval = 2000;
-        var $fade_speed = 2000;
+        var $interval = 2000;　 //切り替わりの間隔（ミリ秒）
+        var $fade_speed = 2000;　 //フェード処理の速さ（ミリ秒）
         $(".Opening ul li").hide().css({
             "position": "absolute",
             "top": 0,
@@ -81,12 +81,13 @@ $(function() {
         })
 
 
+        //指定した回数でストップする設定
         var timer_id;
         var i = 0;
         timer_id = setInterval(function() {
             console.log(i);
             i++;
-            if (i == 2) {
+            if (i == 2) {　 //回数指定（ホクシンロゴ+WE ARE RPA…）
                 clearInterval(timer_id);
             } else {
                 var $active = $(".Opening ul li.active");
@@ -144,7 +145,6 @@ $(function() {
 
 //6秒たったら強制的にロード画面を非表示
 $(function() {
-    setTimeout('imgTimer();', 5000);
     setTimeout('stopload()', 6000);
 });
 
@@ -158,7 +158,6 @@ function stopload() {
         // デスクトップ用左側スライドショー
         $(function() {
             $(".hs-left-topimage").each(function(i) {
-                console.log(i);
                 if (i == 0) {
                     setTimeout(function() {
                         $(".hs-left-topimage").eq(0).addClass("hs-left-fade");
@@ -181,7 +180,7 @@ function stopload() {
                     $(".hs-left-topimage").each(function(i) {
                         if (i == 0) {
                             setTimeout(function() {
-                                $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
+                                $(".hs-left-topimage").eq(0).addClass("hs-left-fade");
                             }, 0);
                         }
                         setTimeout(function() {
@@ -194,46 +193,9 @@ function stopload() {
         });
 
 
-        // デスクトップ用左側スライドショー（旧）
-        // $(function() {
-        //     $(".hs-left-topimage").each(function(i) {
-        //         if (i == 0) {
-        //             setTimeout(function() {
-        //                 $(".hs-left-topimage").eq(0).addClass("hs-left-fade");
-        //             }, 0);
-        //         }
-        //         setTimeout(function() {
-        //             $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
-        //         }, 5000 * i);
-        //     });
-        // });
-
-
-
-        // $(function() {
-        //     $("#left-last").on('webkitAnimationEnd', function() {
-        //         $(".hs-left-topimage").removeClass("hs-left-fade");
-
-        //         $(function() {
-        //             $(".hs-left-topimage").each(function(i) {
-        //                 if (i == 0) {
-        //                     setTimeout(function() {
-        //                         $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
-        //                     }, 10000);
-        //                 }
-        //                 setTimeout(function() {
-        //                     $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
-        //                 }, 5000 * i);
-        //             });
-        //         });
-        //     });
-        // });
-
-
         // デスクトップ用右側スライドショー
         $(function() {
             $(".hs-right-topimage").each(function(i) {
-                console.log(i);
                 if (i == 0) {
                     setTimeout(function() {
                         $(".hs-right-topimage").eq(0).addClass("hs-right-fade");
@@ -256,7 +218,7 @@ function stopload() {
                     $(".hs-right-topimage").each(function(i) {
                         if (i == 0) {
                             setTimeout(function() {
-                                $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
+                                $(".hs-right-topimage").eq(0).addClass("hs-right-fade");
                             }, 0);
                         }
                         setTimeout(function() {
@@ -269,67 +231,38 @@ function stopload() {
         });
 
 
-        // // デスクトップ用右側スライドショー（旧）
-        // $(function() {
-        //     $(".hs-right-topimage").each(function(i) {
-        //         if (i == 0) {
-        //             setTimeout(function() {
-        //                 $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
-        //             }, 1000);
-        //         }
-        //         setTimeout(function() {
-        //             $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
-        //         }, 5000 * i);
-        //     });
-        // });
-
-        // $(function() {
-        //     $("#right-last").on('webkitAnimationEnd', function() {
-        //         $(".hs-right-topimage").removeClass("hs-right-fade");
-
-        //         $(function() {
-        //             $(".hs-right-topimage").each(function(i) {
-        //                 if (i == 0) {
-        //                     setTimeout(function() {
-        //                         $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
-        //                     }, 0 * i);
-        //                 }
-        //                 setTimeout(function() {
-        //                     $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
-        //                 }, 5000 * i);
-        //             });
-        //         });
-
-        //     });
-        // });
-
-
-
-
-        // 中央画像色変え
+        // 背景変え+中央画像色変え
         function roopFunc() {
             setTimeout(function() {
+                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-purple.svg)');
                 $("#hokushin ").addClass("hs-fill1 ");
             }, 0);
             setTimeout(function() {
+                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-red.svg)');
                 $("#hokushin ").addClass("hs-fill2 ");
             }, 10000);
             setTimeout(function() {
+                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-orange.svg)');
                 $("#hokushin ").addClass("hs-fill3 ");
             }, 20000);
             setTimeout(function() {
+                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-yellow.svg)');
                 $("#hokushin ").addClass("hs-fill4 ");
             }, 30000);
             setTimeout(function() {
+                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-lightgreen.svg)');
                 $("#hokushin ").addClass("hs-fill5 ");
             }, 40000);
             setTimeout(function() {
+                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-green.svg)');
                 $("#hokushin ").addClass("hs-fill6 ");
             }, 50000);
             setTimeout(function() {
+                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-blue.svg)');
                 $("#hokushin ").addClass("hs-fill7 ");
             }, 60000);
             setTimeout(function() {
+                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-lightblue.svg)');
                 $("#hokushin ").addClass("hs-fill8 ");
                 $("#hokushin ").removeClass("hs-fill2 ");
                 $("#hokushin ").removeClass("hs-fill3 ");
@@ -349,23 +282,6 @@ function stopload() {
 
     }, 1000);
     $('#hs-load').fadeOut(800);
-}
-
-// 背景画像スライドショー
-img = new Array("http://hokushinsystem.local/wp-content/uploads/2019/07/bg-purple.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-red.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-orange.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-yellow.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-lightgreen.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-green.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-blue.svg", "http://hokushinsystem.local/wp-content/uploads/2019/07/bg-lightblue.svg");
-count = -1;
-
-
-function imgTimer() {
-    //画像番号
-    count++;
-    //画像の枚数確認
-    if (count == img.length) count = 0; //*配列変数imgの要素の数が画像の数なので、変数countがその数に達したら０に戻します。
-
-    //画像出力
-    document.body.style.backgroundImage = "url(" + img[count] + ")";
-    //次のタイマー呼びだし
-    setTimeout("imgTimer()", 10500);
 }
 
 
@@ -434,27 +350,3 @@ function roopFunc2() {
     }, 10000);
 };
 roopFunc2();
-
-
-// 画面幅が変わったらリロードする(画像の重なりと背景画像との色ずれ解消)
-// $(function() {
-//     var timer = false;
-//     var prewidth = $(window).width();
-//     $(window).resize(function() {
-//         if (timer !== false) {
-//             clearTimeout(timer);
-//         }
-//         timer = setTimeout(function() {
-//             var nowWidth = $(window).width();
-//             if (prewidth !== nowWidth) {
-//                 // if (nowWidth >= 992) {
-//                 // リロード
-//                 // $("body").hide();
-//                 location.reload();
-
-//             }
-//             prewidth = nowWidth;
-//             // nowWidth <= 991;
-//         }, 100);
-//     });
-// });
