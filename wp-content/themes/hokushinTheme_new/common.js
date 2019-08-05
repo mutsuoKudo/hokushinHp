@@ -78,3 +78,13 @@ $(document).ready(function() {
         $('body,html').stop().animate({ scrollTop: position }, 500);
     }
 })
+
+// 会社概要ページのニュースティッカー
+function ticker() {
+    $('#news li:first').slideUp(function() {
+        $(this).appendTo($('#news')).slideDown();
+    });
+}
+setInterval(function() {
+    ticker()
+}, 5000);

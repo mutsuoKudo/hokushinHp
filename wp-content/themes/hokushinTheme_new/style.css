@@ -217,6 +217,12 @@ input:focus:required:invalid+div .invalid {
     height: 15vh;
 }
 
+.page-content-security-policy,
+.page-content-security-policy {
+    background-image: url(images/policy.png);
+    height: 15vh;
+}
+
 
 /* Opening(loading画面ここから)
 -----------------------------------------*/

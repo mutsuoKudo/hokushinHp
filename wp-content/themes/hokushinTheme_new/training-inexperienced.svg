@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 306.47 404.63">
+    <defs>
+        <style>.cls-1{isolation:isolate}.cls-2{fill:url(#linear-gradient)}.cls-3{fill:#e2e3e3}.cls-4{fill:url(#linear-gradient-2)}.cls-5{fill:url(#linear-gradient-3)}.cls-12,.cls-13,.cls-14,.cls-15,.cls-17,.cls-18,.cls-20,.cls-21,.cls-23,.cls-25,.cls-26,.cls-6,.cls-7,.cls-8,.cls-9{mix-blend-mode:multiply}.cls-6{fill:url(#linear-gradient-4)}.cls-7{fill:url(#linear-gradient-5)}.cls-8{fill:url(#linear-gradient-6)}.cls-9{fill:url(#linear-gradient-7)}.cls-10{fill:url(#linear-gradient-8)}.cls-11{fill:url(#linear-gradient-9)}.cls-12{fill:url(#linear-gradient-10)}.cls-13{fill:url(#linear-gradient-11)}.cls-14{fill:url(#linear-gradient-12)}.cls-15{fill:url(#linear-gradient-13)}.cls-16{fill:url(#linear-gradient-14)}.cls-17{fill:url(#linear-gradient-15)}.cls-18{fill:url(#linear-gradient-16)}.cls-19{fill:url(#linear-gradient-17)}.cls-20{fill:url(#linear-gradient-18)}.cls-21{fill:url(#linear-gradient-19)}.cls-22{fill:url(#linear-gradient-20)}.cls-23{fill:url(#linear-gradient-21)}.cls-24{fill:url(#linear-gradient-22)}.cls-25{fill:url(#linear-gradient-23)}.cls-26{fill:url(#linear-gradient-24)}.cls-27{font-size:8px;fill:#474445}.cls-27,.cls-56{font-family:UDShinGoPr6N-Light-90ms-RKSJ-H,A-OTF UD Shin Go Pr6N}.cls-28,.cls-29{letter-spacing:.45em}.cls-30,.cls-31{letter-spacing:-.02em}.cls-32{letter-spacing:-.06em}.cls-33{letter-spacing:-.05em}.cls-34{letter-spacing:-.02em}.cls-35{letter-spacing:-.06em}.cls-36{letter-spacing:-.07em}.cls-37{letter-spacing:-.04em}.cls-38{letter-spacing:.85em}.cls-39{letter-spacing:-.09em}.cls-40{letter-spacing:-.13em}.cls-41{letter-spacing:-.05em}.cls-42{letter-spacing:-.07em}.cls-43{letter-spacing:-.05em}.cls-44{letter-spacing:-.04em}.cls-45,.cls-46{letter-spacing:-.02em}.cls-47{letter-spacing:-.03em}.cls-48{letter-spacing:-.1em}.cls-49{letter-spacing:-.19em}.cls-50{letter-spacing:-.13em}.cls-51{letter-spacing:-.15em}.cls-52{letter-spacing:-.12em}.cls-53{letter-spacing:-.04em}.cls-54{letter-spacing:.36em}.cls-55{fill:url(#linear-gradient-25)}.cls-56{font-size:13px}.cls-56,.cls-66{fill:#fff}.cls-57{letter-spacing:-.07em}.cls-58{letter-spacing:-.06em}.cls-59{letter-spacing:-.22em}.cls-60{letter-spacing:-.1em}.cls-61{letter-spacing:-.06em}.cls-62{letter-spacing:-.21em}.cls-63{letter-spacing:-.08em}.cls-64,.cls-65{letter-spacing:-.02em}.cls-100,.cls-67,.cls-81,.cls-94{font-size:17.87px;font-family:CenturyGothic,Century Gothic}.cls-67{fill:#415198}.cls-68{fill:url(#linear-gradient-26)}.cls-69{letter-spacing:-.14em}.cls-70{letter-spacing:-.1em}.cls-71{letter-spacing:-.02em}.cls-72,.cls-73{letter-spacing:-.06em}.cls-74{letter-spacing:-.04em}.cls-75{letter-spacing:-.01em}.cls-76{letter-spacing:-.12em}.cls-77{letter-spacing:-.11em}.cls-78{letter-spacing:-.23em}.cls-79{letter-spacing:-.14em}.cls-80{letter-spacing:0}.cls-81{fill:#9a2d84}.cls-82{fill:url(#linear-gradient-27)}.cls-83{letter-spacing:-.13em}.cls-84{letter-spacing:-.17em}.cls-85{letter-spacing:-.08em}.cls-86{letter-spacing:-.06em}.cls-87{letter-spacing:-.21em}.cls-88{letter-spacing:-.08em}.cls-89{letter-spacing:-.01em}.cls-90{letter-spacing:-.03em}.cls-91{letter-spacing:0}.cls-92,.cls-93{letter-spacing:-.02em}.cls-94{fill:#17779e}.cls-95{fill:url(#linear-gradient-28)}.cls-96{letter-spacing:-.12em}.cls-97{letter-spacing:-.05em}.cls-98{letter-spacing:-.03em}.cls-99{letter-spacing:-.04em}.cls-100{fill:#d12222}</style>
+        <linearGradient id="linear-gradient" x1="84.76" x2="221.85" y1="202.35" y2="202.35" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset=".07" stop-color="#f8f9f9"/>
+            <stop offset=".45" stop-color="#d9dbdc"/>
+            <stop offset=".78" stop-color="#c6c9ca"/>
+            <stop offset="1" stop-color="#bfc2c4"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="275.37" x2="211.06" y1="224.76" y2="224.76" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#9671af"/>
+            <stop offset="1" stop-color="#415198"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" x1="-8591.46" x2="-8655.34" y1="10854.87" y2="10854.87" gradientTransform="rotate(180 -4058.82 5539.825)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#9a2d84"/>
+            <stop offset="1" stop-color="#ce4791"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-4" x1="249.88" x2="279.13" y1="224.78" y2="224.78" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+            <stop offset=".46" stop-color="#a6a4a5" stop-opacity=".44"/>
+            <stop offset="1" stop-color="#474445" stop-opacity=".91"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-5" x1="246.59" x2="246.59" y1="206.83" y2="198.33" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-6" x1="-8856.32" x2="-8827.07" y1="10522.78" y2="10522.78" gradientTransform="rotate(180 -4178.515 5373.785)" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-7" x1="-8859.45" x2="-8859.45" y1="10504.83" y2="10496.33" gradientTransform="rotate(180 -4178.515 5373.785)" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-8" x1="275.37" x2="211.07" y1="325.73" y2="325.73" xlink:href="#linear-gradient-3"/>
+        <linearGradient id="linear-gradient-9" x1="-8591.46" x2="-8655.34" y1="10753.88" y2="10753.88" gradientTransform="rotate(180 -4058.82 5539.825)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#17779e"/>
+            <stop offset="1" stop-color="#71c6d2"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-10" x1="249.88" x2="279.13" y1="325.81" y2="325.81" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-11" x1="246.59" x2="246.59" y1="307.86" y2="299.36" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-12" x1="-8856.32" x2="-8827.07" y1="10421.8" y2="10421.8" gradientTransform="rotate(180 -4178.515 5373.785)" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-13" x1="-8859.45" x2="-8859.45" y1="10403.85" y2="10395.35" gradientTransform="rotate(180 -4178.515 5373.785)" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-14" x1="-8591.46" x2="-8655.34" y1="10652.69" y2="10652.69" gradientTransform="rotate(180 -4058.82 5539.825)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#d12222"/>
+            <stop offset="1" stop-color="#ed7b2f"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-15" x1="-8856.32" x2="-8827.07" y1="10320.55" y2="10320.55" gradientTransform="rotate(180 -4178.515 5373.785)" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-16" x1="-8859.45" x2="-8859.45" y1="10302.6" y2="10294.1" gradientTransform="rotate(180 -4178.515 5373.785)" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-17" x1="280.36" x2="216.06" y1="465.45" y2="465.45" gradientTransform="translate(-4.99 -38.66)" xlink:href="#linear-gradient-9"/>
+        <linearGradient id="linear-gradient-18" x1="249.88" x2="279.13" y1="426.58" y2="426.58" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-19" x1="246.59" x2="246.59" y1="408.63" y2="400.13" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-20" x1="525.13" x2="477.89" y1="527.93" y2="527.93" xlink:href="#linear-gradient-2"/>
+        <linearGradient id="linear-gradient-21" x1="-8856.32" x2="-8827.07" y1="10219.64" y2="10219.64" gradientTransform="rotate(180 -4178.515 5373.785)" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-22" x1="280.36" x2="216.06" y1="566.99" y2="566.99" gradientTransform="translate(-4.99 -38.66)" xlink:href="#linear-gradient-14"/>
+        <linearGradient id="linear-gradient-23" x1="256.72" x2="277.09" y1="528.08" y2="528.08" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-24" x1="246.68" x2="246.68" y1="510.13" y2="501.63" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-25" x1="548.99" x2="158.93" y1="174.27" y2="174.27" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#415198"/>
+            <stop offset="1" stop-color="#9671af"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-26" x1="548.99" x2="158.93" y1="275.25" y2="275.25" xlink:href="#linear-gradient-3"/>
+        <linearGradient id="linear-gradient-27" x1="548.99" x2="158.93" y1="376.26" y2="376.26" xlink:href="#linear-gradient-9"/>
+        <linearGradient id="linear-gradient-28" x1="548.99" x2="158.91" y1="477.19" y2="477.19" xlink:href="#linear-gradient-14"/>
+    </defs>
+    <g class="cls-1">
+        <g id="レイヤー_34" data-name="レイヤー 34">
+            <path d="M84.76.07h137.09v404.56H84.76z" class="cls-2"/>
+            <path d="M50.54.07h205.52v404.56H50.54z" class="cls-3"/>
+            <path d="M271.82 199.55V250a49.35 49.35 0 0 1-27.24-8c-10.08-6.5-23.22-21.53-23.22-42.5z" class="cls-4" transform="translate(-221.34 -149)"/>
+            <path d="M477.34 199.55c27.29.45 50.14 22.57 50.14 50.45h-50.14z" class="cls-5" transform="translate(-221.34 -149)"/>
+            <path d="M271.82 199.55V250c-10.36 0-20.65-3.6-29.25-9.19v-41.26z" class="cls-6" transform="translate(-221.34 -149)"/>
+            <path d="M271.82 199.55v8H222a50 50 0 0 1-.65-7.89l.12-.11z" class="cls-7" transform="translate(-221.34 -149)"/>
+            <path d="M477.35 250v-50.45a50.8 50.8 0 0 1 28.24 8.83l1 41.64z" class="cls-8" transform="translate(-221.34 -149)"/>
+            <path d="M477.35 250v-8h49.48a50 50 0 0 1 .65 7.89l-.12.11z" class="cls-9" transform="translate(-221.34 -149)"/>
+            <path d="M271.82 300.5V351c-26.24-.3-45.51-19.25-49.65-42a52.19 52.19 0 0 1-.81-8.5h50.46z" class="cls-10" transform="translate(-221.34 -149)"/>
+            <path d="M477.34 300.49c26-.49 50.14 22.53 50.14 50.4v.17l-50.14-.06z" class="cls-11" transform="translate(-221.34 -149)"/>
+            <path d="M271.82 300.58v50.47c-10.36 0-21.62-3.8-28.92-9.31l-.33-41.16z" class="cls-12" transform="translate(-221.34 -149)"/>
+            <path d="M271.82 300.58v8H222a50 50 0 0 1-.65-7.89l.12-.11z" class="cls-13" transform="translate(-221.34 -149)"/>
+            <path d="M477.35 351v-50.47c10.36 0 19.78 3.6 27.9 9L506.6 351z" class="cls-14" transform="translate(-221.34 -149)"/>
+            <path d="M477.35 351v-8h49.48a50 50 0 0 1 .65 7.89l-.12.11z" class="cls-15" transform="translate(-221.34 -149)"/>
+            <path d="M477.34 401.74c27.29-1.11 50.14 22.22 50.14 50.09l-50.14.39z" class="cls-16" transform="translate(-221.34 -149)"/>
+            <path d="M477.35 452.25v-50.47c10.36 0 17.32 1.55 28.15 8.39l1.1 42.08z" class="cls-17" transform="translate(-221.34 -149)"/>
+            <path d="M477.35 452.25v-8h49.48a50 50 0 0 1 .65 7.89l-.12.11z" class="cls-18" transform="translate(-221.34 -149)"/>
+            <path d="M271.82 452.08c-26.57-.08-50.46-22.49-50.46-50.36v-.22l50.46.11z" class="cls-19" transform="translate(-221.34 -149)"/>
+            <path d="M271.82 401.35v50.47c-9.82 0-20.74-3-28.9-9.15l-.35-41.32z" class="cls-20" transform="translate(-221.34 -149)"/>
+            <path d="M271.82 401.35v8H222a50 50 0 0 1-.65-7.89l.12-.11z" class="cls-21" transform="translate(-221.34 -149)"/>
+            <path d="M477.46 502.69c27.14.14 50.35 22.6 50.35 50.48h-50.35z" class="cls-22" transform="translate(-221.34 -149)"/>
+            <path d="M477.35 553.16v-50.47c10.36 0 19.28 2.94 28.28 8.56l1 41.91z" class="cls-23" transform="translate(-221.34 -149)"/>
+            <path d="M271.82 553.58c-26.07 0-50.46-22.64-50.46-50.51h50.46z" class="cls-24" transform="translate(-221.34 -149)"/>
+            <path d="M272 502.85v50.47a54.57 54.57 0 0 1-20.38-3.91v-46.56z" class="cls-25" transform="translate(-221.34 -149)"/>
+            <path d="M272 502.85v8h-50a50 50 0 0 1-.65-7.89l.12-.11z" class="cls-26" transform="translate(-221.34 -149)"/>
+            <text class="cls-27" transform="translate(109.25 73.94)">HTML<tspan x="22.81" y="0" class="cls-28"></tspan>
+                <tspan x="29.06" y="0">CSS</tspan>
+                <tspan x="44.1" y="0" class="cls-29"></tspan>
+                <tspan x="50.34" y="0">JavaScript </tspan>
+                <tspan x="9.31" y="9.6">jQuery Bootstrap</tspan>
+            </text>
+            <text class="cls-27" transform="translate(71.15 170.6)">
+                <tspan class="cls-30">誰</tspan>
+                <tspan x="7.86" y="0" class="cls-31">も</tspan>
+                <tspan x="15.7" y="0">が</tspan>
+                <tspan x="23.7" y="0" class="cls-30">認</tspan>
+                <tspan x="31.56" y="0" class="cls-32">め</tspan>
+                <tspan x="39.1" y="0" class="cls-33">る</tspan>
+                <tspan x="46.67" y="0">SEの合</tspan>
+                <tspan x="72.08" y="0" class="cls-34">格</tspan>
+                <tspan x="79.92" y="0" class="cls-35">ラ</tspan>
+                <tspan x="87.41" y="0" class="cls-36">イ</tspan>
+                <tspan x="94.89" y="0" class="cls-37">ン</tspan>
+                <tspan x="102.59" y="0" class="cls-38"></tspan>
+                <tspan x="112.09" y="0">I</tspan>
+                <tspan x="114.32" y="0" class="cls-39">T</tspan>
+                <tspan x="118.79" y="0" class="cls-40">リ</tspan>
+                <tspan x="125.79" y="0" class="cls-41">テ</tspan>
+                <tspan x="133.41" y="0" class="cls-42">ラ</tspan>
+                <tspan x="140.82" y="0" class="cls-37">シ</tspan>
+                <tspan x="148.53" y="0">ー </tspan>
+                <tspan x="7.51" y="9.6">時事問題 法的問題 I</tspan>
+                <tspan x="89.73" y="9.6" class="cls-43">T</tspan>
+                <tspan x="94.5" y="9.6" class="cls-37">ビ</tspan>
+                <tspan x="102.2" y="9.6" class="cls-30">ジ</tspan>
+                <tspan x="110.06" y="9.6" class="cls-44">ネ</tspan>
+                <tspan x="117.75" y="9.6" class="cls-33">ス</tspan>
+                <tspan x="125.31" y="9.6" class="cls-45">マ</tspan>
+                <tspan x="133.16" y="9.6" class="cls-46">ナ</tspan>
+                <tspan x="141.02" y="9.6">ー </tspan>
+                <tspan x="13.23" y="19.2">情</tspan>
+                <tspan x="21.23" y="19.2" class="cls-47">報</tspan>
+                <tspan x="29" y="19.2" class="cls-37">セ</tspan>
+                <tspan x="36.71" y="19.2" class="cls-48">キ</tspan>
+                <tspan x="43.93" y="19.2" class="cls-49">ュ</tspan>
+                <tspan x="50.44" y="19.2" class="cls-50">リ</tspan>
+                <tspan x="57.44" y="19.2" class="cls-51">テ</tspan>
+                <tspan x="64.26" y="19.2" class="cls-52">ィ</tspan>
+                <tspan x="71.3" y="19.2">の重要性 安全衛生</tspan>
+            </text>
+            <text class="cls-27" transform="translate(88.83 275.27)">
+                <tspan>Java基礎 MySQL JavaWE</tspan>
+                <tspan x="104.32" y="0" class="cls-47">B</tspan>
+                <tspan x="109.35" y="0" class="cls-53">ア</tspan>
+                <tspan x="117.06" y="0" class="cls-39">プ</tspan>
+                <tspan x="124.35" y="0" class="cls-48">リ</tspan>
+                <tspan x="5.55" y="9.6"> JUnit Selenium Git Eclipse</tspan>
+            </text>
+            <text class="cls-27" transform="translate(109.25 376.94)">SpringBoot<tspan x="43.71" y="0" class="cls-54"></tspan>
+                <tspan x="54.82" y="0">MySQL </tspan>
+                <tspan x=".61" y="9.6">JPA Thymleaf STS</tspan>
+            </text>
+            <path d="M477.36 199.55H258.45l-37.09-.05c0-27.87 22.89-50.75 50.48-50.43l255.64-.07v.07c0 27.93-22.98 50.06-50.12 50.48z" class="cls-55" transform="translate(-221.34 -149)"/>
+            <text class="cls-56" transform="translate(73.86 28.86)">
+                <tspan class="cls-57">フ</tspan>
+                <tspan x="12.09" y="0" class="cls-58">ロ</tspan>
+                <tspan x="24.25" y="0" class="cls-59">ン</tspan>
+                <tspan x="34.37" y="0" class="cls-60">ト</tspan>
+                <tspan x="46.12" y="0" class="cls-61">エ</tspan>
+                <tspan x="58.4" y="0" class="cls-62">ン</tspan>
+                <tspan x="68.71" y="0" class="cls-63">ド</tspan>
+                <tspan x="80.72" y="0" class="cls-64">向</tspan>
+                <tspan x="93.48" y="0" class="cls-65">け</tspan>
+                <tspan x="106.24" y="0">技能研修</tspan>
+            </text>
+            <path d="M264.56 174.63v12.13h-6.47v-6.54a2.91 2.91 0 0 0-1-2.16 3.6 3.6 0 0 0-2.4-.89 3.22 3.22 0 0 0-3.38 3.05v6.54h-7v-12.13z" class="cls-66" transform="translate(-221.34 -149)"/>
+            <path d="M33.12 13.18L19.57 26.07h27.09L33.12 13.18z" class="cls-66"/>
+            <circle cx="271.39" cy="25.47" r="15.05" class="cls-66"/>
+            <text class="cls-67" transform="translate(262.58 31.58)">01</text>
+            <path d="M477.17 250H271.82a50.49 50.49 0 0 0-50.46 50.48h255.98c28-1 50.14-22.62 50.14-50.49z" class="cls-68" transform="translate(-221.34 -149)"/>
+            <text class="cls-56" transform="matrix(.9 0 0 1 60.23 129.86)">
+                <tspan class="cls-69">ヒ</tspan>
+                <tspan x="11.13" y="0" class="cls-70">ュ</tspan>
+                <tspan x="22.87" y="0" class="cls-71">ー</tspan>
+                <tspan x="35.63" y="0" class="cls-72">マ</tspan>
+                <tspan x="47.91" y="0" class="cls-73">ン</tspan>
+                <tspan x="60.16" y="0" class="cls-74">ス</tspan>
+                <tspan x="72.58" y="0" class="cls-75">キ</tspan>
+                <tspan x="85.46" y="0" class="cls-76">ル＆</tspan>
+                <tspan x="108.34" y="0">業界</tspan>
+                <tspan x="134.34" y="0" class="cls-77">ナ</tspan>
+                <tspan x="145.95" y="0" class="cls-78">リ</tspan>
+                <tspan x="155.97" y="0" class="cls-79">ッ</tspan>
+                <tspan x="167.09" y="0" class="cls-80">ジ研修</tspan>
+            </text>
+            <circle cx="33.12" cy="126.47" r="15.05" class="cls-66"/>
+            <text class="cls-81" transform="translate(22.63 132.58)">02</text>
+            <path d="M477.17 351.05H271.82c-28.65.37-50.46 22.57-50.46 50.45h255.98c27 0 50.14-22.58 50.14-50.46l-.12-.06z" class="cls-82" transform="translate(-221.34 -149)"/>
+            <text class="cls-56" transform="matrix(.88 0 0 1 53.42 231.86)">
+                <tspan class="cls-83">バ</tspan>
+                <tspan x="11.28" y="0" class="cls-84">ッ</tspan>
+                <tspan x="22.04" y="0" class="cls-85">ク</tspan>
+                <tspan x="33.96" y="0" class="cls-86">エ</tspan>
+                <tspan x="46.23" y="0" class="cls-87">ン</tspan>
+                <tspan x="56.54" y="0" class="cls-88">ド</tspan>
+                <tspan x="68.55" y="0">&amp;MV</tspan>
+                <tspan x="101.04" y="0" class="cls-89">C</tspan>
+                <tspan x="110.67" y="0" class="cls-90">モ</tspan>
+                <tspan x="123.32" y="0" class="cls-91">デル</tspan>
+                <tspan x="149.32" y="0" class="cls-92">向</tspan>
+                <tspan x="162.08" y="0" class="cls-93">け</tspan>
+                <tspan x="174.84" y="0" class="cls-91">技能研修</tspan>
+            </text>
+            <circle cx="272.39" cy="228.44" r="15.05" class="cls-66"/>
+            <text class="cls-94" transform="translate(262.05 235.55)">03</text>
+            <path d="M247.63 368.36a.48.48 0 0 1 .48-.48.49.49 0 0 1 .49.48v18.16a.49.49 0 0 1-.49.49.48.48 0 0 1-.48-.49" class="cls-66" transform="translate(-221.34 -149)"/>
+            <path d="M248.23 387a.55.55 0 0 1-.6-.49.55.55 0 0 1 .6-.48h22.45a.55.55 0 0 1 .6.48.55.55 0 0 1-.6.49z" class="cls-66" transform="translate(-221.34 -149)"/>
+            <path d="M253.65 386.52H250a.47.47 0 0 1-.47-.46v-8.83a.47.47 0 0 1 .23-.4l3.63-2.11a.46.46 0 0 1 .7.4v10.94a.47.47 0 0 1-.44.46zM255.14 386.52h3.63a.47.47 0 0 0 .46-.46V376a.46.46 0 0 0-.33-.45l-3.63-1.07a.46.46 0 0 0-.6.44v11.13a.47.47 0 0 0 .47.47zM263.87 386.52h-3.63a.46.46 0 0 1-.46-.46v-10.14a.46.46 0 0 1 .23-.4l3.62-2.13a.47.47 0 0 1 .71.41v12.26a.47.47 0 0 1-.47.46zM269 386.64h-3.63a.47.47 0 0 1-.46-.47v-13a.47.47 0 0 1 .22-.4l3.63-2.21a.46.46 0 0 1 .71.39v15.26a.47.47 0 0 1-.47.43z" class="cls-66" transform="translate(-221.34 -149)"/>
+            <path d="M249.75 376.31a.32.32 0 0 1-.29-.17.33.33 0 0 1 .12-.46l4.71-2.77a.32.32 0 0 1 .27 0l4.78 1.56 10.78-6.24a.35.35 0 0 1 .39 0 .34.34 0 0 1 .09.38l-.55 1.39a.33.33 0 0 1-.62-.24l.19-.5-10.08 5.83a.32.32 0 0 1-.27 0l-4.77-1.56-4.58 2.69a.34.34 0 0 1-.17.09z" class="cls-66" transform="translate(-221.34 -149)"/>
+            <path d="M270.33 368.85h-.05l-1.69-.26a.34.34 0 0 1 0-.67s.09 0 1.77.26a.34.34 0 0 1-.05.67z" class="cls-66" transform="translate(-221.34 -149)"/>
+            <path d="M477.17 452H271.8c-27.92.76-50.46 22.6-50.46 50.48v.07l50.61-.07h205.39c26.38.36 50.14-22.6 50.14-50.48v-.16z" class="cls-95" transform="translate(-221.34 -149)"/>
+            <text class="cls-56" transform="translate(97.28 333.2)">
+                <tspan class="cls-96">フ</tspan>
+                <tspan x="11.45" y="0" class="cls-97">レ</tspan>
+                <tspan x="23.76" y="0" class="cls-98">ー</tspan>
+                <tspan x="36.4" y="0" class="cls-58">ム</tspan>
+                <tspan x="48.56" y="0" class="cls-99">ワ</tspan>
+                <tspan x="61.07" y="0" class="cls-58">ーク</tspan>
+                <tspan x="85.38" y="0">研修</tspan>
+            </text>
+            <circle cx="32.3" cy="329.8" r="15.05" class="cls-66"/>
+            <text class="cls-100" transform="translate(22.76 335.91)">04</text>
+            <path d="M490.68 275.1a7.13 7.13 0 1 0-7.19-7.08 7.13 7.13 0 0 0 7.19 7.08z" class="cls-66" transform="translate(-221.34 -149)"/>
+            <path d="M268.58 132.17l.77.54.61-.52-.62-4.22h-.24l-.52 4.2z" class="cls-66"/>
+            <path d="M495.52 274.58a6.56 6.56 0 0 1-3.09 1.71 5.67 5.67 0 0 1-3.61 0 7.32 7.32 0 0 1-3-1.63c-3.87 1.39-6.55 4.37-6.52 7.8 0 1.23 5.12 2.19 11.44 2.15s11.42-1.08 11.41-2.31c-.01-3.44-2.73-6.37-6.63-7.72zM483.92 475.85a5.56 5.56 0 1 0 5.56 5.56 5.56 5.56 0 0 0-5.56-5.56zm0 9a3.43 3.43 0 1 1 3.43-3.42 3.42 3.42 0 0 1-3.43 3.4z" class="cls-66" transform="translate(-221.34 -149)"/>
+            <path d="M263.64 327.05h-2.1l.31-1.73h1.48l.31 1.73zM259.95 327.63l-1.61 1.35-.87-1.52 1.13-.95 1.35 1.12zM257.5 330.44l-.37 2.07-1.64-.61.25-1.45 1.76-.01zM257.42 334.17l1.06 1.83-1.66.59-.73-1.28 1.33-1.14zM259.77 337.08l1.98.72-.89 1.51-1.39-.5.3-1.73zM263.43 337.8l1.98-.72.29 1.73-1.39.5-.88-1.51zM266.7 336l1.05-1.83 1.34 1.14-.74 1.28-1.65-.59zM268.05 332.51l-.37-2.07 1.75.01.26 1.45-1.64.61zM266.84 328.98l-1.62-1.35 1.35-1.12 1.13.95-.86 1.52z" class="cls-66"/>
+            <path d="M500 477.07a6.77 6.77 0 1 0 6.77 6.77 6.77 6.77 0 0 0-6.77-6.77zm0 10.93a4.17 4.17 0 1 1 4.17-4.17A4.17 4.17 0 0 1 500 488z" class="cls-66" transform="translate(-221.34 -149)"/>
+            <path d="M279.94 328.32h-2.56l.38-2.1h1.8l.38 2.1zM275.45 329.02l-1.96 1.65-1.06-1.86 1.38-1.15 1.64 1.36zM272.46 332.45l-.45 2.52-2-.74.31-1.77 2.14-.01zM272.37 336.99l1.28 2.22-2.01.72-.9-1.56 1.63-1.38zM275.22 340.53l2.41.87-1.07 1.85-1.69-.62.35-2.1zM279.68 341.4l2.41-.87.36 2.1-1.69.62-1.08-1.85zM283.66 339.21l1.28-2.22 1.63 1.38-.9 1.56-2.01-.72zM285.3 334.97l-.44-2.52 2.13.01.31 1.77-2 .74zM283.83 330.67l-1.96-1.65 1.64-1.36 1.38 1.15-1.06 1.86z" class="cls-66"/>
+            <path d="M493.42 466.55a4.16 4.16 0 1 0 4.59 3.67 4.16 4.16 0 0 0-4.59-3.67zm.75 6.68a2.56 2.56 0 1 1 2.26-2.83 2.57 2.57 0 0 1-2.26 2.83z" class="cls-66" transform="translate(-221.34 -149)"/>
+            <path d="M272.88 317.62l-1.57.17.09-1.31 1.1-.12.38 1.26zM270.19 318.35l-1.09 1.14-.77-1.06.76-.8 1.1.72zM268.6 320.65l-.1 1.57-1.28-.32.07-1.1 1.31-.15zM268.85 323.43l.94 1.26-1.18.58-.66-.89.9-.95zM270.84 325.39l1.53.37-.53 1.2-1.08-.26.08-1.31zM273.62 325.62l1.41-.7.36 1.26-.98.49-.79-1.05zM275.9 324.01l.63-1.45 1.09.74-.44 1.01-1.28-.3zM276.61 321.31l-.45-1.51 1.31-.14.31 1.06-1.17.59zM275.42 318.78l-1.32-.87.91-.94.92.61-.51 1.2z" class="cls-66"/>
+        </g>
+    </g>
+</svg>

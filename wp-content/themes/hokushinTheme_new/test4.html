@@ -1,0 +1,265 @@
+<!-- 新規HP（ナビゲーションバーコンテンツ）用ヘッダー -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>採用情報</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- style.cssを読み込む -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- hokushin_old.cssを読み込む -->
+    <link rel="stylesheet" href="hokushin_old.css" />
+
+    <!-- recruit.cssを読み込む -->
+    <link href="recruit.css" rel="stylesheet">
+
+    <!-- common.cssを読み込む -->
+    <link href="common.css" rel="stylesheet">
+
+    <!-- <link rel="shortcut icon" href="http://hokusys.jp/wp-content/themes/hokushinTheme/images/favicon.ico"> -->
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script src="jQuery_341.js"></script>
+
+    <style>
+        .hs-ticker {
+            height: 40px;
+            overflow: hidden;
+            /* margin: 60px 0 0 35px; */
+            padding: 0;
+            list-style: none;
+            font-size: 25px;
+        }
+        
+        .hs-ticker li {
+            height: 60px;
+            padding: 5px;
+            margin: 0px 5px;
+        }
+    </style>
+
+    <script>
+        function ticker() {
+            $('#news li:first').slideUp(function() {
+                $(this).appendTo($('#news')).slideDown();
+            });
+        }
+        setInterval(function() {
+            ticker()
+        }, 5000);
+    </script>
+
+</head>
+
+<body>
+
+    <div class="page-content-image page-content-company"></div>
+
+
+    <section style="background: #5a3c96; color: #fff">
+        <div style="margin: 0 auto;" class="row w-980 hs-about-news ">
+            <h4 class="col-2 pt-1 mr-2">NEWS</h4>
+            <ul id="news" class="hs-ticker col-9 pt-1" style="font-size: 0.8rem">
+                <li><a data-toggle="modal" data-target="#about-modal" rel="noopener noreferrer">2019.03.01　資本金を増額</a></li>
+                <li><a data-toggle="modal" data-target="#about-modal" rel="noopener noreferrer">2019.06.01　プライバシーマーク取得</a></li>
+                <li><a data-toggle="modal" data-target="#about-modal" rel="noopener noreferrer">2019.06.01　有料職業紹介業許可証が交付されました</a></li>
+                <li><a data-toggle="modal" data-target="#about-modal" rel="noopener noreferrer">2019.06.01　労働者派遣事業許可証が交付されました</a></li>
+                <li><a data-toggle="modal" data-target="#about-modal" rel="noopener noreferrer">2019.06.01　資本金を増額</a></li>
+                <li><a data-toggle="modal" data-target="#about-modal" rel="noopener noreferrer">2019.06.01　会社設立</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- modal -->
+    <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="modal01-label" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content" style="background-color: #fff">
+                <div class="modal-header hs-recruit-modal-header">
+                    <h3 class="modal-title" id="modal01-label font-weight-bold text-center">NEWS</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li style="border-bottom: 1px #444 dotted">
+                            2019.03.01　資本金を増額</li>
+                        <li class="pt-4" style="border-bottom: 1px #444 dotted">
+                            2019.06.01　プライバシーマーク取得</li>
+                        <li class="pt-4" style="border-bottom: 1px #444 dotted">
+                            2019.06.01　有料職業紹介業許可証が交付されました
+                        </li>
+                        <li class="pt-4" style="border-bottom: 1px #444 dotted">
+                            2019.06.01　労働者派遣事業許可証が交付されました
+                        </li>
+                        <li class="pt-4" style="border-bottom: 1px #444 dotted">
+                            2019.06.01　資本金を増額
+                        </li>
+                        <li class="pt-4" style="border-bottom: 1px #444 dotted">
+                            2019.06.01　会社設立
+                        </li>
+                    </ul>
+                    <div id="footer-purokuma"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page-contenet content-out-box w-max">
+        <div class="content-inner-box w-980 row w-100" style="margin: 0 auto !important;">
+            <h1 class="page-main-title col-12 col-sm-3 m-0"><span class="page-title-en">Company</span><br>会社概要</h1>
+
+            <!-- *勝手にpタグやbrタグが入らないようにする -->
+            <div class="hs-recruit-message w-100 col-12 col-sm-8">
+                <h4>
+                    開発者にとって最適の会社を</h4>
+                <h5 class="p-0 mt-3 mb-0">
+                    個性を活かし育てることで
+                    <p class="p-0 m-0">仲間とともに成長していくことを目指しています。</p>
+                </h5>
+                <p class="hs-recruit-message-p mt-3 mb-0　p-0" style="line-height: 2em;">
+                    株式会社ホクシンシステムでは、個性をお互い尊重しあい、切磋琢磨することで会社は大きく成長できると考えています。そのために。部門間の隔たりをなくし、会社全体で一つのチームという形にこだわることで情報を停滞させず、さまざまな意見を反映し易い環境を作り上げています。
+
+            </div>
+            <div class="col-12">
+                <div class="hs-recruit-main-container1 pl-4 mt-5">
+                    <article>
+                        <table class="w-100" style="border-top: 3px solid; margin: 0 auto;">
+                            <tbody>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <th class="pt-4 pb-4 pl-3">社名</th>
+                                    <td class="pt-4 pb-4 pl-4">株式会社 ホクシンシステム</td>
+                                </tr>
+                                <tr>
+                                    <th class="pt-4 pb-4 pl-3" rowspan="2" style="border-bottom: 1px dotted;">所在地</th>
+                                    <td class="pt-4 pl-4">〒060-0053</td>
+                                </tr>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <td class="pb-4 pl-4">北海道札幌市中央区南3条東2丁目1番地サンシャインビル3階
+                                        <div class="simplemap">
+                                            <div class="simplemap-content" data-breakpoint="480" data-lat="" data-lng="" data-zoom="16" data-addr="" data-infowindow="close" data-map-type-control="false" data-map-type-id="ROADMAP" style="width:100%;height:300px;">
+                                                北海道札幌市中央区南3条東2丁目1番地サンシャインビル3階</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <th class="pt-4 pb-4 pl-3">電話番号</th>
+                                    <td class="pt-4 pb-4 pl-4">011-522-9234</td>
+                                </tr>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <th class="pt-4 pb-4 pl-3">代表取締役</th>
+                                    <td class="pt-4 pb-4 pl-4">熊谷典久</td>
+                                </tr>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <th class="pt-4 pb-4 pl-3">設立</th>
+                                    <td class="pt-4 pb-4 pl-4">2015年9月17日</td>
+                                </tr>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <th class="pt-4 pb-4 pl-3">資本金</th>
+                                    <td class="pt-4 pb-4 pl-4">2000万円</td>
+                                </tr>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <th class="pt-4 pb-4 pl-3">社員数</th>
+                                    <td class="pt-4 pb-4 pl-4">32名（2019年7月）</td>
+                                </tr>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <th class="pt-4 pb-4 pl-3">取引銀行</th>
+                                    <td class="pt-4 pb-4 pl-4">みずほ銀行、三井住友銀行、北海道銀行</td>
+                                </tr>
+                                <tr>
+                                    <th class="pt-4 pl-3">一般労働者</th>
+                                    <td class="pt-2 pl-4" rowspan="2" style="border-bottom: 1px dotted;">派 01-300703</td>
+                                </tr>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <th class="pb-4 pl-3">派遣事業</th>
+                                    <td class="pt-4 pl-4"></td>
+                                </tr>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <th class="pt-4 pb-4 pl-3">有料職業紹介事業</th>
+                                    <td class="pt-4 pb-4 pl-4">01-ユ-300450</td>
+                                </tr>
+                                <tr style="border-bottom: 1px dotted;">
+                                    <th class="pt-4 pb-4 pl-3">プライバシーマーク</th>
+                                    <td class="pt-4 pb-4 pl-4">26000148(01)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                    <article class="pt-5">
+                        <div class="container" style="background-color: #f39e15">
+                            <div class="row">
+                                <div class="col-md-7 col-12 hs-map m-0">
+                                    <a href="https://goo.gl/maps/QvAtSAN7RbQdo1Z27" target="_blank" rel="noopener noreferrer">
+                                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/map.png" class="w-100 mb-4 mt-4 pl-3 pr-3">
+                                    </a>
+
+                                    <p class="hs-map-hover-mask text-white font-weight-bold">
+                                        Google Mapへ…
+
+                                </div>
+                                <div class="col-md-5 col-12">
+                                    <div class="w-100 hs-map-p">
+                                        <div class="text-center">
+                                            <h5 style="border-bottom: 1px dotted" class="text-center">当社までのアクセス</h5>
+                                        </div>
+                                        <div class="pt-2 text-center">
+                                            <img src="http://hokushinsystem.local/wp-content/uploads/2019/07/train.png" alt="" style="width: 15%">
+
+                                            <p style="display: inline">地下鉄をご利用の場合</p>
+
+                                        </div>
+                                        <div class="hs-mb-map-message font-weight-bold">
+                                            <p class="pt-4 text-left">地下鉄南北線　　大通駅から徒歩7分</p>
+                                            <p class="pt-2 text-left">地下鉄東豊線　　豊水すすきの駅から徒歩5分</p>
+                                            <p class="pt-2 text-left">地下鉄東西線　　バスセンター駅前から徒歩5分</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+
+</body>
+
+</html>
+
+
+
+
+<!-- 新規トップページ用JS -->
+<script src="index.js "></script>
+<!-- 共通JS -->
+<script src="common.js "></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js "></script> -->
+<script src="jQuery@3.js "></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js " integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o " crossorigin="anonymous "></script> -->
+<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js "></script>
+
+
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+
+
+
+</body>
+
+</html>
