@@ -631,7 +631,8 @@ header .menu-head-container ul .current a {
 }
 
 .page-content-contact {
-    background-image: url(images/con_img.jpg);
+    /* background-image: url(images/con_img.jpg); */
+    background-image: url(images/contact.png);
 }
 
 .single-section {
