@@ -120,7 +120,7 @@ body {
 
 .dropdown-menu.show {
     top: 0% !important;
-    left: -4% !important;
+    left: -3% !important;
 }
 
 .hs-sub-dropdown-menu {
@@ -267,9 +267,11 @@ body {
 
 @media (max-width: 767.98px) {
     .hs-topimage-inner-container {
-        width: 35% !important;
+        /* width: 35% !important; */
+        width: 50% !important;
         position: absolute !important;
-        left: 30% !important;
+        /* left: 30% !important; */
+        left: 19% !important;
         top: 18% !important;
         z-index: 31 !important;
         max-width: 100% !important;
@@ -322,10 +324,11 @@ body {
 
 @media (max-width: 767.98px) {
     .hs-left-topimage {
-        width: 70%;
+        width: 65%;
     }
     .hs-right-topimage {
-        width: 84%;
+        width: 75%;
+        margin-left: 16%;
     }
     .hs-test-left-layout {
         left: 15% !important;
@@ -445,6 +448,19 @@ body {
     left: 0;
     width: 100%;
     height: auto;
+}
+
+
+/* 小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .hs-topimage-li {
+        position: absolute;
+        top: 0;
+        left: -20% !important;
+        width: 100%;
+        height: auto;
+    }
 }
 
 
