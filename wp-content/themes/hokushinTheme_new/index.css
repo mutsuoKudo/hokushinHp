@@ -120,7 +120,7 @@ body {
 
 .dropdown-menu.show {
     top: 0% !important;
-    left: 0% !important;
+    left: -4% !important;
 }
 
 .hs-sub-dropdown-menu {
