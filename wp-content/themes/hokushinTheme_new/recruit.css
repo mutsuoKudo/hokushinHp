@@ -615,6 +615,20 @@ img.emoji {
     background-image: url(images/recruitment.png);
 }
 
+.hs-service-circleimg {
+    margin-top: 3rem;
+    width: 75%;
+}
+
+
+/* 小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .hs-service-circleimg {
+        width: 100% !important;
+    }
+}
+
 .hs-service-table-top th {
     background: #00A4B3;
     color: #fff;
