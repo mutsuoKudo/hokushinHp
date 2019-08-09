@@ -457,7 +457,8 @@ header .menu-head-container ul .current a {
     position: fixed;
     z-index: -99;
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
+    height: 100vh;
     background-image: url(images/main-image.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -465,7 +466,8 @@ header .menu-head-container ul .current a {
 }
 
 #main-copy {
-    height: 500px;
+    /* height: 500px; */
+    height: 100vh;
     background-image: url(images/main_ct.png);
     background-repeat: no-repeat;
     background-position: center;
