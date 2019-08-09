@@ -271,11 +271,10 @@ body {
         width: 50% !important;
         position: absolute !important;
         /* left: 30% !important; */
-        left: 19% !important;
+        left: 24% !important;
         top: 18% !important;
         z-index: 31 !important;
         max-width: 100% !important;
-        margin-right: 3% !important;
     }
 }
 
