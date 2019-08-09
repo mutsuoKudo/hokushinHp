@@ -3,9 +3,26 @@
 <html>
 
 <head>
+
+<?php
+global $is_IE;
+if ( $is_IE ) {
+  // http_response_code( 301 ) ;
+  
+  $location =  home_url() . "/home2";
+ 
+  var_dump($llocation);
+
+  wp_redirect( $location, 301 );
+  exit ;
+}
+?>
+  
   <title><?php bloginfo('name'); ?> | <?php wp_title(); ?></title>
+  
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,IE=edge">
+  <meta http-equiv="X-UA-TextLayoutMetrics" content="gdi" />
 
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
   <script src="<?php bloginfo('stylesheet_directory'); ?>/jQuery_311.js"></script>
@@ -25,12 +42,16 @@
   <!-- hokushin_old.cssを読み込む -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" />
 
+
+
 </head>
 
 <body class="hs-body-start hs-hide hs-body">
   <!-- *このdivはhome.php内で閉じられるのでここでは閉じなくてOK -->
   <!-- <div class="hs-base-container hs-body-start"> 7/31より前-->
   <div class="hs-base-container">
+
+
 
     <!-- ロゴ+帯 -->
     <nav class="navbar navbar-expand-md navbar-light" style="z-index: 2000; background-color: lightgray;">
@@ -86,7 +107,9 @@
           </li>
 
         </ul>
+      </div>
     </nav>
+
 
     <!-- ナビゲーションバー -->
     <div class="hs-nav">
