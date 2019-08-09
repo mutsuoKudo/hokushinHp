@@ -676,6 +676,7 @@ img.emoji {
     text-align: center !important;
     padding: 1em 0.5em !important;
     white-space: normal !important;
+    word-break: break-all;
 }
 
 
