@@ -55,8 +55,8 @@ $(function() {
     //slide
     $(function() {
         setimage();
-        var $interval = 2000;　 //切り替わりの間隔（ミリ秒）
-        var $fade_speed = 2000;　 //フェード処理の速さ（ミリ秒）
+        var $interval = 1500;　 //切り替わりの間隔（ミリ秒）
+        var $fade_speed = 1500;　 //フェード処理の速さ（ミリ秒）
         $(".Opening ul li").hide().css({
             "position": "absolute",
             "top": 0,
@@ -234,35 +234,35 @@ function stopload() {
         // 背景変え+中央画像色変え
         function roopFunc() {
             setTimeout(function() {
-                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-purple.svg)');
+                $('body').css('background-image', 'url(wp-content/uploads/2019/07/bg-purple.svg)');
                 $("#hokushin ").addClass("hs-fill1 ");
             }, 0);
             setTimeout(function() {
-                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-red.svg)');
+                $('body').css('background-image', 'url(wp-content/uploads/2019/07/bg-red.svg)');
                 $("#hokushin ").addClass("hs-fill2 ");
             }, 10000);
             setTimeout(function() {
-                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-orange.svg)');
+                $('body').css('background-image', 'url(wp-content/uploads/2019/07/bg-orange.svg)');
                 $("#hokushin ").addClass("hs-fill3 ");
             }, 20000);
             setTimeout(function() {
-                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-yellow.svg)');
+                $('body').css('background-image', 'url(wp-content/uploads/2019/07/bg-yellow.svg)');
                 $("#hokushin ").addClass("hs-fill4 ");
             }, 30000);
             setTimeout(function() {
-                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-lightgreen.svg)');
+                $('body').css('background-image', 'url(wp-content/uploads/2019/07/bg-lightgreen.svg)');
                 $("#hokushin ").addClass("hs-fill5 ");
             }, 40000);
             setTimeout(function() {
-                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-green.svg)');
+                $('body').css('background-image', 'url(wp-content/uploads/2019/07/bg-green.svg)');
                 $("#hokushin ").addClass("hs-fill6 ");
             }, 50000);
             setTimeout(function() {
-                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-blue.svg)');
+                $('body').css('background-image', 'url(wp-content/uploads/2019/07/bg-blue.svg)');
                 $("#hokushin ").addClass("hs-fill7 ");
             }, 60000);
             setTimeout(function() {
-                $('body').css('background-image', 'url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-lightblue.svg)');
+                $('body').css('background-image', 'url(wp-content/uploads/2019/07/bg-lightblue.svg)');
                 $("#hokushin ").addClass("hs-fill8 ");
                 $("#hokushin ").removeClass("hs-fill2 ");
                 $("#hokushin ").removeClass("hs-fill3 ");
