@@ -644,6 +644,17 @@ img.emoji {
     border: 1px solid #00ced1 !important;
     margin-top: 15%;
     box-shadow: 8px 8px 7px 2px grey;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+/* 小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .hs-service-table {
+        width: 100% !important;
+    }
 }
 
 .hs-service-table tr {

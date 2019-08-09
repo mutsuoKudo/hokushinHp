@@ -690,7 +690,7 @@ header .menu-head-container ul .current a {
 }
 
 .page-contenet .page-main-content table {
-    width: 100%;
+    /* width: 100%; */
     border-top: 2px solid #444;
 }
 
