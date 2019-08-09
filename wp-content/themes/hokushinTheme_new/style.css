@@ -249,6 +249,37 @@ input:focus:required:invalid+div .invalid {
     z-index: 9;
 }
 
+.Opening__text {
+    animation-name: opening-text-start;
+    /* 一回分の時間 */
+    animation-duration: 6s;
+    /* 繰り返し回数 */
+    animation-iteration-count: 1;
+    /* 開始と完了を滑らかにする*/
+    animation-timing-function: ease;
+    /* 終了後の状態 */
+    animation-fill-mode: forwards;
+}
+
+@keyframes opening-text-start {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    10% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    70% {
+        visibility: visible;
+        opacity: 1;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
 
 /* .Opening ul li span {} */
 

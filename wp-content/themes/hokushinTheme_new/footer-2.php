@@ -38,7 +38,7 @@
                  <li class="hs-load-container" style="background-color: #fff; height: 100vh;">
                      <span><img src="wp-content/uploads/2019/07/loading.svg" alt="" class="hs-load-img"></span>
                  </li>
-                 <li><span><img class="Opening__img" src="wp-content/uploads/2019/07/loading.jpg" alt="" data-pagespeed-url-hash="2479872132" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></span><img class="Opening__text" src="wp-content/uploads/2019/07/loading-text.png" alt="" data-pagespeed-url-hash="2266855761" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></li>
+                 <li><span><img class="Opening__img" src="wp-content/uploads/2019/07/loading.jpg" alt=""></span><img class="Opening__text" src="wp-content/uploads/2019/07/loading-text.png" alt=""></li>
              </ul>
              <!-- /.Opening -->
          </div>
@@ -46,6 +46,7 @@
      </div>
      <!-- </div> -->
  </div>
+
  <!-- 新規トップページ用JS -->
  <script src="<?php bloginfo('stylesheet_directory'); ?>/index.js"></script>
  <!-- 共通JS -->
