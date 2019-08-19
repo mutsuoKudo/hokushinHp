@@ -382,7 +382,8 @@ img.emoji {
 @media (max-width: 991.98px) {
     .hs-logo-a {
         width: 70%;
-        margin-right: 0;
+        margin-right: 0 !important;
+        margin-left: 2em;
     }
     .hs-recruit-sub-article {
         padding-top: 5%;

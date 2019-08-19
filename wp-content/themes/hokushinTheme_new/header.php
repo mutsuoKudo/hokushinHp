@@ -4,22 +4,22 @@
 
 <head>
 
-<?php
-global $is_IE;
-if ( $is_IE ) {
-  // http_response_code( 301 ) ;
-  
-  $location =  home_url() . "/home2";
- 
-  var_dump($llocation);
+  <?php
+  global $is_IE;
+  if ($is_IE) {
+    // http_response_code( 301 ) ;
 
-  wp_redirect( $location, 301 );
-  exit ;
-}
-?>
-  
+    $location =  home_url() . "/home2";
+
+    var_dump($llocation);
+
+    wp_redirect($location, 301);
+    exit;
+  }
+  ?>
+
   <title><?php bloginfo('name'); ?> | <?php wp_title(); ?></title>
-  
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,IE=edge">
   <meta http-equiv="X-UA-TextLayoutMetrics" content="gdi" />
@@ -55,54 +55,57 @@ if ( $is_IE ) {
 
     <!-- ロゴ+帯 -->
     <nav class="navbar navbar-expand-md navbar-light" style="z-index: 2000; background-color: lightgray;">
-      <a class="navbar-brand hs-logo-a" href="#">
-        <img src="wp-content/uploads/2019/07/e76cd8347bc0116329d4b7104bf0d76c.png" alt="" width="auto" height="30">
-      </a>
-      <!-- ハンバーガーメニューは画面小さくなったら表示 -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="w-100">
+        <a class="navbar-brand hs-logo-a" href="<?php bloginfo('url'); ?>/">
+          <img src="wp-content/uploads/2019/07/e76cd8347bc0116329d4b7104bf0d76c.png" alt="" width="auto" height="30">
+        </a>
+        <!-- ハンバーガーメニューは画面小さくなったら表示 -->
+        <button class="navbar-toggler collapsed float-right" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
       <div class="collapse navbar-collapse" id="Navbar">
+
         <ul class="navbar-nav mr-auto d-block d-md-none" style="width:100%">
-          <li class="nav-item">
+          <li class="nav-item mt-4 mb-2">
             <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/">ホーム</a>
           </li>
 
           <!-- ABOUTドロップダウン -->
-          <li class="nav-item">
+          <li class="nav-item mt-2 mb-2">
             <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonCompany" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               企業情報
               <span class="caret"></span>
             </button>
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonCompany">
-              <li class="text-center hs-a"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/company">会社概要</a></li>
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/philosophy">企業理念</a></li>
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/partner-synergy">パートナーシナジー</a></li>
+              <li class="text-center hs-a mt-2"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/company">会社概要</a></li>
+              <li class="text-center hs-a mt-3"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/philosophy">企業理念</a></li>
+              <li class="text-center hs-a mt-3 mb-2"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/partner-synergy">パートナーシナジー</a></li>
             </ul>
           </li>
 
-          <li class="nav-item">
+          <li class="nav-item mt-2 mb-2">
             <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/service">サービス</a>
           </li>
 
           <!-- RECRUITドロップダウン -->
-          <li class="nav-item">
+          <li class="nav-item mt-2 mb-2">
             <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonRECRUIT" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               採用情報
               <span class="caret"></span>
             </button>
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonRecruit">
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/job-category">募集一覧</a></li>
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/welfare">福利厚生</a></li>
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/training">教育・研修</a></li>
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/voices">社員の声</a></li>
-              <li class="text-center hs-a pt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/application-form">エントリー</a></li>
+              <li class="text-center hs-a mt-2"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/job-category">募集一覧</a></li>
+              <li class="text-center hs-a mt-3"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/welfare">福利厚生</a></li>
+              <li class="text-center hs-a mt-3"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/training">教育・研修</a></li>
+              <li class="text-center hs-a mt-3"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/voices">社員の声</a></li>
+              <li class="text-center hs-a mt-3 mb-2"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/application-form">エントリー</a></li>
             </ul>
           </li>
 
-          <li class="nav-item">
+          <li class="nav-item mt-2 mb-4">
             <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/contact">お問合せ</a>
           </li>
 

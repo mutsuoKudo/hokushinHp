@@ -12,7 +12,6 @@ li {
 
 a {
     text-decoration: none !important;
-    /* color: #444 !important; */
     color: #444;
 }
 
@@ -54,6 +53,10 @@ address {
     margin: 0 auto;
     font-size: 0.8rem !important;
     /* color: #444 !important; */
+}
+
+.hs-sub-nuv-btn:hover {
+    color: #f39e15 !important;
 }
 
 .hs-nav-effect a {
@@ -129,6 +132,7 @@ address {
 
 .hs-nav-link-font {
     font-size: 0.8rem;
+    display: inline !important;
     font-weight: normal;
 }
 
