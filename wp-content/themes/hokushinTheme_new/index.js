@@ -85,7 +85,7 @@ $(function() {
         var timer_id;
         var i = 0;
         timer_id = setInterval(function() {
-            console.log(i);
+            // console.log(i);
             i++;
             if (i == 2) {　 //回数指定（ホクシンロゴ+WE ARE RPA…）
                 clearInterval(timer_id);
