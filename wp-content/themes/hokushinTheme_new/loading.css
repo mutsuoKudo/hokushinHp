@@ -1,0 +1,535 @@
+@charset "UTF-8";
+
+/* *****************************
+ * Import file to Scss or Sass.
+ **************************** */
+
+@import "https://fonts.googleapis.com/css?family=Cormorant+Upright";
+
+/*! sanitize.css v3.3.0 | CC0 1.0 Public Domain | github.com/10up/sanitize.css */
+
+
+/*
+ * Normalization
+ */
+
+abbr[title] {
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+button {
+    -webkit-appearance: button;
+    overflow: visible;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+button:-moz-focusring,
+input:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+details {
+    display: block;
+}
+
+hr {
+    overflow: visible;
+}
+
+html {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+}
+
+input {
+    -webkit-border-radius: 0;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+}
+
+input[type="number"] {
+    width: auto;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+main {
+    display: block;
+}
+
+pre {
+    overflow: auto;
+}
+
+progress {
+    display: inline-block;
+}
+
+summary {
+    display: block;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+template {
+    display: none;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[hidden] {
+    display: none;
+}
+
+
+/*
+ * Universal inheritance
+ */
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+::before,
+::after {
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+
+/*
+ * Opinionated defaults
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::before,
+::after {
+    border-style: solid;
+    border-width: 0;
+}
+
+a,
+area,
+button,
+input,
+label,
+select,
+textarea,
+[tabindex] {
+    touch-action: manipulation;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select::-ms-value {
+    color: currentColor;
+}
+
+svg {
+    fill: currentColor;
+}
+
+[aria-busy="true"] {
+    cursor: progress;
+}
+
+[aria-controls] {
+    cursor: pointer;
+}
+
+[aria-disabled] {
+    cursor: default;
+}
+
+[hidden][aria-hidden="false"] {
+    clip: rect(0 0 0 0);
+    display: inherit;
+    position: absolute;
+}
+
+[hidden][aria-hidden="false"]:focus {
+    clip: auto;
+}
+
+
+/*
+ * Configurable defaults
+ */
+
+* {
+    background-repeat: no-repeat;
+}
+
+:root {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: default;
+    font: 100%/1.5 sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+button,
+input,
+select,
+textarea {
+    background-color: transparent;
+    color: inherit;
+}
+
+button,
+[type="button"],
+[type="date"],
+[type="datetime"],
+[type="datetime-local"],
+[type="email"],
+[type="month"],
+[type="number"],
+[type="password"],
+[type="reset"],
+[type="search"],
+[type="submit"],
+[type="tel"],
+[type="text"],
+[type="time"],
+[type="url"],
+[type="week"],
+select,
+textarea {
+    min-height: 1.5em;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+}
+
+nav ol,
+nav ul {
+    list-style: none;
+}
+
+small {
+    font-size: 75%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+::-moz-selection {
+    background-color: #b3d4fc;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+::selection {
+    background-color: #b3d4fc;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+
+/*utilities*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.mt1em {
+    margin-top: 1em;
+}
+
+.mt1_5em {
+    margin-top: 1.5em;
+}
+
+.mt2em {
+    margin-top: 2em;
+}
+
+
+/*default*/
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    color: #444;
+    font-weight: 500;
+}
+
+
+/* Opening(loading画面ここから)
+-----------------------------------------*/
+
+.Opening {
+    position: relative;
+    background-color: #FFF;
+}
+
+.Opening ul li {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.Opening ul li img.Opening__text {
+    position: absolute;
+    /* top: 50%; */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+.Opening__text {
+    animation-name: opening-text-start;
+    /* 一回分の時間 */
+    animation-duration: 6s;
+    /* 繰り返し回数 */
+    animation-iteration-count: 1;
+    /* 開始と完了を滑らかにする*/
+    animation-timing-function: ease;
+    /* 終了後の状態 */
+    animation-fill-mode: forwards;
+}
+
+@keyframes opening-text-start {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    10% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    70% {
+        visibility: visible;
+        opacity: 1;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
+/* .Opening ul li span {} */
+
+.Opening ul li span img.Opening__img {
+    max-width: inherit;
+    width: 100%;
+    height: auto;
+}
+
+
+/*  小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .Opening__text {
+        width: 50%;
+    }
+}
+
+
+/* Opening(loading画面ここまで)
+-----------------------------------------*/
+
+
+/* ローディング画面ここから */
+
+.hs-load-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+/* ローディング画像サイズ↓（画面幅に応じて可変）*/
+
+
+/* 中デバイス（タブレット, 992px 未満） */
+
+@media (max-width: 991.98px) {
+    .hs-load-img {
+        width: 75%;
+        position: relative;
+        top: 25%;
+    }
+}
+
+
+/* 大デバイス（デスクトップ, 992px 以上） */
+
+@media (min-width: 992px) {
+    .hs-load-img {
+        width: 25%;
+        position: relative;
+        top: 25%;
+    }
+}
+
+
+/* ローディング画面ここまで */
+
+body {
+    background: url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-purple.svg);
+}
+
+body {
+    color: #444;
+    background-color: transparent !important;
+    overflow-x: hidden;
+}
+
+
+/* 最初の読み込み部分ここから */
+
+
+/* すべてを包むコンテナ。画面からはみ出る部分は隠して、最初は隠しておく。
+のちのanimationでdisplay:blockになるよ。 */
+
+.hs-base-container {
+    display: none;
+    overflow: hidden;
+}
+
+.hs-body {
+    transition: all 2s;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hs-body-start {
+    animation-name: body-start;
+    /* 一回分の時間 */
+    animation-duration: 3s;
+    /* 繰り返し回数 */
+    animation-iteration-count: 1;
+    /* ゆっくり始まってゆっくり終わる */
+    animation-timing-function: ease;
+    /* 終了後の状態 */
+    animation-fill-mode: forwards;
+}
+
+@keyframes body-start {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    50% {
+        visibility: visible;
+        opacity: 1;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
+/* 最初の読み込み部分ここまで */

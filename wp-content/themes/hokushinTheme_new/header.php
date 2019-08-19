@@ -24,19 +24,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0,IE=edge">
   <meta http-equiv="X-UA-TextLayoutMetrics" content="gdi" />
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
-  <script src="<?php bloginfo('stylesheet_directory'); ?>/jQuery_311.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
-  <script src="<?php bloginfo('stylesheet_directory'); ?>/parallax_310.js"></script>
+
+
+  <!-- loading.cssを読み込む -->
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/loading.css">
 
   <!-- style.cssを読み込む -->
-  <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
+  <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- bootstrap -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- index.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index.css">
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index.css" media="print" onload="this.media='all'">
   <!-- common.cssを読み込む -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/common.css" media="print" onload="this.media='all'">
   <!-- hokushin_old.cssを読み込む -->
