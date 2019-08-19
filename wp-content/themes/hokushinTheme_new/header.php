@@ -33,14 +33,14 @@
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
   <!-- bootstrap -->
-  <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- index.cssを読み込む -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index.css">
   <!-- common.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/common.css">
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/common.css" media="print" onload="this.media='all'">
   <!-- hokushin_old.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" />
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" media="print" onload="this.media='all'">
 
 
 
