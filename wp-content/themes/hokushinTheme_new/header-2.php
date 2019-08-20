@@ -1,4 +1,4 @@
-<!-- 新規HP（ナビゲーションバーコンテンツ）用ヘッダー -->
+<!-- ナビゲーションバーコンテンツ用ヘッダー -->
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -14,23 +14,13 @@
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
   <!-- hokushin_old.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" />
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" rel="stylesheet">
 
   <!-- recruit.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/recruit.css" rel="stylesheet">
 
-  <!-- common.cssを読み込む -->
-  <link href="<?php bloginfo('stylesheet_directory'); ?>/common.css" rel="stylesheet">
-
-  <!-- <link rel="shortcut icon" href="http://hokusys.jp/wp-content/themes/hokushinTheme/images/favicon.ico"> -->
-
   <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
-  <script src="<?php bloginfo('stylesheet_directory'); ?>/jQuery_341.js"></script>
 
   <?php wp_head(); ?>
 </head>
@@ -52,7 +42,7 @@
               <span data-hover="企業情報">企業情報</span></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
               <a class="dropdown-item hs-dropdown-item mt-0" href="<?php bloginfo('url'); ?>/company">会社概要</a>
-              <a class="dropdown-item hs-dropdown-item" href="<?php bloginfo('url'); ?>/philosophy">企業理念</a>
+              <a class="dropdown-item hs-dropdown-item" href="<?php bloginfo('url'); ?>/philosophy">理念</a>
               <a class="dropdown-item hs-dropdown-item" href="<?php bloginfo('url'); ?>/partner-synergy">パートナーシナジー</a>
             </div>
           </li>
@@ -106,7 +96,7 @@
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonCompany">
               <li class="text-center hs-a mt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/company">会社概要</a></li>
-              <li class="text-center hs-a mt-3"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/philosophy">企業理念</a></li>
+              <li class="text-center hs-a mt-3"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/philosophy">理念</a></li>
               <li class="text-center hs-a mt-3 mb-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/partner-synergy">パートナーシナジー</a></li>
             </ul>
           </li>

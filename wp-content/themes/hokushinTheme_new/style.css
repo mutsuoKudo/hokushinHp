@@ -202,11 +202,6 @@ input:focus:required:invalid+div .invalid {
     height: 40vh !important;
 }
 
-.page-content-application-form {
-    background-image: url(images/rec_img.jpg);
-    height: 15vh;
-}
-
 .page-content-partner-synergy,
 .page-content-philosophy {
     background-image: url(images/about.png);
@@ -226,82 +221,3 @@ input:focus:required:invalid+div .invalid {
     background-image: url(images/policy.png);
     height: 15vh;
 }
-
-
-/* Opening(loading画面ここから)
------------------------------------------*/
-
-.Opening {
-    position: relative;
-    background-color: #FFF;
-}
-
-.Opening ul li {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    text-align: center;
-}
-
-.Opening ul li img.Opening__text {
-    position: absolute;
-    /* top: 50%; */
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    z-index: 9;
-}
-
-.Opening__text {
-    animation-name: opening-text-start;
-    /* 一回分の時間 */
-    animation-duration: 6s;
-    /* 繰り返し回数 */
-    animation-iteration-count: 1;
-    /* 開始と完了を滑らかにする*/
-    animation-timing-function: ease;
-    /* 終了後の状態 */
-    animation-fill-mode: forwards;
-}
-
-@keyframes opening-text-start {
-    0% {
-        visibility: hidden;
-        opacity: 0;
-    }
-    10% {
-        visibility: hidden;
-        opacity: 0;
-    }
-    70% {
-        visibility: visible;
-        opacity: 1;
-    }
-    100% {
-        visibility: visible;
-        opacity: 1;
-    }
-}
-
-
-/* .Opening ul li span {} */
-
-.Opening ul li span img.Opening__img {
-    max-width: inherit;
-    width: 100%;
-    height: auto;
-}
-
-
-/*  小デバイス（横向きモバイル, 768px 未満） */
-
-@media (max-width: 767.98px) {
-    .Opening__text {
-        width: 50%;
-    }
-}
-
-
-/* Opening(loading画面ここまで)
------------------------------------------*/

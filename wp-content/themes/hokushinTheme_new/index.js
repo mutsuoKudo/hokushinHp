@@ -130,19 +130,6 @@ $(function() {
 })(jQuery);
 
 
-
-//全ての読み込みが完了したら実行
-// $(window).on('load', function () {
-//     var now = new Date().getTime();
-//     // ロードが3秒以内で終わる場合はloadingを5秒間表示する
-//     if (now - time <= 3000) {
-//         setTimeout('stopload()', 5000 - (now - time));
-//         return;
-//     } else {
-//         stopload();
-//     }
-// });
-
 //6秒たったら強制的にロード画面を非表示
 $(function() {
     setTimeout('stopload()', 6000);

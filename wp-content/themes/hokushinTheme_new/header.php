@@ -1,4 +1,4 @@
-<!-- 新規HP（TOP）に組み込むようヘッダー -->
+<!-- 新規TOPに組み込むようヘッダー -->
 <!DOCTYPE html>
 <html>
 
@@ -24,26 +24,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0,IE=edge">
   <meta http-equiv="X-UA-TextLayoutMetrics" content="gdi" />
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
-  <script src="<?php bloginfo('stylesheet_directory'); ?>/jQuery_311.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
-  <script src="<?php bloginfo('stylesheet_directory'); ?>/parallax_310.js"></script>
+
+
+  <!-- loading.cssを読み込む -->
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/loading.css">
 
   <!-- style.cssを読み込む -->
-  <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
+  <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- bootstrap -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- index.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index.css">
-  <!-- common.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/common.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index.css" media="print" onload="this.media='all'">
+
   <!-- hokushin_old.cssを読み込む -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" media="print" onload="this.media='all'">
-
-
-
+  
+  <?php wp_head(); ?>
 </head>
 
 <body class="hs-body-start hs-hide hs-body">
@@ -80,7 +78,7 @@
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonCompany">
               <li class="text-center hs-a mt-2"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/company">会社概要</a></li>
-              <li class="text-center hs-a mt-3"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/philosophy">企業理念</a></li>
+              <li class="text-center hs-a mt-3"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/philosophy">理念</a></li>
               <li class="text-center hs-a mt-3 mb-2"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/partner-synergy">パートナーシナジー</a></li>
             </ul>
           </li>
@@ -134,7 +132,7 @@
                 <a href="<?php bloginfo('url'); ?>/company" class="m-0 text-center">会社概要</a>
               </li>
               <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/philosophy" class="m-0 text-center">企業理念</a>
+                <a href="<?php bloginfo('url'); ?>/philosophy" class="m-0 text-center">理念</a>
               </li>
               <li class="text-center">
                 <a href="<?php bloginfo('url'); ?>/partner-synergy" class="m-0 text-center">パートナーシナジー</a>
