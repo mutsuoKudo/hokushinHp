@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home
+Template Name: 新規TOP
 */
 ?>
 <?php get_header(); ?>
@@ -32,7 +32,7 @@ Template Name: Home
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
                     </a>
                 </p>
-                <p class="hs-circle-icon-fukidashi">企業理念</p>
+                <p class="hs-circle-icon-fukidashi">理念</p>
             </div>
         </div>
         <div class="position-absolute" style="left: 25%;top: 15%; width:7%">
@@ -112,69 +112,69 @@ Template Name: Home
                     <ul class="hs-topimage-ul">
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/hrPayroll.svg" border="0" class="hs-hide hs-left-topimage">
+                                <img src="wp-content/uploads/2019/07/hrPayroll.svg" alt="" class="hs-hide hs-left-topimage">
                             </a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/salesForceAutomation.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/salesForceAutomation.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/marchandiseManagement.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/marchandiseManagement.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/inventoryManagement.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/inventoryManagement.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/autonomyTransition.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/autonomyTransition.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquency.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquency.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/propertyTax.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/propertyTax.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/nationalHealethInsurance.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/nationalHealethInsurance.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/long-termCareInsurance.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/long-termCareInsurance.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/forElderly.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/forElderly.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/registrationOfseniorResident.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/registrationOfseniorResident.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/electronicHealthRecord.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/electronicHealthRecord.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/posForpharmacy.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/posForpharmacy.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCare.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCare.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/salesManagement.svg" border="0" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/salesManagement.svg" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
                         <!-- 最後の画像に#lastをつける -->
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/smartphoneGame.svg" border="0" id="left-last" class="hs-hide hs-left-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/smartphoneGame.svg" alt="" id="left-last" class="hs-hide hs-left-topimage"></a>
                         </li>
                     </ul>
                 </div>
@@ -415,71 +415,70 @@ Template Name: Home
                     <ul class="hs-topimage-ul">
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/forElderlyImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/forElderlyImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/salesManagementImg.svg" border="0" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/salesManagementImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
                         </li>
                         <!-- 最後の画像に.lastをつける -->
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" border="0" id="right-last" class="hs-hide hs-right-topimage"></a>
+                                <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" alt="" id="right-last" class="hs-hide hs-right-topimage"></a>
                         </li>
                     </ul>
-                    </h2>
                 </div>
                 <!-- </div> -->
 

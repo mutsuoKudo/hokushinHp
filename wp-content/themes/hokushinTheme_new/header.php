@@ -1,4 +1,4 @@
-<!-- 新規HP（TOP）に組み込むようヘッダー -->
+<!-- 新規TOPに組み込むようヘッダー -->
 <!DOCTYPE html>
 <html>
 
@@ -37,13 +37,11 @@
 
   <!-- index.cssを読み込む -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index.css" media="print" onload="this.media='all'">
-  <!-- common.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/common.css" media="print" onload="this.media='all'">
+
   <!-- hokushin_old.cssを読み込む -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" media="print" onload="this.media='all'">
-
-
-
+  
+  <?php wp_head(); ?>
 </head>
 
 <body class="hs-body-start hs-hide hs-body">
@@ -80,7 +78,7 @@
             <!-- ドロップメニューの設定 -->
             <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonCompany">
               <li class="text-center hs-a mt-2"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/company">会社概要</a></li>
-              <li class="text-center hs-a mt-3"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/philosophy">企業理念</a></li>
+              <li class="text-center hs-a mt-3"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/philosophy">理念</a></li>
               <li class="text-center hs-a mt-3 mb-2"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/partner-synergy">パートナーシナジー</a></li>
             </ul>
           </li>
@@ -134,7 +132,7 @@
                 <a href="<?php bloginfo('url'); ?>/company" class="m-0 text-center">会社概要</a>
               </li>
               <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/philosophy" class="m-0 text-center">企業理念</a>
+                <a href="<?php bloginfo('url'); ?>/philosophy" class="m-0 text-center">理念</a>
               </li>
               <li class="text-center">
                 <a href="<?php bloginfo('url'); ?>/partner-synergy" class="m-0 text-center">パートナーシナジー</a>
