@@ -202,11 +202,6 @@ input:focus:required:invalid+div .invalid {
     height: 40vh !important;
 }
 
-.page-content-application-form {
-    background-image: url(images/rec_img.jpg);
-    height: 15vh;
-}
-
 .page-content-partner-synergy,
 .page-content-philosophy {
     background-image: url(images/about.png);

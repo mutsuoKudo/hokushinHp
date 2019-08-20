@@ -1,4 +1,4 @@
-<!-- 新規HP（募集要項）用ヘッダー -->
+<!-- 募集要項用ヘッダー -->
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -19,20 +19,8 @@
   <!-- recruit.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/recruit.css" rel="stylesheet">
 
-  <!-- common.cssを読み込む -->
-  <link href="<?php bloginfo('stylesheet_directory'); ?>/common.css" rel="stylesheet">
-
-
-  <!-- <link rel="shortcut icon" href="http://hokusys.jp/wp-content/themes/hokushinTheme/images/favicon.ico"> -->
-
-
   <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
-  <script src="<?php bloginfo('stylesheet_directory'); ?>/jQuery_341.js"></script>
 
   <?php wp_head(); ?>
 </head>

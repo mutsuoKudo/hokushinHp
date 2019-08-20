@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home
+Template Name: 新規TOP
 */
 ?>
 <?php get_header(); ?>
@@ -32,7 +32,7 @@ Template Name: Home
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
                     </a>
                 </p>
-                <p class="hs-circle-icon-fukidashi">企業理念</p>
+                <p class="hs-circle-icon-fukidashi">理念</p>
             </div>
         </div>
         <div class="position-absolute" style="left: 25%;top: 15%; width:7%">
