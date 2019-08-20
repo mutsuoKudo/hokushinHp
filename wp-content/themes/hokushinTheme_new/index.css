@@ -301,8 +301,6 @@
     animation-name: right-fadein;
     /* 一回分の時間 */
     animation-duration: 5s;
-    /* いつ始まるか */
-    /* animation-delay: 5s; */
     /* 繰り返し回数 */
     animation-iteration-count: 1;
     /* ゆっくり始まってゆっくり終わる */
@@ -416,10 +414,6 @@
 
 
 /* フッターここから */
-
-#footer-content {
-    text-align: left !important;
-}
 
 .hs-footer {
     background-color: lightgray;
