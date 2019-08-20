@@ -1,10 +1,11 @@
-<footer class="hs-footer d-flex">
+ <!-- top以外用フッター -->
+ <footer class="hs-footer d-flex">
   <!-- START footer -->
   <div id="footer-content" class="w-55">
     <div class="clearfix footer-add-wrap">
 
       <div id="footer-comtent-comp" class="clearfix hs-w80">
-        <div id="footer-comtent-comp-left" class="hs-footer-logo-conteiner">
+        <div id="footer-comtent-comp-left" class="hs-footer-logo-container">
           <a href="<?php bloginfo('url'); ?>/">
             <!-- ホクシンシステムのロゴ -->
             <div id="footer-logo"></div>
@@ -27,16 +28,20 @@
     </div>
     <small class="hs-footer-small">&copy;HOKUSHIN Inc. All Right Reserved.</small>
   </div>
-</footer><!-- END footer -->
+</footer>
+<!-- END footer -->
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script> -->
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/jQuery@3"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/jQuery_341.js"></script>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/jQuery@3.js"></script>
 
-<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script> -->
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" ></script>
+
+<!-- clickablemapのレスポンシブ対応用 ＊common.jsより下にすると（jQuery('img[usemap]').rwdImageMaps();より先に読み込まないと）動かなくなるので注意-->
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/jquery.rwdImageMaps.js"></script>
+
+ <!-- 共通JS -->
+ <script src="<?php bloginfo('stylesheet_directory'); ?>/common.js"></script>
 
 <?php wp_footer(); ?>
 </body>

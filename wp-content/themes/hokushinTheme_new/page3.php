@@ -1,5 +1,5 @@
 <!-- 新規HP（募集要項）用ページ -->
-<?php /* Template Name: 新規募集要項用ページ */ ?>
+<?php /* Template Name: 募集要項用ページ */ ?>
 
 <?php get_header(3); ?>
 
@@ -8,7 +8,5 @@
 <?php the_content(); ?>
 
 <?php endwhile; endif; ?>
-
-
 
 <?php get_footer(); ?>

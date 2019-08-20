@@ -1,13 +1,4 @@
 <?php
-//カスタムメニュー
-register_nav_menus( //メニュー機能をオンにする
-array(
-'place_global' => 'グローバル', //“メニュー英語名” =>”メニュー名”,
-'place_utility' => 'ユーティリティ',
-'place_sidebar' => 'サイドメニュー',
-'place_footer' => 'フッター',
-)
-);
 
 // Add SVG support SVGファイルをアップロードできるようにする
 function custom_mime_types( $mimes ) {
@@ -15,5 +6,34 @@ function custom_mime_types( $mimes ) {
   return $mimes;
 }
 add_filter( 'upload_mimes', 'custom_mime_types' );
+
+
+//エントリーボタンから応募フォームに希望職種を渡す
+function kaiza_form_select_filter($tag) {
+  $formName = 'job-category'; //プルダウン名
+  if ( ! is_array( $tag ) )
+      return $tag;
+  if( isset($_GET[$formName]) ) {
+      $name = $tag['name'];
+      if( $name === $formName ) {
+          if( is_array( $tag['values'] ) ) {
+              $index = $_GET[$formName];
+              if( $index !== false ) {
+                  $tag['options'][$key] = 'default:' . $index; //デフォルト値設定
+              }
+          }
+      }
+  }
+  return $tag;
+}
+add_filter( 'wpcf7_form_tag', 'kaiza_form_select_filter', 11, 2);
+
+
+//shortcode
+function svg_func( $atts, $content = "" )  {
+    return '<svg class="m-icon--'.$content.'"><use xlink:href="#'.$content.'"></use></svg>';
+}
+add_shortcode( 'svg', 'svg_func' );
+
 ?>
 

@@ -1,4 +1,4 @@
-<!-- 新規HP（募集要項）用ヘッダー -->
+<!-- 募集要項用ヘッダー -->
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -19,20 +19,8 @@
   <!-- recruit.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/recruit.css" rel="stylesheet">
 
-  <!-- common.cssを読み込む -->
-  <link href="<?php bloginfo('stylesheet_directory'); ?>/common.css" rel="stylesheet">
-
-
-  <!-- <link rel="shortcut icon" href="http://hokusys.jp/wp-content/themes/hokushinTheme/images/favicon.ico"> -->
-
-
   <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
-  <script src="<?php bloginfo('stylesheet_directory'); ?>/jQuery_341.js"></script>
 
   <?php wp_head(); ?>
 </head>
@@ -41,11 +29,10 @@
 
     <header class="w-max"><!-- START header -->
         <div class="hs-w-980 w-980 clearfix">
-            <h1 id="header-logo" class="hs-h1"><a href="<?php bloginfo('url'); ?>/"></a></h1>
+            <h1 id="header-logo" class="hs-h1"><a href="<?php bloginfo('url'); ?>/company"></a></h1>
             <nav class="menu-head-container">
-                <!-- <a href="recruit.html" class="btn-border">募集職種一覧へ</a> -->
-                <div class="hs-a-button">
-                  <a href="<?php bloginfo('url'); ?>/recruit" class="btn-square-shadow">募集職種一覧へ</a>
+                <div class="hs-a-button hs-a">
+                  <a href="<?php bloginfo('url'); ?>/job-category" class="btn-square-shadow">募集職種一覧へ</a>
                 </div>
             </nav>
         </div>
