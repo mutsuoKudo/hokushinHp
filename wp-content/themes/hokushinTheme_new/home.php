@@ -184,8 +184,8 @@ Template Name: 新規TOP
 
                 <!-- 中央の画像 -->
                 <!-- <div class="hs-dt-topimage-center-layout1"> -->
-                    <div class="hs-topimage-inner-container">
-                            <div class="position-relative w-100">
+                <div class="hs-topimage-inner-container">
+                    <div class="position-relative w-100">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 140.5 175.48" class="w-100 h-100">
                             <defs>
                                 <style>
