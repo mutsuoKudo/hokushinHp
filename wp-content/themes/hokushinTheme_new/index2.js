@@ -141,80 +141,9 @@ $(function() {
 function stopload() {
     setTimeout(function() {
         $('.hs-base-container').fadeIn().css('display', 'block');
-        // デスクトップ用左側スライドショー
-        $(function() {
-            $(".hs-left-topimage").each(function(i) {
-                if (i == 0) {
-                    setTimeout(function() {
-                        $(".hs-left-topimage").eq(0).addClass("hs-left-fade");
-                    }, 1000);
-                }
-                setTimeout(function() {
-                    $(".hs-left-topimage").eq(i - 1).removeClass("hs-left-fade");
-                    $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
-                }, 5000 * i);
-            });
-        });
+        $(".hs-left-topimage").fadeIn().css('visibility', 'visible');
+        $(".hs-right-topimage").fadeIn().css('visibility', 'visible');
 
-
-        // ②週目以降
-        $(function() {
-            $("#left-last").on('webkitAnimationEnd', function() {
-                $(".hs-left-topimage").removeClass("hs-left-fade");
-
-                $(function() {
-                    $(".hs-left-topimage").each(function(i) {
-                        if (i == 0) {
-                            setTimeout(function() {
-                                $(".hs-left-topimage").eq(0).addClass("hs-left-fade");
-                            }, 0);
-                        }
-                        setTimeout(function() {
-                            $(".hs-left-topimage").eq(i - 1).removeClass("hs-left-fade");
-                            $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
-                        }, 5000 * i);
-                    });
-                });
-            });
-        });
-
-
-        // デスクトップ用右側スライドショー
-        $(function() {
-            $(".hs-right-topimage").each(function(i) {
-                if (i == 0) {
-                    setTimeout(function() {
-                        $(".hs-right-topimage").eq(0).addClass("hs-right-fade");
-                    }, 1000);
-                }
-                setTimeout(function() {
-                    $(".hs-right-topimage").eq(i - 1).removeClass("hs-right-fade");
-                    $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
-                }, 5000 * i);
-            });
-        });
-
-
-        // ②週目以降
-        $(function() {
-            $("#right-last").on('webkitAnimationEnd', function() {
-                $(".hs-right-topimage").removeClass("hs-right-fade");
-
-                $(function() {
-                    $(".hs-right-topimage").each(function(i) {
-                        if (i == 0) {
-                            setTimeout(function() {
-                                $(".hs-right-topimage").eq(0).addClass("hs-right-fade");
-                            }, 0);
-                        }
-                        setTimeout(function() {
-                            $(".hs-right-topimage").eq(i - 1).removeClass("hs-right-fade");
-                            $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
-                        }, 5000 * i);
-                    });
-                });
-            });
-        });
 
         // 中央画像色変え
         function roopFunc() {
