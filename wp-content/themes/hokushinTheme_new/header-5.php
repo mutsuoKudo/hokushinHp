@@ -1,5 +1,4 @@
 <!-- 新規TOP(iphone用)に組み込むようヘッダー -->
-<!-- 新規TOPに組み込むようヘッダー -->
 <!DOCTYPE html>
 <html>
 
@@ -31,10 +30,11 @@
   <?php wp_head(); ?>
 </head>
 
-<body class="hs-body position-relative" style="background:none; overflow-x:hidden;">
+<!-- <body class="hs-body hs-body-start hs-hide position-relative" style="background:none; overflow-x:hidden;"> -->
+<body class="hs-body hs-body-start hs-hide position-relative" style="background:none; overflow-x:hidden;">
   <!-- *このdivはhome.php内で閉じられるのでここでは閉じなくてOK -->
   <!-- <div class="hs-base-container hs-body-start"> 7/31より前-->
-  <div class="hs-base-container d-block">
+  <div class="hs-base-container">
 
 
 
