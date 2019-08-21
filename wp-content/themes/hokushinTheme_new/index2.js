@@ -144,47 +144,6 @@ function stopload() {
         $(".hs-left-topimage").fadeIn().css('visibility', 'visible');
         $(".hs-right-topimage").fadeIn().css('visibility', 'visible');
 
-
-        // 中央画像色変え
-        function roopFunc() {
-            setTimeout(function() {
-                $("#hokushin ").addClass("hs-fill1 ");
-            }, 0);
-            setTimeout(function() {
-                $("#hokushin ").addClass("hs-fill2 ");
-            }, 5000);
-            setTimeout(function() {
-                $("#hokushin ").addClass("hs-fill3 ");
-            }, 10000);
-            setTimeout(function() {
-                $("#hokushin ").addClass("hs-fill4 ");
-            }, 15000);
-            setTimeout(function() {
-                $("#hokushin ").addClass("hs-fill5 ");
-            }, 20000);
-            setTimeout(function() {
-                $("#hokushin ").addClass("hs-fill6 ");
-            }, 25000);
-            setTimeout(function() {
-                $("#hokushin ").addClass("hs-fill7 ");
-            }, 30000);
-            setTimeout(function() {
-                $("#hokushin ").addClass("hs-fill8 ");
-                $("#hokushin ").removeClass("hs-fill2 ");
-                $("#hokushin ").removeClass("hs-fill3 ");
-                $("#hokushin ").removeClass("hs-fill4 ");
-                $("#hokushin ").removeClass("hs-fill5 ");
-                $("#hokushin ").removeClass("hs-fill6 ");
-                $("#hokushin ").removeClass("hs-fill7 ");
-                setTimeout(function() {
-                    $("#hokushin ").removeClass("hs-fill8 ");
-                    roopFunc(); //最初へ
-                }, 10000);
-            }, 40000);
-
-        };
-        roopFunc();
-
     }, 1000);
     $('#hs-load').fadeOut(800);
 }
