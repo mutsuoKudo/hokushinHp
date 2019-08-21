@@ -7,7 +7,7 @@ $(function() {
     var h = $(window).height();
     $('#hs-load').height(h).css('display', 'block'); //高さ
     $('#hs-load').css('overflow', 'hidden');　 //幅
-    $('body').css('background-image', 'none');
+    // $('body').css('background-image', 'none');
 });
 
 (function($) {
@@ -57,8 +57,8 @@ $(function() {
     //slide
     $(function() {
         setimage();
-        var $interval = 1500;　 //切り替わりの間隔（ミリ秒）
-        var $fade_speed = 1500;　 //フェード処理の速さ（ミリ秒）
+        var $interval = 3000;　 //切り替わりの間隔（ミリ秒）
+        var $fade_speed = 3000;　 //フェード処理の速さ（ミリ秒）
         $(".Opening ul li").hide().css({
             "position": "absolute",
             "top": 0,
@@ -134,7 +134,7 @@ $(function() {
 
 //6秒たったら強制的にロード画面を非表示
 $(function() {
-    setTimeout('stopload()', 6000);
+    setTimeout('stopload()', 10000);
 });
 
 // ロード画面を非表示にしてメイン画面と動きをスタートさせる

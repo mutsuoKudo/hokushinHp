@@ -31,7 +31,7 @@
 </head>
 
 <!-- <body class="hs-body hs-body-start hs-hide position-relative" style="background:none; overflow-x:hidden;"> -->
-<body class="hs-body hs-body-start hs-hide position-relative" style="background:none; overflow-x:hidden;">
+<body class="hs-body hs-body-start hs-hide position-relative" style="overflow-x:hidden;">
   <!-- *このdivはhome.php内で閉じられるのでここでは閉じなくてOK -->
   <!-- <div class="hs-base-container hs-body-start"> 7/31より前-->
   <div class="hs-base-container">
