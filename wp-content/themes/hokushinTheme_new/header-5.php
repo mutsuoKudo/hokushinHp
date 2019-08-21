@@ -1,34 +1,9 @@
+<!-- 新規TOP(iphone用)に組み込むようヘッダー -->
 <!-- 新規TOPに組み込むようヘッダー -->
 <!DOCTYPE html>
 <html>
 
 <head>
-
-  <?php
-  global $is_IE;
-  global $is_iphone;
-  // global $is_sfari
-
-  if ($is_IE) {
-    // http_response_code( 301 ) ;
-
-    $location =  home_url() . "/home2";
-
-    // var_dump($llocation);
-
-    wp_redirect($location, 301);
-    exit;
-  }elseif ($is_iphone) {
-    // http_response_code( 301 ) ;
-
-    $location =  home_url() . "/home3";
-
-    // var_dump($llocation);
-
-    wp_redirect($location, 301);
-    exit;
-  }
-  ?>
 
   <title><?php bloginfo('name'); ?> | <?php wp_title(); ?></title>
 
@@ -56,10 +31,10 @@
   <?php wp_head(); ?>
 </head>
 
-<body class="hs-body-start hs-hide hs-body">
+<body class="hs-body">
   <!-- *このdivはhome.php内で閉じられるのでここでは閉じなくてOK -->
   <!-- <div class="hs-base-container hs-body-start"> 7/31より前-->
-  <div class="hs-base-container">
+  <div class="hs-base-container d-block">
 
 
 
@@ -122,67 +97,3 @@
         </ul>
       </div>
     </nav>
-
-
-    <!-- ナビゲーションバー -->
-    <div class="hs-nav">
-      <!-- ナビゲーションバー　デスクトップ用（タブレット以上で表示） -->
-      <nav class="d-none d-md-block hs-nav-container">
-        <div class="hs-nav-effect p-1">
-          <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/"><span data-hover="ホーム">ホーム</span></a>
-          </div>
-
-          <!-- ABOUTドロップダウン -->
-          <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/company" class="dropdown-toggle" data-toggle="dropdown" role="button">
-              <span data-hover="企業情報">企業情報</span>
-            </a>
-
-            <ul class="dropdown-menu pt-3" role="menu">
-              <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/company" class="m-0 text-center">会社概要</a>
-              </li>
-              <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/philosophy" class="m-0 text-center">理念</a>
-              </li>
-              <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/partner-synergy" class="m-0 text-center">パートナーシナジー</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/service"><span data-hover="サービス">サービス</span></a>
-          </div>
-
-          <!-- RECRUITドロップダウン -->
-          <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/job-category" class="dropdown-toggle" data-toggle="dropdown" role="button">
-              <span data-hover="採用情報">採用情報</span>
-            </a>
-            <ul class="dropdown-menu pt-3" role="menu">
-              <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/job-category" class="m-0 text-center">募集一覧</a>
-              </li>
-              <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/welfare" class="m-0 text-center">福利厚生</a>
-              </li>
-              <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/training" class="m-0 text-center">教育・研修</a>
-              </li>
-              <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/voices" class="m-0 text-center">社員の声</a>
-              </li>
-              <li class="text-center">
-                <a href="<?php bloginfo('url'); ?>/application-form" class="m-0 text-center">エントリー</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/contact"><span data-hover="お問合せ">お問合せ</span></a>
-          </div>
-        </div>
-      </nav>
-    </div>
