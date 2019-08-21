@@ -398,7 +398,7 @@ body {
         visibility: hidden;
         opacity: 0;
     }
-    10% {
+    15% {
         visibility: hidden;
         opacity: 0;
     }
@@ -426,7 +426,7 @@ body {
 
 @media (max-width: 767.98px) {
     .Opening__text {
-        width: 50%;
+        width: 80%;
     }
 }
 
@@ -474,7 +474,7 @@ body {
 /* ローディング画面ここまで */
 
 body {
-    background: url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-purple.svg);
+    background: url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-orange.svg);
 }
 
 body {
