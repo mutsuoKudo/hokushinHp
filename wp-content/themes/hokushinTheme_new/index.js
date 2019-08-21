@@ -198,7 +198,7 @@ function stopload() {
 
         // ②週目以降
         $(function() {
-            $("#left-last").on('webkitAnimationEnd', function() {
+            $("#right-last").on('webkitAnimationEnd', function() {
                 $(".hs-right-topimage").removeClass("hs-right-fade");
 
                 $(function() {
