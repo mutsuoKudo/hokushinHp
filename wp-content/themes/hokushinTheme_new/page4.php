@@ -18,31 +18,6 @@
                             <li class="hs-topimage-li">
                                 <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/1.png" alt="" class="hs-hide hs-left-topimage">
                             </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/2.png" alt="" class="hs-hide hs-left-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/3.png" alt="" class="hs-hide hs-left-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/12.png" alt="" class="hs-hide hs-left-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/13.png" alt="" class="hs-hide hs-left-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/9.png" alt="" class="hs-hide hs-left-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/15.png" alt="" class="hs-hide hs-left-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/17.png" alt="" class="hs-hide hs-left-topimage">
-                            </li>
-                            <!-- 最後の画像に#lastをつける -->
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/18.png" alt="" id="left-last" class="hs-hide hs-left-topimage">
-                            </li>
                         </ul>
                     </div>
                     <!-- 中央の画像 -->
@@ -259,31 +234,6 @@
                         <ul class="hs-topimage-ul">
                             <li class="hs-topimage-li">
                                 <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/4.png" alt="" class="hs-hide hs-right-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/5.png" alt="" class="hs-hide hs-right-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/14.png" alt="" class="hs-hide hs-right-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/7.png" alt="" class="hs-hide hs-right-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/8.png" alt="" class="hs-hide hs-right-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/6.png" alt="" class="hs-hide hs-right-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/10.png" alt="" class="hs-hide hs-right-topimage">
-                            </li>
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/11.png" alt="" class="hs-hide hs-right-topimage">
-                            </li>
-                            <!-- 最後の画像に#lastをつける -->
-                            <li class="hs-topimage-li">
-                                <img src="http://hokushinsystem.local/wp-content/uploads/2019/08/16.png" alt="" id="right-last" class="hs-hide hs-right-topimage">
                             </li>
                         </ul>
                     </div>
