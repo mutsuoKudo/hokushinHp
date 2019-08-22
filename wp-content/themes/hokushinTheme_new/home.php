@@ -139,49 +139,12 @@ Template Name: 新規TOP
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
                                 <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" id="left-last" alt="" class="hs-hide hs-left-topimage"></a>
                         </li>
-                        <!-- <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" alt="" class="hs-hide hs-left-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/forElderlyImg.svg" alt="" class="hs-hide hs-left-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" alt="" class="hs-hide hs-left-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" alt="" class="hs-hide hs-left-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" alt="" class="hs-hide hs-left-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" alt="" class="hs-hide hs-left-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/salesManagementImg.svg" alt="" class="hs-hide hs-left-topimage"></a>
-                        </li> -->
-                        <!-- 最後の画像に#lastをつける -->
-                        <!-- <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" alt="" id="left-last" class="hs-hide hs-left-topimage"></a>
-                        </li> -->
                     </ul>
                 </div>
-                <!-- </div> -->
-
-
 
                 <!-- 中央の画像 -->
-                <!-- <div class="hs-dt-topimage-center-layout1"> -->
-                    <div class="hs-topimage-inner-container">
-                            <div class="position-relative w-100">
+                <div class="hs-topimage-inner-container">
+                    <div class="position-relative w-100">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 140.5 175.48" class="w-100 h-100">
                             <defs>
                                 <style>
@@ -252,7 +215,6 @@ Template Name: 新規TOP
                                     </g>
                                 </mask>
                             </defs>
-                            <title>topimage2</title>
                             <g class="cls-2">
                                 <g id="レイヤー_18" data-name="レイヤー 18">
                                     <g class="cls-3">
@@ -400,47 +362,13 @@ Template Name: 新規TOP
                         </svg>
                     </div>
                 </div>
-                <!-- </div> -->
 
 
 
                 <!-- 右の画像 -->
-                <!-- <div class="hs-dt-topimage-center-layout1"> -->
                 <div class="hs-topimage-inner-container hs-test-right-layout">
 
                     <ul class="hs-topimage-ul">
-                        <!-- <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
-                        </li>
-                        <li class="hs-topimage-li">
-                            <a href="<?php bloginfo('url'); ?>/service#service-works">
-                                <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
-                        </li> -->
                         <li class="hs-topimage-li">
                             <a href="<?php bloginfo('url'); ?>/service#service-works">
                                 <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" alt="" class="hs-hide hs-right-topimage"></a>
@@ -476,7 +404,6 @@ Template Name: 新規TOP
                         </li>
                     </ul>
                 </div>
-                <!-- </div> -->
 
             </div>
         </div>
