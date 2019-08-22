@@ -210,7 +210,7 @@
     .hs-topimage-inner-container {
         width: 50% !important;
         top: 18% !important;
-        left: 24% !important;
+        left: 25% !important;
     }
 }
 
@@ -263,10 +263,12 @@
     .hs-test-left-layout {
         top: 50% !important;
         left: 12% !important;
+        z-index: 200;
     }
     .hs-test-right-layout {
         top: 50% !important;
         left: 78% !important;
+        z-index: 200;
     }
 }
 
