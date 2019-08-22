@@ -21,19 +21,30 @@
 
 /* 中デバイス（タブレット, 992px 未満） */
 
-@media (max-width: 991.98px) {
+
+/* @media (max-width: 991.98px) {
     .hs-safari-topimage-inner-container {
         z-index: -20 !important;
         width: 60% !important;
         top: 25% !important;
         left: 20% !important;
     }
-}
+} */
 
 
 /* 小デバイス（横向きモバイル, 768px 未満） */
 
-@media (max-width: 767.98px) {
+
+/* @media (max-width: 767.98px) {
+    .hs-safari-topimage-inner-container {
+        width: 30% !important;
+        left: 35% !important;
+        top: 25% !important
+    }
+} */
+
+@media screen and (orientation: landscape) {
+    /* 横向きの場合のスタイル */
     .hs-safari-topimage-inner-container {
         width: 30% !important;
         left: 35% !important;
@@ -44,7 +55,17 @@
 
 /* 極小デバイス（縦向きモバイル, 576px 未満） */
 
-@media (max-width: 575.98px) {
+
+/* @media (max-width: 575.98px) {
+    .hs-safari-topimage-inner-container {
+        width: 70% !important;
+        left: 15% !important;
+        top: 21% !important
+    }
+} */
+
+@media screen and (orientation: portrait) {
+    /* 縦向きの場合のスタイル */
     .hs-safari-topimage-inner-container {
         width: 70% !important;
         left: 15% !important;
@@ -67,12 +88,14 @@
     z-index: 200;
     top: 60%;
     left: 15%;
+    z-index: 200 !important;
 }
 
 .hs-safari-right-layout {
     z-index: 200;
     left: 66%;
     top: 60%;
+    z-index: 200 !important;
 }
 
 
@@ -90,7 +113,8 @@
 
 /* 中デバイス（タブレット, 992px 未満）(safari用) */
 
-@media (max-width: 991.98px) {
+
+/* @media (max-width: 991.98px) {
     .hs-safari-left-topimage,
     .hs-safari-right-topimage {
         width: 55% !important;
@@ -103,12 +127,13 @@
         left: 68% !important;
         top: 65% !important;
     }
-}
+} */
 
 
 /* 小デバイス（横向きモバイル, 768px 未満）(safari用) */
 
-@media (max-width: 767.98px) {
+
+/* @media (max-width: 767.98px) {
     .hs-safari-left-topimage,
     .hs-safari-right-topimage {
         width: 80% !important;
@@ -121,12 +146,29 @@
         top: 60% !important;
         left: 75% !important;
     }
+} */
+
+@media screen and (orientation: landscape) {
+    /* 横向きの場合のスタイル */
+    .hs-safari-left-topimage,
+    .hs-safari-right-topimage {
+        width: 80% !important;
+    }
+    .hs-safari-left-layout {
+        top: 60% !important;
+        left: 8% !important;
+    }
+    .hs-safari-right-layout {
+        top: 60% !important;
+        left: 68% !important;
+    }
 }
 
 
 /* 極小デバイス（縦向きモバイル, 576px 未満）(safari用) */
 
-@media (max-width: 575.98px) {
+
+/* @media (max-width: 575.98px) {
     .hs-safari-left-topimage,
     .hs-safari-right-topimage {
         width: 55% !important;
@@ -138,5 +180,21 @@
     .hs-safari-right-layout {
         top: 58% !important;
         left: 77% !important;
+    }
+} */
+
+@media screen and (orientation: portrait) {
+    /* 縦向きの場合のスタイル */
+    .hs-safari-left-topimage,
+    .hs-safari-right-topimage {
+        width: 55% !important;
+    }
+    .hs-safari-left-layout {
+        top: 64% !important;
+        left: -2% !important;
+    }
+    .hs-safari-right-layout {
+        top: 64% !important;
+        left: 64% !important;
     }
 }
