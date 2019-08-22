@@ -55,7 +55,7 @@ $(function() {
     //slide
     $(function() {
         setimage();
-        var $interval = 3000;　 //切り替わりの間隔（ミリ秒）
+        var $interval = 4000;　 //切り替わりの間隔（ミリ秒）
         var $fade_speed = 3000;　 //フェード処理の速さ（ミリ秒）
         $(".Opening ul li").hide().css({
             "position": "absolute",
@@ -130,9 +130,9 @@ $(function() {
 })(jQuery);
 
 
-//6秒たったら強制的にロード画面を非表示
+//8秒たったら強制的にロード画面を非表示
 $(function() {
-    setTimeout('stopload()', 10000);
+    setTimeout('stopload()', 8000);
 });
 
 // ロード画面を非表示にしてメイン画面と動きをスタートさせる
