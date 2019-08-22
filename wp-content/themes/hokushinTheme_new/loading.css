@@ -402,7 +402,7 @@ body {
         visibility: hidden;
         opacity: 0;
     }
-    70% {
+    60% {
         visibility: visible;
         opacity: 1;
     }
