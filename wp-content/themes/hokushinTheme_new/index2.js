@@ -141,6 +141,7 @@ $(function() {
 function stopload() {
     setTimeout(function() {
         $('.hs-base-container').fadeIn().css('display', 'block');
+        $('body').fadeIn().addClass("hs-bg-iphone");
         // デスクトップ用左側スライドショー
         $(function() {
             $(".hs-left-topimage").each(function(i) {

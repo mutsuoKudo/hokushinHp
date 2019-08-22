@@ -103,19 +103,39 @@ address {
     color: #444;
 }
 
-.hs-body-start {
-    animation-name: body-start;
-    /* 一回分の時間 */
-    animation-duration: 3s;
-    /* 繰り返し回数 */
-    animation-iteration-count: 1;
-    /* ゆっくり始まってゆっくり終わる */
-    animation-timing-function: ease;
-    /* 終了後の状態 */
-    animation-fill-mode: forwards;
-}
 
-@keyframes body-start {
+/* .hs-body-start { */
+
+
+/* animation-name: body-start; */
+
+
+/* 一回分の時間 */
+
+
+/* animation-duration: 3s; */
+
+
+/* 繰り返し回数 */
+
+
+/* animation-iteration-count: 1; */
+
+
+/* ゆっくり始まってゆっくり終わる */
+
+
+/* animation-timing-function: ease; */
+
+
+/* 終了後の状態 */
+
+
+/* animation-fill-mode: forwards;
+} */
+
+
+/* @keyframes body-start {
     0% {
         visibility: hidden;
         opacity: 0;
@@ -128,7 +148,7 @@ address {
         visibility: visible;
         opacity: 1;
     }
-}
+} */
 
 .hs-nav-link-font {
     font-size: 0.8rem;

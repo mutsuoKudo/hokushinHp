@@ -473,8 +473,9 @@ body {
 
 /* ローディング画面ここまで */
 
-body {
-    background: url(http://hokushinsystem.local/wp-content/uploads/2019/07/bg-orange.svg);
+.hs-bg-iphone {
+    background: url(http://hokushinsystem.local/wp-content/uploads/2019/08/bg-yellow.jpg);
+    /* background: url(http://hokushinsystem.local/wp-content/uploads/2019/08/bg-yellow2.jpg); */
 }
 
 body {
