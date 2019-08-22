@@ -1,11 +1,11 @@
 /* safari用 */
 
 .hs-safari-topimage-inner-container {
-    position: absolute !important;
-    max-width: 100% !important;
-    width: 25% !important;
-    top: 25% !important;
-    left: 37.5% !important;
+    position: absolute;
+    max-width: 100%;
+    width: 25%;
+    top: 25%;
+    left: 37.5%;
 }
 
 
@@ -64,15 +64,15 @@
 /* 左右の画像の位置決め(safari用) */
 
 .hs-safari-left-layout {
-    z-index: 200 !important;
-    top: 60% !important;
-    left: 15% !important;
+    z-index: 200;
+    top: 60%;
+    left: 15%;
 }
 
 .hs-safari-right-layout {
-    z-index: 200 !important;
-    left: 66% !important;
-    top: 60% !important;
+    z-index: 200;
+    left: 66%;
+    top: 60%;
 }
 
 
