@@ -57,7 +57,7 @@ $(function() {
     //slide
     $(function() {
         setimage();
-        var $interval = 3000;　 //切り替わりの間隔（ミリ秒）
+        var $interval = 4000;　 //切り替わりの間隔（ミリ秒）
         var $fade_speed = 3000;　 //フェード処理の速さ（ミリ秒）
         $(".Opening ul li").hide().css({
             "position": "absolute",
@@ -132,27 +132,27 @@ $(function() {
 })(jQuery);
 
 
-//6秒たったら強制的にロード画面を非表示
+//8秒たったら強制的にロード画面を非表示
 $(function() {
-    setTimeout('stopload()', 10000);
+    setTimeout('stopload()', 8000);
 });
 
 // ロード画面を非表示にしてメイン画面と動きをスタートさせる
 function stopload() {
     setTimeout(function() {
         $('.hs-base-container').fadeIn().css('display', 'block');
-        $('body').fadeIn().addClass("hs-bg-iphone");
+        $('body').fadeIn().addClass("hs-bg-safari");
         // デスクトップ用左側スライドショー
         $(function() {
-            $(".hs-left-topimage").each(function(i) {
+            $(".hs-safari-left-topimage").each(function(i) {
                 if (i == 0) {
                     setTimeout(function() {
-                        $(".hs-left-topimage").eq(0).addClass("hs-left-fade");
+                        $(".hs-safari-left-topimage").eq(0).addClass("hs-left-fade");
                     }, 1000);
                 }
                 setTimeout(function() {
-                    $(".hs-left-topimage").eq(i - 1).removeClass("hs-left-fade");
-                    $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
+                    $(".hs-safari-left-topimage").eq(i - 1).removeClass("hs-left-fade");
+                    $(".hs-safari-left-topimage").eq(i).addClass("hs-left-fade");
                 }, 5000 * i);
             });
         });
@@ -161,18 +161,18 @@ function stopload() {
         // ②週目以降
         $(function() {
             $("#left-last").on('webkitAnimationEnd', function() {
-                $(".hs-left-topimage").removeClass("hs-left-fade");
+                $(".hs-safari-left-topimage").removeClass("hs-left-fade");
 
                 $(function() {
-                    $(".hs-left-topimage").each(function(i) {
+                    $(".hs-safari-left-topimage").each(function(i) {
                         if (i == 0) {
                             setTimeout(function() {
-                                $(".hs-left-topimage").eq(0).addClass("hs-left-fade");
+                                $(".hs-safari-left-topimage").eq(0).addClass("hs-left-fade");
                             }, 0);
                         }
                         setTimeout(function() {
-                            $(".hs-left-topimage").eq(i - 1).removeClass("hs-left-fade");
-                            $(".hs-left-topimage").eq(i).addClass("hs-left-fade");
+                            $(".hs-safari-left-topimage").eq(i - 1).removeClass("hs-left-fade");
+                            $(".hs-safari-left-topimage").eq(i).addClass("hs-left-fade");
                         }, 5000 * i);
                     });
                 });
@@ -182,15 +182,15 @@ function stopload() {
 
         // デスクトップ用右側スライドショー
         $(function() {
-            $(".hs-right-topimage").each(function(i) {
+            $(".hs-safari-right-topimage").each(function(i) {
                 if (i == 0) {
                     setTimeout(function() {
-                        $(".hs-right-topimage").eq(0).addClass("hs-right-fade");
+                        $(".hs-safari-right-topimage").eq(0).addClass("hs-right-fade");
                     }, 1000);
                 }
                 setTimeout(function() {
-                    $(".hs-right-topimage").eq(i - 1).removeClass("hs-right-fade");
-                    $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
+                    $(".hs-safari-right-topimage").eq(i - 1).removeClass("hs-right-fade");
+                    $(".hs-safari-right-topimage").eq(i).addClass("hs-right-fade");
                 }, 5000 * i);
             });
         });
@@ -199,18 +199,18 @@ function stopload() {
         // ②週目以降
         $(function() {
             $("#right-last").on('webkitAnimationEnd', function() {
-                $(".hs-right-topimage").removeClass("hs-right-fade");
+                $(".hs-safari-right-topimage").removeClass("hs-right-fade");
 
                 $(function() {
-                    $(".hs-right-topimage").each(function(i) {
+                    $(".hs-safari-right-topimage").each(function(i) {
                         if (i == 0) {
                             setTimeout(function() {
-                                $(".hs-right-topimage").eq(0).addClass("hs-right-fade");
+                                $(".hs-safari-right-topimage").eq(0).addClass("hs-right-fade");
                             }, 0);
                         }
                         setTimeout(function() {
-                            $(".hs-right-topimage").eq(i - 1).removeClass("hs-right-fade");
-                            $(".hs-right-topimage").eq(i).addClass("hs-right-fade");
+                            $(".hs-safari-right-topimage").eq(i - 1).removeClass("hs-right-fade");
+                            $(".hs-safari-right-topimage").eq(i).addClass("hs-right-fade");
                         }, 5000 * i);
                     });
                 });

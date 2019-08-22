@@ -1,0 +1,142 @@
+/* safari用 */
+
+.hs-safari-topimage-inner-container {
+    position: absolute !important;
+    max-width: 100% !important;
+    width: 25% !important;
+    top: 25% !important;
+    left: 37.5% !important;
+}
+
+
+/* 大デバイス（デスクトップ, 1200px 未満） */
+
+@media (max-width: 1199.98px) {
+    .hs-safari-topimage-inner-container {
+        width: 50% !important;
+        left: 25% !important;
+    }
+}
+
+
+/* 中デバイス（タブレット, 992px 未満） */
+
+@media (max-width: 991.98px) {
+    .hs-safari-topimage-inner-container {
+        z-index: -20 !important;
+        width: 60% !important;
+        top: 25% !important;
+        left: 20% !important;
+    }
+}
+
+
+/* 小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .hs-safari-topimage-inner-container {
+        width: 30% !important;
+        left: 35% !important;
+        top: 25% !important
+    }
+}
+
+
+/* 極小デバイス（縦向きモバイル, 576px 未満） */
+
+@media (max-width: 575.98px) {
+    .hs-safari-topimage-inner-container {
+        width: 70% !important;
+        left: 15% !important;
+        top: 21% !important
+    }
+}
+
+
+/* トップ画像（左右）サイズ設定(safari用)*/
+
+.hs-safari-left-topimage,
+.hs-safari-right-topimage {
+    width: 75%;
+}
+
+
+/* 左右の画像の位置決め(safari用) */
+
+.hs-safari-left-layout {
+    z-index: 200 !important;
+    top: 60% !important;
+    left: 15% !important;
+}
+
+.hs-safari-right-layout {
+    z-index: 200 !important;
+    left: 66% !important;
+    top: 60% !important;
+}
+
+
+/* 大デバイス（デスクトップ, 1200px 未満） */
+
+@media (max-width: 1199.98px) {
+    .hs-safari-left-layout {
+        left: 0% !important;
+    }
+    .hs-safari-right-layout {
+        left: 60% !important;
+    }
+}
+
+
+/* 中デバイス（タブレット, 992px 未満）(safari用) */
+
+@media (max-width: 991.98px) {
+    .hs-safari-left-topimage,
+    .hs-safari-right-topimage {
+        width: 55% !important;
+    }
+    .hs-safari-left-layout {
+        top: 65% !important;
+        left: 0% !important;
+    }
+    .hs-safari-right-layout {
+        left: 68% !important;
+        top: 65% !important;
+    }
+}
+
+
+/* 小デバイス（横向きモバイル, 768px 未満）(safari用) */
+
+@media (max-width: 767.98px) {
+    .hs-safari-left-topimage,
+    .hs-safari-right-topimage {
+        width: 80% !important;
+    }
+    .hs-safari-left-layout {
+        top: 60% !important;
+        left: 15% !important;
+    }
+    .hs-safari-right-layout {
+        top: 60% !important;
+        left: 75% !important;
+    }
+}
+
+
+/* 極小デバイス（縦向きモバイル, 576px 未満）(safari用) */
+
+@media (max-width: 575.98px) {
+    .hs-safari-left-topimage,
+    .hs-safari-right-topimage {
+        width: 55% !important;
+    }
+    .hs-safari-left-layout {
+        top: 58% !important;
+        left: 12% !important;
+    }
+    .hs-safari-right-layout {
+        top: 58% !important;
+        left: 77% !important;
+    }
+}

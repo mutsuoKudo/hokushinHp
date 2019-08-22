@@ -70,7 +70,7 @@ address {
     text-transform: uppercase;
     letter-spacing: 0.2px;
     font-weight: 900;
-    font-size: 0.7rem;
+    /* font-size: 1.8rem; */
     overflow: hidden;
     padding: 0 4px !important;
     height: 1.5em;
@@ -83,6 +83,7 @@ address {
     transition: transform 0.2s;
     /* color: #020202; */
     color: #444;
+    font-size: 15px;
 }
 
 .hs-nav-effect a span::before {

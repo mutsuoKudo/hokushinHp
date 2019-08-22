@@ -453,7 +453,7 @@ body {
 
 @media (max-width: 991.98px) {
     .hs-load-img {
-        width: 75%;
+        width: 100%;
         position: relative;
         top: 25%;
     }
@@ -464,9 +464,9 @@ body {
 
 @media (min-width: 992px) {
     .hs-load-img {
-        width: 25%;
+        width: 40%;
         position: relative;
-        top: 25%;
+        top: 15%;
     }
 }
 
@@ -474,11 +474,9 @@ body {
 /* ローディング画面ここまで */
 
 
-/* .hs-bg-iphone {
-    background: url(wp-content/uploads/2019/08/bg-yellow.jpg);
-} */
+/* safari用背景画像 */
 
-.hs-bg-iphone {
+.hs-bg-safari {
     background: url(../../uploads/2019/08/bg-yellow.jpg);
 }
 
