@@ -473,8 +473,13 @@ body {
 
 /* ローディング画面ここまで */
 
-.hs-bg-iphone {
+
+/* .hs-bg-iphone {
     background: url(wp-content/uploads/2019/08/bg-yellow.jpg);
+} */
+
+.hs-bg-iphone {
+    background: url(../../uploads/2019/08/bg-yellow.jpg);
 }
 
 body {
