@@ -474,8 +474,7 @@ body {
 /* ローディング画面ここまで */
 
 .hs-bg-iphone {
-    background: url(http://hokushinsystem.local/wp-content/uploads/2019/08/bg-yellow.jpg);
-    /* background: url(http://hokushinsystem.local/wp-content/uploads/2019/08/bg-yellow2.jpg); */
+    background: url(wp-content/uploads/2019/08/bg-yellow.jpg);
 }
 
 body {
