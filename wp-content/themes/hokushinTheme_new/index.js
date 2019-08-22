@@ -55,20 +55,18 @@ $(function() {
     //slide
     $(function() {
         setimage();
-        var $interval = 4000;　 //切り替わりの間隔（ミリ秒）
+        var $interval = 3000;　 //切り替わりの間隔（ミリ秒）
         var $fade_speed = 3000;　 //フェード処理の速さ（ミリ秒）
         $(".Opening ul li").hide().css({
             "position": "absolute",
             "top": 0,
-            // "top": 15,
             "left": 0
-                // "left": 15
         });
         $(".Opening ul li:first").addClass("active").show();
         $(".Opening ul li:first img.Opening__img").animate({
             paddingRight: 0.1
         }, {
-            duration: 5000,
+            duration: 3000,
             step: function(now, fx) {
                 $(this).css({
                     transform: 'scale(' + (1 + now) + ')',
@@ -98,9 +96,10 @@ $(function() {
                 $active.removeClass("active");
                 $next.fadeIn($fade_speed).addClass("active");
                 $(".Opening ul li.active img.Opening__img").animate({
-                    paddingRight: 0.1
+                    //青背景ローディングのズーム率
+                    paddingRight: 0.3
                 }, {
-                    duration: 5000,
+                    duration: 6000,
                     step: function(now, fx) {
                         $(this).css({
                             transform: 'scale(' + (1 + now) + ')'
