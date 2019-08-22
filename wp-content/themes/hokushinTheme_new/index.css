@@ -176,9 +176,8 @@
     z-index: 31;
     max-width: 100%;
     width: 20%;
-    left: 39%;
+    left: 40%;
     top: 42%;
-    /* margin-right: 3% */
 }
 
 
@@ -235,11 +234,13 @@
 .hs-test-left-layout {
     top: 60%;
     left: 20%;
+    z-index: 200;
 }
 
 .hs-test-right-layout {
     top: 60%;
     left: 65%;
+    z-index: 200;
 }
 
 
@@ -262,12 +263,12 @@
 @media (max-width: 767.98px) {
     .hs-test-left-layout {
         top: 50% !important;
-        left: 12% !important;
+        left: 5% !important;
         z-index: 200;
     }
     .hs-test-right-layout {
         top: 50% !important;
-        left: 78% !important;
+        left: 70% !important;
         z-index: 200;
     }
 }
@@ -276,21 +277,17 @@
 /* 極小デバイス（縦向きモバイル, 576px 未満） */
 
 @media (max-width: 575.98px) {
-    .hs-left-topimage {
-        /* width: 65%; */
-        width: 75%;
-    }
+    .hs-left-topimage,
     .hs-right-topimage {
         width: 75%;
-        margin-left: 16%;
     }
     .hs-test-left-layout {
-        left: 15% !important;
         top: 55% !important;
+        left: 5% !important;
     }
     .hs-test-right-layout {
-        left: 55% !important;
         top: 55% !important;
+        left: 57% !important;
     }
 }
 
@@ -400,19 +397,6 @@
     left: 0;
     width: 100%;
     height: auto;
-}
-
-
-/* 小デバイス（横向きモバイル, 768px 未満） */
-
-@media (max-width: 767.98px) {
-    .hs-topimage-li {
-        position: absolute;
-        top: 0;
-        left: -20% !important;
-        width: 100%;
-        height: auto;
-    }
 }
 
 
