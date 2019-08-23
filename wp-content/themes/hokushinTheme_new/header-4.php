@@ -5,7 +5,7 @@
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <!-- <title>採用情報</title> -->
+
   <title><?php bloginfo('name'); ?> | <?php wp_title(); ?></title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,7 @@
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
   <!-- hokushin_old.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" />
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" rel="stylesheet">
 
   <!-- recruit.cssを読み込む　*ナビゲーションバー用 -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/recruit.css" rel="stylesheet">
@@ -75,7 +75,7 @@
     <nav class="navbar navbar-expand-lg navbar-light d-block d-lg-none hs-recruit-logo fixed-top">
       <div class="w-100">
         <a class="navbar-brand hs-logo-a" href="<?php bloginfo('url'); ?>/">
-          <img src="wp-content/uploads/2019/07/e76cd8347bc0116329d4b7104bf0d76c.png" alt="" width="auto" height="30">
+          <img src="wp-content/uploads/2019/07/e76cd8347bc0116329d4b7104bf0d76c.png" alt="株式会社ホクシンシステム" width="auto" height="30">
         </a>
         <!-- ハンバーガーメニューは画面小さくなったら表示 -->
         <button class="navbar-toggler collapsed float-right" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">

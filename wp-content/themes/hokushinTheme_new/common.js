@@ -41,8 +41,14 @@ function getParameter() {
 
 
 
+
 // clidkablemapのレスポンシブ対応　*jquery.rwdImageMaps.jsより先に読み込まれてしまうと動作しないので注意
-jQuery('img[usemap]').rwdImageMaps();
+// jQuery('img[usemap]').rwdImageMaps();
+$(function() {
+    $('img[usemap]').rwdImageMaps();
+});
+
+
 
 $(document).ready(function() {
     //URLのハッシュ値を取得
