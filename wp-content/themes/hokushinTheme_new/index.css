@@ -185,16 +185,22 @@
 
 @media (max-width: 1199.98px) {
     .hs-topimage-inner-container {
-        width: 50% !important;
+        /* width: 50% !important;
         top: 25% !important;
-        left: 25% !important;
+        left: 25% !important; */
+        width: 32% !important;
+        top: 25% !important;
+        left: 32.5% !important;
     }
 }
 
 
 /* 小デバイス（横向きモバイル, 768px 未満） */
 
-@media (max-width: 767.98px) {
+
+/* @media (max-width: 767.98px) { */
+
+@media (max-width: 830px) {
     .hs-topimage-inner-container {
         width: 35% !important;
         top: 20% !important;
@@ -205,7 +211,11 @@
 
 /* 極小デバイス（縦向きモバイル, 576px 未満） */
 
-@media (max-width: 575.98px) {
+
+/* @media (max-width: 575.98px) { */
+
+@media screen and (max-width:480px) {
+    /*　for iPhone Landscape　(iPhone 横)　*/
     .hs-topimage-inner-container {
         width: 50% !important;
         top: 18% !important;
@@ -248,19 +258,25 @@
 
 @media (max-width: 1199.98px) {
     .hs-test-left-layout {
-        top: 75% !important;
+        /* top: 75% !important; */
+        top: 70% !important;
         left: 5% !important;
     }
     .hs-test-right-layout {
-        top: 75% !important;
-        left: 60% !important;
+        /* top: 75% !important;
+        left: 60% !important; */
+        top: 70% !important;
+        left: 71% !important;
     }
 }
 
 
 /* 小デバイス（横向きモバイル, 768px 未満） */
 
-@media (max-width: 767.98px) {
+
+/* @media (max-width: 767.98px) { */
+
+@media (max-width: 830px) {
     .hs-test-left-layout {
         top: 50% !important;
         left: 5% !important;
@@ -276,7 +292,11 @@
 
 /* 極小デバイス（縦向きモバイル, 576px 未満） */
 
-@media (max-width: 575.98px) {
+
+/* @media (max-width: 575.98px) { */
+
+@media screen and (max-width:480px) {
+    /*　for iPhone Landscape　(iPhone 横)　*/
     .hs-left-topimage,
     .hs-right-topimage {
         width: 75%;
@@ -454,21 +474,20 @@
     left: 0;
     width: 100%;
     top: 100%;
+    z-index: 1000;
 }
 
 
 /* 中デバイス（タブレット, 992px 未満） */
 
-@media (max-width: 991.98px) {
+
+/* @media (max-width: 991.98px) {
     .hs-footer {
-        background-color: lightgray;
-        position: absolute;
         left: 0;
         width: 100%;
         top: 100%;
-        z-index: 1000;
     }
-}
+} */
 
 
 /* 中デバイス（タブレット, 768px 以上）*/
