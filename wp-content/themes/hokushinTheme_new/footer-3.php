@@ -37,9 +37,9 @@
          <div class="Opening">
              <ul style="margin-bottom: 0; bottom: 0;">
                  <li class="hs-load-container" style="background-color: #fff; height: 100vh;">
-                     <span><img src="wp-content/uploads/2019/07/loading.svg" alt="" class="hs-load-img"></span>
+                     <span><img src="wp-content/uploads/2019/07/loading.svg" alt="株式会社ホクシンシステム" class="hs-load-img"></span>
                  </li>
-                 <li><span><img class="Opening__img" src="wp-content/uploads/2019/07/loading.jpg" alt=""></span><img class="Opening__text" src="wp-content/uploads/2019/08/loading-txt.png" alt=""></li>
+                 <li><span><img class="Opening__img" src="wp-content/uploads/2019/07/loading.jpg" alt=""></span><img class="Opening__text" src="wp-content/uploads/2019/08/loading-txt.png" alt="WalkTogetherTowardsTheFuture"></li>
              </ul>
          </div>
      </div>
