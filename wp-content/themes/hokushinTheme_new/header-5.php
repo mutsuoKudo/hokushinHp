@@ -13,7 +13,7 @@
 
 
   <!-- loading.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/loading.css">
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/loading.css" rel="stylesheet">
 
   <!-- style.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" media="print" onload="this.media='all'">
@@ -22,13 +22,13 @@
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- index.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/index.css" media="print" onload="this.media='all'">
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/index.css" rel="stylesheet" media="print" onload="this.media='all'">
   
   <!-- index.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/safari.css" media="print" onload="this.media='all'">
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/safari.css" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- hokushin_old.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" media="print" onload="this.media='all'">
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" rel="stylesheet" media="print" onload="this.media='all'">
   
   <?php wp_head(); ?>
 </head>
@@ -45,7 +45,7 @@
     <nav class="navbar navbar-expand-md navbar-light" style="z-index: 2000; background-color: lightgray;">
       <div class="w-100">
         <a class="navbar-brand hs-logo-a" href="<?php bloginfo('url'); ?>/">
-          <img src="wp-content/uploads/2019/07/e76cd8347bc0116329d4b7104bf0d76c.png" alt="" width="auto" height="30">
+          <img src="wp-content/uploads/2019/07/e76cd8347bc0116329d4b7104bf0d76c.png" alt="株式会社ホクシンシステム" width="auto" height="30">
         </a>
         <!-- ハンバーガーメニューは画面小さくなったら表示 -->
         <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">

@@ -107,28 +107,28 @@ Template Name: 新規TOP
 
                     <ul class="hs-topimage-ul">
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" alt="" class="hs-hide hs-left-topimage">
+                                <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" alt="人事給与システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" alt="" class="hs-hide hs-left-topimage">
+                                <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" alt="営業支援システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" alt="" class="hs-hide hs-left-topimage">
+                                <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" alt="電力支援システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" alt="" class="hs-hide hs-left-topimage">
+                                <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" alt="商品管理システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" alt="" class="hs-hide hs-left-topimage">
+                                <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" alt="自治体次期移行システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" alt="" class="hs-hide hs-left-topimage">
+                                <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" alt="自治体滞納整理システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" alt="" class="hs-hide hs-left-topimage">
+                                <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" alt="固定資産税システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" id="left-last" alt="" class="hs-hide hs-left-topimage">
+                                <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" id="left-last" alt="国保システム" class="hs-hide hs-left-topimage">
                         </li>
                     </ul>
                 </div>
@@ -361,29 +361,29 @@ Template Name: 新規TOP
 
                     <ul class="hs-topimage-ul">
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" alt="" class="hs-hide hs-right-topimage">
+                                <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" alt="介護保険システム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/forElderlyImg.svg" alt="" class="hs-hide hs-right-topimage">
+                                <img src="wp-content/uploads/2019/07/forElderlyImg.svg" alt="後期高齢システム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" alt="" class="hs-hide hs-right-topimage">
+                                <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" alt="専攻医登録システム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" alt="" class="hs-hide hs-right-topimage">
+                                <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" alt="電子カルテシステム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" alt="" class="hs-hide hs-right-topimage">
+                                <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" alt="薬局向けPOSレジシステム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" alt="" class="hs-hide hs-right-topimage">
+                                <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" alt="パッケージ医療介護システム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/salesManagementImg.svg" alt="" class="hs-hide hs-right-topimage">
+                                <img src="wp-content/uploads/2019/07/salesManagementImg.svg" alt="販売管理システム" class="hs-hide hs-right-topimage">
                         </li>
                         <!-- 最後の画像に.lastをつける -->
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" alt="" id="right-last" class="hs-hide hs-right-topimage">
+                                <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" alt="スマートフォンゲームシステム" id="right-last" class="hs-hide hs-right-topimage">
                         </li>
                     </ul>
                 </div>

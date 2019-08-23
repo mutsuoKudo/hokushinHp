@@ -5,7 +5,7 @@
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <!-- <title>採用情報</title> -->
+
   <title><?php bloginfo('name'); ?> | <?php wp_title(); ?></title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,7 @@
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
   <!-- hokushin_old.cssを読み込む -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" />
+  <link  href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" rel="stylesheet">
 
   <!-- recruit.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/recruit.css" rel="stylesheet">
