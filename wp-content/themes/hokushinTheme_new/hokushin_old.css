@@ -549,16 +549,30 @@ header .menu-head-container ul .current a {
     background-position: center;
 }
 
-.page-content-company {
-    background-image: url(images/about.png);
+.page-content-company,
+.page-content-partner-synergy,
+.page-content-philosophy {
+    background-image: url(images/about.jpg);
 }
 
 .page-content-service {
     background-image: url(images/ser_img.jpg);
 }
 
+.page-content-job-category,
+.page-content-welfare,
+.page-content-application-form,
+.page-content-training {
+    background-image: url(images/job-category.jpg);
+}
+
 .page-content-contact {
-    background-image: url(images/contact.png);
+    background-image: url(images/contact.jpg);
+}
+
+.page-content-security-policy,
+.page-content-security-policy {
+    background-image: url(images/policy.jpg);
 }
 
 .single-section {

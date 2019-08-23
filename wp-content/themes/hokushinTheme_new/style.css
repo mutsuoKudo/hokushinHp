@@ -213,32 +213,12 @@ input:focus:required:invalid+div .invalid {
 
 @media (max-width: 575.98px) {
     .page-content-voices {
-        background-image: url(images/voices2.png) !important;
+        background-image: url(images/voices2.jpg) !important;
         height: 35vh !important;
     }
 }
 
 .page-content-voices {
-    background-image: url(images/voices.png);
+    background-image: url(images/voices.jpg);
     height: 40vh !important;
-}
-
-.page-content-partner-synergy,
-.page-content-philosophy {
-    background-image: url(images/about.png);
-    height: 15vh;
-}
-
-.page-content-job-category,
-.page-content-welfare,
-.page-content-application-form,
-.page-content-training {
-    background-image: url(images/job-category.png);
-    height: 15vh;
-}
-
-.page-content-security-policy,
-.page-content-security-policy {
-    background-image: url(images/policy.png);
-    height: 15vh;
 }

@@ -572,15 +572,16 @@
 /* サービスページここから */
 
 .page-contenet .page-main-content .service-03 {
-    background-image: url(images/rpa.png);
+    /* background-image: url(images/rpa.jpg); */
+    background-image: url(images/ses.jpg);
 }
 
 .page-contenet .page-main-content .service-04 {
-    background-image: url(images/temporary-staffing.png);
+    background-image: url(images/temporary-staffing.jpg);
 }
 
 .page-contenet .page-main-content .service-05 {
-    background-image: url(images/recruitment.png);
+    background-image: url(images/recruitment.jpg);
 }
 
 .hs-service-circleimg {
