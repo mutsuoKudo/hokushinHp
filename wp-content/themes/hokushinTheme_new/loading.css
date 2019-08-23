@@ -449,9 +449,19 @@ body {
 /* ローディング画像サイズ↓（画面幅に応じて可変）*/
 
 .hs-load-img {
-    width: 80%;
+    width: 40%;
     position: relative;
-    top: 25%;
+    top: 15%;
+}
+
+
+/* 大デバイス（デスクトップ, 1200px 未満） */
+
+@media (max-width: 1199.98px) {
+    .hs-load-img {
+        width: 80% !important;
+        top: 15% !important;
+    }
 }
 
 
