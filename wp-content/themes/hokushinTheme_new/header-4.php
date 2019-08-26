@@ -7,6 +7,7 @@
   <meta charset="utf-8">
 
   <title><?php bloginfo('name'); ?> | <?php wp_title(); ?></title>
+  <?php MataTitle(); ?>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 

@@ -54,5 +54,73 @@ if (!(is_admin() )) {
     }
     add_filter( 'clean_url', 'add_async_to_enqueue_script', 11, 1 );
     }
-?>
 
+    
+
+
+// keywords description
+add_action('admin_menu', 'add_custom_fields');
+add_action('save_post', 'save_custom_fields');
+
+// 記事ページと固定ページでカスタムフィールドを表示
+function add_custom_fields() {
+  add_meta_box( 'my_sectionid', 'カスタムフィールド', 'my_custom_fields', 'post');
+  add_meta_box( 'my_sectionid', 'カスタムフィールド', 'my_custom_fields', 'page');
+}
+function my_custom_fields() {
+  global $post;
+  $keywords = get_post_meta($post->ID,'keywords',true);
+  $description = get_post_meta($post->ID,'description',true);
+  echo '<p>キーワード（半角カンマ区切り）<br>';
+  echo '<input type="text" name="keywords" value="'.esc_html($keywords).'" size="60"></p>';
+  echo '<p>ページの説明（description）160文字以内<br>';
+  echo '<input type="text" style="width: 600px;height: 40px;" name="description" value="'.esc_html($description).'" maxlength="160"></p>';
+}
+
+// カスタムフィールドの値を保存
+function save_custom_fields( $post_id ) {
+  if(!empty($_POST['keywords'])){
+    update_post_meta($post_id, 'keywords', $_POST['keywords'] );
+  }else{
+    delete_post_meta($post_id, 'keywords');
+  }
+  if(!empty($_POST['description'])){
+    update_post_meta($post_id, 'description', $_POST['description'] );
+  }else{
+    delete_post_meta($post_id, 'description');
+  }
+}
+function MataTitle() {
+  // カスタムフィールドの値を読み込む
+  $custom = get_post_custom();
+  if(!empty( $custom['keywords'][0])) {
+    $keywords = $custom['keywords'][0];
+  }
+  if(!empty( $custom['description'][0])) {
+    $description = $custom['description'][0];
+  }
+  if(is_home()){// トップページ
+    echo '<meta name="keywords" content="'.$keywords.'">';
+    echo '<meta name="description" content="'.$description.'">';
+  }elseif(is_single()){// 記事ページ
+    echo '<meta name="keywords" content="'.$keywords.'">';
+    echo '<meta name="description" content="'.$description.'">';
+  }elseif(is_page()){// 固定ページ
+    echo '<meta name="keywords" content="'.$keywords.'">';
+    echo '<meta name="description" content="'.$description.'">';
+  }elseif(is_archive()){// 記事ページ
+    echo '<meta name="keywords" content="'.$keywords.'">';
+    echo '<meta name="description" content="'.$description.'">';
+  }elseif(is_category()){// カテゴリーページ
+    echo '<meta name="description" content="'.single_cat_title().'の記事一覧">';
+  }elseif(is_tag()){// タグページ
+    echo '<meta name="robots" content="noindex, follow">';
+    echo '<meta name="description" content="'.single_tag_title("", true).'の記事一覧">';
+  }elseif(is_404()){// 404ページ
+    echo '<meta name="robots" content="noindex, follow">';
+    echo '<title>404:お探しのページが見つかりませんでした</title>';
+  }else{// その他ページ
+    echo '<meta name="robots" content="noindex, follow">';
+  };
+}
+?>
