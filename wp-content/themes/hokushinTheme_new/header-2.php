@@ -51,7 +51,7 @@
           <li id="menu-item-20" <?php if (is_page('service')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/service"><span data-hover="サービス">サービス</span></a></li>
 
           <!-- RECRUITドロップダウン -->
-          <li id="menu-item-22" class="dropdown" <?php if (is_page('job-category')) echo ' class="current"'; ?>>
+          <li id="menu-item-21" class="dropdown" <?php if (is_page('job-category')) echo ' class="current"'; ?>>
             <a href="<?php bloginfo('url'); ?>/job-category" class="dropdown-toggle" id="navbarDropdownRecruit" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span data-hover="採用情報">採用情報</span></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownRecruit">
