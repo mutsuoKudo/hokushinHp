@@ -50,7 +50,7 @@
           </li>
 
 
-          <li id="menu-item-20" <?php if (is_page('service')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/service"><span data-hover="サービス">サービス</span></a></li>
+          <li id="menu-item-21" <?php if (is_page('service')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/service"><span data-hover="サービス">サービス</span></a></li>
 
           <!-- RECRUITドロップダウン -->
           <li id="menu-item-22" class="dropdown" <?php if (is_page('job-category')) echo ' class="current"'; ?>>
