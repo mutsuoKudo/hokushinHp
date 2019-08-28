@@ -5,16 +5,16 @@ var webStorage = function() {
     if (sessionStorage.getItem('access')) {
         console.log('2回目以降のアクセスです');
 
-        setTimeout(function() {
-            stopload()
-        }, 10);
+        $('#hs-load').css('display', 'none');
+        stopload()
 
         // ロード画面を非表示にしてメイン画面と動きをスタートさせる
 
         function stopload() {
 
-            $('.hs-base-container').fadeIn().css('display', 'block');
+            $('.hs-base-container').css('display', 'block');
             $('body').fadeIn().addClass("hs-bg-safari");
+
             // デスクトップ用左側スライドショー
             $(function() {
                 $(".hs-safari-left-topimage").each(function(i) {
@@ -90,7 +90,7 @@ var webStorage = function() {
                 });
             });
 
-            $('#hs-load').fadeOut();
+
         }
 
         //初回アクセス	
