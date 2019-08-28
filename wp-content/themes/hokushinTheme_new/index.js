@@ -5,15 +5,14 @@ var webStorage = function() {
     if (sessionStorage.getItem('access')) {
         console.log('2回目以降のアクセスです');
 
-        setTimeout(function() {
-            notload()
-        }, 10);
-
+        $('#hs-load').css('display', 'none');
+        notload()
 
         // ロード画面を非表示にしてメイン画面と動きをスタートさせる
         function notload() {
 
-            $('.hs-base-container').fadeIn().css('display', 'block');
+
+            $('.hs-base-container').css('display', 'block');
 
 
 
@@ -140,11 +139,6 @@ var webStorage = function() {
 
             };
             roopFunc();
-
-            $('#hs-load').fadeOut();
-
-
-
 
         }
 
