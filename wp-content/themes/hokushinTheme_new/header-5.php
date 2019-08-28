@@ -55,7 +55,7 @@
       </div>
       <div class="collapse navbar-collapse" id="Navbar">
 
-        <ul class="navbar-nav mr-auto d-block d-md-none" style="width:100%">
+        <ul class="navbar-nav mr-auto d-block d-md-none hs-nav-scroll" style="width:100%;">
           <li class="nav-item mt-4 mb-2">
             <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/">ホーム</a>
           </li>

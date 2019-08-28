@@ -82,7 +82,7 @@
         </button>
       </div>
       <div class="collapse navbar-collapse" id="Navbar">
-        <ul class="navbar-nav mr-auto d-block d-lg-none w-100">
+        <ul class="navbar-nav mr-auto d-block d-lg-none w-100 hs-nav-scroll">
           <li class="nav-item mt-4 mb-2">
             <!-- <a class="nav-link nav-link-font" href="../index.html">HOME <span class="sr-only">(現位置)</span></a> -->
             <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/">ホーム<span class="sr-only">(現位置)</span></a>

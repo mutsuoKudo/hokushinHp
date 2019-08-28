@@ -15,7 +15,7 @@ Template Name: 新規TOP
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/company">
-                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-会社概要">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">会社概要</p>
@@ -25,7 +25,7 @@ Template Name: 新規TOP
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/philosophy">
-                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-理念">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">理念</p>
@@ -35,7 +35,7 @@ Template Name: 新規TOP
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/partner-synergy">
-                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-パートナーシナジー">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi" style="width:180px; left:-140%">パートナーシナジー</p>
@@ -45,7 +45,7 @@ Template Name: 新規TOP
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/service">
-                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-サービス">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">サービス</p>
@@ -55,7 +55,7 @@ Template Name: 新規TOP
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/job-category">
-                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-募集一覧">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">募集一覧</p>
@@ -65,7 +65,7 @@ Template Name: 新規TOP
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/welfare">
-                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-福利厚生">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">福利厚生</p>
@@ -75,7 +75,7 @@ Template Name: 新規TOP
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/training">
-                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-教育・研修">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi" style="width:120px; left:-80%">教育・研修</p>
@@ -85,7 +85,7 @@ Template Name: 新規TOP
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/voices">
-                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-社員の声">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">社員の声</p>
@@ -107,28 +107,28 @@ Template Name: 新規TOP
 
                     <ul class="hs-topimage-ul">
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" alt="人事給与システム" class="hs-hide hs-left-topimage">
+                            <img src="wp-content/uploads/2019/07/hrPayrollImg.svg" alt="人事給与システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" alt="営業支援システム" class="hs-hide hs-left-topimage">
+                            <img src="wp-content/uploads/2019/07/salesForceAutomationImg.svg" alt="営業支援システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" alt="電力支援システム" class="hs-hide hs-left-topimage">
+                            <img src="wp-content/uploads/2019/07/marchandiseManagementImg.svg" alt="電力支援システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" alt="商品管理システム" class="hs-hide hs-left-topimage">
+                            <img src="wp-content/uploads/2019/07/inventoryManagementImg.svg" alt="商品管理システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" alt="自治体次期移行システム" class="hs-hide hs-left-topimage">
+                            <img src="wp-content/uploads/2019/07/autonomyTransitionImg.svg" alt="自治体次期移行システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" alt="自治体滞納整理システム" class="hs-hide hs-left-topimage">
+                            <img src="wp-content/uploads/2019/07/autonomyForTaxDelinquencyImg.svg" alt="自治体滞納整理システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" alt="固定資産税システム" class="hs-hide hs-left-topimage">
+                            <img src="wp-content/uploads/2019/07/propertyTaxImg.svg" alt="固定資産税システム" class="hs-hide hs-left-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" id="left-last" alt="国保システム" class="hs-hide hs-left-topimage">
+                            <img src="wp-content/uploads/2019/07/nationalHealethInsuranceImg.svg" id="left-last" alt="国保システム" class="hs-hide hs-left-topimage">
                         </li>
                     </ul>
                 </div>
@@ -361,29 +361,29 @@ Template Name: 新規TOP
 
                     <ul class="hs-topimage-ul">
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" alt="介護保険システム" class="hs-hide hs-right-topimage">
+                            <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" alt="介護保険システム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/forElderlyImg.svg" alt="後期高齢システム" class="hs-hide hs-right-topimage">
+                            <img src="wp-content/uploads/2019/07/forElderlyImg.svg" alt="後期高齢システム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" alt="専攻医登録システム" class="hs-hide hs-right-topimage">
+                            <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" alt="専攻医登録システム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" alt="電子カルテシステム" class="hs-hide hs-right-topimage">
+                            <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" alt="電子カルテシステム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" alt="薬局向けPOSレジシステム" class="hs-hide hs-right-topimage">
+                            <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" alt="薬局向けPOSレジシステム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" alt="パッケージ医療介護システム" class="hs-hide hs-right-topimage">
+                            <img src="wp-content/uploads/2019/07/packageForMedicalAndNursingCareImg.svg" alt="パッケージ医療介護システム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/salesManagementImg.svg" alt="販売管理システム" class="hs-hide hs-right-topimage">
+                            <img src="wp-content/uploads/2019/07/salesManagementImg.svg" alt="販売管理システム" class="hs-hide hs-right-topimage">
                         </li>
                         <!-- 最後の画像に.lastをつける -->
                         <li class="hs-topimage-li">
-                                <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" alt="スマートフォンゲームシステム" id="right-last" class="hs-hide hs-right-topimage">
+                            <img src="wp-content/uploads/2019/07/smartphoneGameImg.svg" alt="スマートフォンゲームシステム" id="right-last" class="hs-hide hs-right-topimage">
                         </li>
                     </ul>
                 </div>
@@ -397,13 +397,13 @@ Template Name: 新規TOP
 
 <!-- 背景ぷかぷか -->
 <div class="d-none d-xl-block">
-    <img src="wp-content/uploads/2019/07/noff_010.gif" class="position-absolute hs-back-icon1 hs-hide" style="top: 15%;left: 15%; width: 7%;">
+    <img src="wp-content/uploads/2019/07/noff_010.gif" alt="打ち合わせ" class="position-absolute hs-back-icon1 hs-hide" style="top: 15%;left: 15%; width: 7%;">
 
-    <img src="wp-content/uploads/2019/07/noff_066.gif" class="position-absolute hs-back-icon2 hs-hide" style="top: 43%;left: 6%; width: 7%;">
+    <img src="wp-content/uploads/2019/07/noff_066.gif" alt="キーボード入力" class="position-absolute hs-back-icon2 hs-hide" style="top: 43%;left: 6%; width: 7%;">
 
-    <img src="wp-content/uploads/2019/07/noff_073.gif" class="position-absolute hs-back-icon3 hs-hide" style="top: 15%;left: 80%; width: 7%;">
+    <img src="wp-content/uploads/2019/07/noff_073.gif" alt="ミーティングルーム" class="position-absolute hs-back-icon3 hs-hide" style="top: 15%;left: 80%; width: 7%;">
 
-    <img src="wp-content/uploads/2019/07/noff_074.gif" class="position-absolute hs-back-icon4 hs-hide" style="top: 41%;left: 86%; width: 7%;">
+    <img src="wp-content/uploads/2019/07/noff_074.gif" alt="ノート" class="position-absolute hs-back-icon4 hs-hide" style="top: 41%;left: 86%; width: 7%;">
 </div>
 
 

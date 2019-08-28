@@ -46,6 +46,32 @@ address {
 /* ナビゲーションバーデザイン */
 
 
+/* 小デバイス（横向きモバイル, 768px 未満） */
+
+
+/* @media (max-width: 767.98px) { */
+
+@media (max-width: 830px) {
+    .hs-nav-scroll {
+        overflow-x: scroll;
+        height: 63vh;
+    }
+}
+
+
+/* 極小デバイス（縦向きモバイル, 576px 未満） */
+
+
+/* @media (max-width: 575.98px) { */
+
+@media screen and (max-width:480px) {
+    /*　for iPhone Landscape　(iPhone 横)　*/
+    .hs-nav-scroll {
+        height: 28vh !important;
+    }
+}
+
+
 /* ホバーしたらくるくまわるところ */
 
 .hs-sub-nuv-btn {
