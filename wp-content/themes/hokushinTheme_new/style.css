@@ -69,6 +69,11 @@ address {
     .hs-nav-scroll {
         height: auto !important;
     }
+    #wpcf7-f928-p623-o1>form>div.form-row.justify-content-center>div:nth-child(5)>span.wpcf7-form-control-wrap.your-file1>input,
+    #wpcf7-f928-p623-o1>form>div.form-row.justify-content-center>div:nth-child(5)>span.wpcf7-form-control-wrap.your-file2>input,
+    #wpcf7-f928-p623-o1>form>div.form-row.justify-content-center>div:nth-child(5)>span.wpcf7-form-control-wrap.your-file3>input {
+        font-size: 80%;
+    }
 }
 
 
