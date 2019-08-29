@@ -45,6 +45,14 @@ address {
 
 /* ナビゲーションバーデザイン */
 
+.hs-form-file {
+    border: gray 1px solid;
+    background-color: #f5f5f5;
+    padding: 2px;
+    color: #444;
+    font-size: 70%;
+}
+
 
 /* 小デバイス（横向きモバイル, 768px 未満） */
 
@@ -73,6 +81,9 @@ address {
     #wpcf7-f928-p623-o1>form>div.form-row.justify-content-center>div:nth-child(5)>span.wpcf7-form-control-wrap.your-file2>input,
     #wpcf7-f928-p623-o1>form>div.form-row.justify-content-center>div:nth-child(5)>span.wpcf7-form-control-wrap.your-file3>input {
         font-size: 80%;
+    }
+    .hs-form-file {
+        font-size: 70%;
     }
 }
 
