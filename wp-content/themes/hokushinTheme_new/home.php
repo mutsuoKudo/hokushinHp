@@ -38,7 +38,7 @@ Template Name: 新規TOP
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-パートナーシナジー">
                     </a>
                 </p>
-                <p class="hs-circle-icon-fukidashi" style="width:180px; left:-140%">パートナーシナジー</p>
+                <p class="hs-circle-icon-fukidashi" style="width:180px; left:-95%">パートナーシナジー</p>
             </div>
         </div>
         <div class="position-absolute" style="left: 40%;top: 0; width:7%">
@@ -78,7 +78,7 @@ Template Name: 新規TOP
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-教育・研修">
                     </a>
                 </p>
-                <p class="hs-circle-icon-fukidashi" style="width:120px; left:-80%">教育・研修</p>
+                <p class="hs-circle-icon-fukidashi" style="width:120px; left:-48%">教育・研修</p>
             </div>
         </div>
         <div class="position-absolute" style="right: 0; bottom: 0; width:7%">
