@@ -136,7 +136,7 @@
 
           <!-- ABOUTドロップダウン -->
           <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/company" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button">
               <span data-hover="企業情報">企業情報</span>
             </a>
 
@@ -159,7 +159,7 @@
 
           <!-- RECRUITドロップダウン -->
           <div class="d-inline-block">
-            <a href="<?php bloginfo('url'); ?>/job-category" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button">
               <span data-hover="採用情報">採用情報</span>
             </a>
             <ul class="dropdown-menu pt-3" role="menu">

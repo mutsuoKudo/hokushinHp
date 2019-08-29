@@ -40,7 +40,7 @@
 
           <!-- ABOUTドロップダウン -->
           <li id="menu-item-22" class="dropdown" <?php if (is_page('company')) echo ' class="current"'; ?>>
-            <a href="<?php bloginfo('url'); ?>/company" class="dropdown-toggle" id="navbarDropdownCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="dropdown-toggle" id="navbarDropdownCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span data-hover="企業情報">企業情報</span></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
               <a class="dropdown-item hs-dropdown-item mt-0" href="<?php bloginfo('url'); ?>/company">会社概要</a>
@@ -54,7 +54,7 @@
 
           <!-- RECRUITドロップダウン -->
           <li id="menu-item-21" class="dropdown" <?php if (is_page('job-category')) echo ' class="current"'; ?>>
-            <a href="<?php bloginfo('url'); ?>/job-category" class="dropdown-toggle" id="navbarDropdownRecruit" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="dropdown-toggle" id="navbarDropdownRecruit" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span data-hover="採用情報">採用情報</span></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownRecruit">
               <a class="dropdown-item hs-dropdown-item mt-0" href="<?php bloginfo('url'); ?>/job-category">募集一覧</a>
