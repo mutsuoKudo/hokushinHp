@@ -67,7 +67,7 @@ address {
 @media screen and (max-width:480px) {
     /*　for iPhone Landscape　(iPhone 横)　*/
     .hs-nav-scroll {
-        height: 28vh !important;
+        height: auto !important;
     }
 }
 

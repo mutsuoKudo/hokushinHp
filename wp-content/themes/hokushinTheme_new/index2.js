@@ -6,7 +6,9 @@ var webStorage = function() {
         console.log('2回目以降のアクセスです');
 
         $('#hs-load').css('display', 'none');
-        stopload()
+        $('.hs-load-img').css('display', 'none');
+
+        stopload();
 
         // ロード画面を非表示にしてメイン画面と動きをスタートさせる
 

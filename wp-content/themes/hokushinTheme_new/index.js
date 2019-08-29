@@ -6,7 +6,9 @@ var webStorage = function() {
         console.log('2回目以降のアクセスです');
 
         $('#hs-load').css('display', 'none');
-        notload()
+        $('.hs-load-img').css('display', 'none');
+
+        notload();
 
         // ロード画面を非表示にしてメイン画面と動きをスタートさせる
         function notload() {
@@ -154,8 +156,8 @@ var webStorage = function() {
         window.sessionStorage.clear();
         console.log("clear2");
 
-
         sessionStorage.setItem('access', 0);
+
         var time = new Date().getTime();
         $(function() {
             var h = $(window).height();
