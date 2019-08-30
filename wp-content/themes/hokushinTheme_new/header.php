@@ -30,7 +30,7 @@
   }
   ?>
 
-  <title><?php bloginfo('name'); ?> | <?php wp_title(); ?></title>
+  <title>北海道でエンジニア | 株式会社ホクシンシステム</title>
   <?php MataTitle(); ?>
 
   <meta charset="UTF-8">
