@@ -1,5 +1,5 @@
-<!-- 既存TOP用 -->
-<?php /* Template Name: 既存TOP用  */ ?>
+<!-- TOP（IE）用 -->
+<?php /* Template Name: TOP（IE）用   */ ?>
 <?php get_header(4); ?>
 
 <?php if(have_posts()): while(have_posts()): the_post();?>
