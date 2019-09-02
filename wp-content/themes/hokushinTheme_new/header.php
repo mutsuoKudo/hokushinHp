@@ -31,11 +31,12 @@
   ?>
 
   <title>北海道でエンジニア | 株式会社ホクシンシステム</title>
-  <?php MataTitle(); ?>
+  <meta name="keywords" content="ホクシンシステム,ITソリューションサービス,Webソリューションサービス,RPAソリューションサービス,SESソリューションサービス,人材派遣サービス,人材紹介サービス,"><meta name="description" content="ホクシンシステムは、北海道札幌で、ITソリューションサービス、Webソリューションサービス、システムエンジニアリングサービス、人材派遣サービス、人材紹介サービスを提供するフレッシュなIT企業です。">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,IE=edge">
   <meta http-equiv="X-UA-TextLayoutMetrics" content="gdi" />
+
 
 
 
