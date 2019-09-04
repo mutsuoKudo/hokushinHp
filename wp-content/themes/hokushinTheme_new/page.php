@@ -1,4 +1,4 @@
-<!-- ナビゲーションバーのコンテンツ用　*ABOUT・SERVICE・RECRUIT・CONTACT・・・ -->
+<!-- ナビゲーションバーのコンテンツ用（社員の声以外）　*ABOUT・SERVICE・RECRUIT・CONTACT・・・ -->
 <?php /* Template Name: ナビゲーションバーコンテンツ用 */ ?>
 
 <?php get_header(2); ?>
