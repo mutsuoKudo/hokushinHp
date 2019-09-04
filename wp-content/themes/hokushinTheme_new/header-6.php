@@ -1,8 +1,34 @@
-<!-- ナビゲーションバーコンテンツ用ヘッダー(社員の声以外) -->
+<!-- 社員の声用ヘッダー -->
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
+
+<?php
+  global $is_IE;
+  global $is_iphone;
+  // global $is_sfari
+
+  if ($is_IE) {
+    // http_response_code( 301 ) ;
+
+    $location =  home_url() . "/home2";
+
+    // var_dump($llocation);
+
+    wp_redirect($location, 301);
+    exit;
+  }elseif ($is_iphone) {
+    // http_response_code( 301 ) ;
+
+    $location =  home_url() . "/home3";
+
+    // var_dump($llocation);
+
+    wp_redirect($location, 301);
+    exit;
+  }
+  ?>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
 

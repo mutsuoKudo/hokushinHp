@@ -1,4 +1,4 @@
-<!-- 新規TOP(IE用)に組み込むようヘッダー -->
+<!-- TOP(IE用)に組み込むようヘッダー -->
 <!DOCTYPE html>
 <html lang="ja">
 

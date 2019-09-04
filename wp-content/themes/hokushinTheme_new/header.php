@@ -1,4 +1,4 @@
-<!-- 新規TOPに組み込むようヘッダー -->
+<!-- top（IE・iphone)以外のtopに組み込むようヘッダー -->
 <!DOCTYPE html>
 <html>
 
