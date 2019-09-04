@@ -1,4 +1,4 @@
-<!-- 新規TOP(iphone用)に組み込むようヘッダー -->
+<!-- TOP(iphone用)に組み込むようヘッダー -->
 <!DOCTYPE html>
 <html>
 
