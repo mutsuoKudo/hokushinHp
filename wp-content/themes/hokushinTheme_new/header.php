@@ -1,4 +1,4 @@
-<!-- top（IE・iphone)以外のtopに組み込むようヘッダー -->
+<!-- （IE・iphone以外の）トップページに組み込む用ヘッダー -->
 <!DOCTYPE html>
 <html>
 
@@ -18,7 +18,7 @@
 
     wp_redirect($location, 301);
     exit;
-  }elseif ($is_iphone) {
+  } elseif ($is_iphone) {
     // http_response_code( 301 ) ;
 
     $location =  home_url() . "/home3";
@@ -31,7 +31,8 @@
   ?>
 
   <title>北海道でエンジニア | 株式会社ホクシンシステム</title>
-  <meta name="keywords" content="ホクシンシステム,ITソリューションサービス,Webソリューションサービス,RPAソリューションサービス,SESソリューションサービス,人材派遣サービス,人材紹介サービス,"><meta name="description" content="ホクシンシステムは、北海道札幌で、ITソリューションサービス、Webソリューションサービス、システムエンジニアリングサービス、人材派遣サービス、人材紹介サービスを提供するフレッシュなIT企業です。">
+  <meta name="keywords" content="ホクシンシステム,ITソリューションサービス,Webソリューションサービス,RPAソリューションサービス,SESソリューションサービス,人材派遣サービス,人材紹介サービス,">
+  <meta name="description" content="ホクシンシステムは、北海道札幌で、ITソリューションサービス、Webソリューションサービス、システムエンジニアリングサービス、人材派遣サービス、人材紹介サービスを提供するフレッシュなIT企業です。">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,IE=edge">
@@ -50,11 +51,11 @@
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- index.cssを読み込む -->
-  <link  href="<?php bloginfo('stylesheet_directory'); ?>/index.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/index.css" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- hokushin_old.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" rel="stylesheet" media="print" onload="this.media='all'">
-  
+
   <?php wp_head(); ?>
 </head>
 
@@ -71,17 +72,20 @@
         <a class="navbar-brand hs-logo-a" href="<?php bloginfo('url'); ?>/">
           <img src="wp-content/uploads/2019/07/e76cd8347bc0116329d4b7104bf0d76c.png" alt="株式会社ホクシンシステム" width="auto" height="30">
         </a>
+
+
         <!-- ハンバーガーメニューは画面小さくなったら表示 -->
         <button class="navbar-toggler collapsed float-right" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-      <div class="collapse navbar-collapse" id="Navbar">
 
+      <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav mr-auto d-block d-md-none hs-nav-scroll" style="width:100%;">
           <li class="nav-item mt-4 mb-2">
             <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/">ホーム</a>
           </li>
+
 
           <!-- ABOUTドロップダウン -->
           <li class="nav-item mt-2 mb-2">
