@@ -1,5 +1,5 @@
-<!-- 社員の声iphone用 -->
-<?php /* Template Name: 社員の声iphone用 */ ?>
+<!-- 社員の声(iphone)用 -->
+<?php /* Template Name: 社員の声(iphone)用 */ ?>
 
 <?php get_header(8); ?>
 <?php $slug_name = $post->post_name; ?>
