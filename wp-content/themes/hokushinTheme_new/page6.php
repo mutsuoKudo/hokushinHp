@@ -1,5 +1,5 @@
 <!-- ポリシー用ページ -->
-<?php /* Template Name: ポリシー系ページ */ ?>
+<?php /* Template Name: ポリシー系用ページ */ ?>
 
 <?php get_header(2); ?>
 

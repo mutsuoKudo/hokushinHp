@@ -1,4 +1,4 @@
-<!-- 社員の声iphonr用ヘッダー -->
+<!-- 社員の声(iphone)用ヘッダー -->
 <!DOCTYPE html>
 <html lang="ja">
 
