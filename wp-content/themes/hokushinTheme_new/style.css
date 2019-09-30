@@ -270,17 +270,18 @@ input:focus:required:invalid+div .invalid {
 
 .hs-ict {
     text-align: center;
-    top: -60%;
-    left: -8%;
+    top: -55%;
 }
 
 
-/*  小デバイス（横向きモバイル, 768px 未満） */
+/* 中デバイス（タブレット, 768px 以上） */
 
-@media (max-width: 767.98px) {
+@media (min-width: 768px) {
     .hs-ict {
-        top: -54% !important;
-        left: 0% !important;
+        top: -60% !important;
+    }
+    .hs-ict-button {
+        padding: 1em 6em !important;
     }
 }
 
