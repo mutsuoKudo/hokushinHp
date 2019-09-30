@@ -273,6 +273,10 @@ input:focus:required:invalid+div .invalid {
     top: -55%;
 }
 
+.hs-ict-button {
+    font-size: 14px;
+}
+
 
 /* 中デバイス（タブレット, 768px 以上） */
 
@@ -281,7 +285,8 @@ input:focus:required:invalid+div .invalid {
         top: -60% !important;
     }
     .hs-ict-button {
-        padding: 1em 6em !important;
+        padding: 1em 4em !important;
+        font-size: 20px !important;
     }
 }
 
