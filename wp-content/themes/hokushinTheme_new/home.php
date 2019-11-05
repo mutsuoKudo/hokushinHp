@@ -362,16 +362,16 @@ Template Name: 新規TOP
 
                     <ul class="hs-topimage-ul">
                         <li class="hs-topimage-li">
-                            <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" alt="介護保険システム" class="hs-hide hs-right-topimage">
-                        </li>
-                        <li class="hs-topimage-li">
-                            <img src="wp-content/uploads/2019/07/forElderlyImg.svg" alt="後期高齢システム" class="hs-hide hs-right-topimage">
-                        </li>
-                        <li class="hs-topimage-li">
                             <img src="wp-content/uploads/2019/07/registrationOfseniorResidentImg.svg" alt="専攻医登録システム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
+                            <img src="wp-content/uploads/2019/07/long-termCareInsuranceImg.svg" alt="介護保険システム" class="hs-hide hs-right-topimage">
+                        </li>
+                        <li class="hs-topimage-li">
                             <img src="wp-content/uploads/2019/07/electronicHealthRecordImg.svg" alt="電子カルテシステム" class="hs-hide hs-right-topimage">
+                        </li>
+                        <li class="hs-topimage-li">
+                            <img src="wp-content/uploads/2019/07/forElderlyImg.svg" alt="後期高齢システム" class="hs-hide hs-right-topimage">
                         </li>
                         <li class="hs-topimage-li">
                             <img src="wp-content/uploads/2019/07/posForpharmacyImg.svg" alt="薬局向けPOSレジシステム" class="hs-hide hs-right-topimage">
