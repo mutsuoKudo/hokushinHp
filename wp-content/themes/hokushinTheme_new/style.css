@@ -264,3 +264,31 @@ input:focus:required:invalid+div .invalid {
     background-image: url(images/voices.jpg);
     height: 40vh !important;
 }
+
+
+/* パートナーシナジーここから*/
+
+.hs-ict {
+    text-align: center;
+    top: -55%;
+}
+
+.hs-ict-button {
+    font-size: 14px;
+}
+
+
+/* 中デバイス（タブレット, 768px 以上） */
+
+@media (min-width: 768px) {
+    .hs-ict {
+        top: -60% !important;
+    }
+    .hs-ict-button {
+        padding: 0.5em 4em !important;
+        font-size: 20px !important;
+    }
+}
+
+
+/* パートナーシナジーここまで*/
