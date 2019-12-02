@@ -4,8 +4,9 @@
 
 <head>
 
-<title>北海道でエンジニア | 株式会社ホクシンシステム</title>
-  <meta name="keywords" content="ホクシンシステム,ITソリューションサービス,Webソリューションサービス,RPAソリューションサービス,SESソリューションサービス,人材派遣サービス,人材紹介サービス,"><meta name="description" content="ホクシンシステムは、北海道札幌で、ITソリューションサービス、Webソリューションサービス、システムエンジニアリングサービス、人材派遣サービス、人材紹介サービスを提供するフレッシュなIT企業です。">
+  <title>北海道でエンジニア | 株式会社ホクシンシステム</title>
+  <meta name="keywords" content="ホクシンシステム,ITソリューションサービス,Webソリューションサービス,RPAソリューションサービス,SESソリューションサービス,人材派遣サービス,人材紹介サービス,">
+  <meta name="description" content="ホクシンシステムは、北海道札幌で、ITソリューションサービス、Webソリューションサービス、システムエンジニアリングサービス、人材派遣サービス、人材紹介サービスを提供するフレッシュなIT企業です。">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,IE=edge">
@@ -24,17 +25,18 @@
 
   <!-- index.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/index.css" rel="stylesheet" media="print" onload="this.media='all'">
-  
+
   <!-- index.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/safari.css" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- hokushin_old.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" rel="stylesheet" media="print" onload="this.media='all'">
-  
+
   <?php wp_head(); ?>
 </head>
 
 <!-- <body class="hs-body hs-body-start hs-hide position-relative" style="background:none; overflow-x:hidden;"> -->
+
 <body class="hs-body hs-body-start hs-hide position-relative" style="overflow-x:hidden;">
   <!-- *このdivはhome.php内で閉じられるのでここでは閉じなくてOK -->
   <!-- <div class="hs-base-container hs-body-start"> 7/31より前-->
@@ -74,13 +76,26 @@
             </ul>
           </li>
 
-          <li class="nav-item mt-2 mb-2">
+          <!-- <li class="nav-item mt-2 mb-2">
             <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/service">サービス</a>
+          </li> -->
+          <!-- SERVICEドロップダウン -->
+          <li class="nav-item mt-2 mb-2">
+            <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonService" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              サービス
+              <span class="caret"></span>
+            </button>
+            <!-- ドロップメニューの設定 -->
+            <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonService">
+              <li class="text-center hs-a mt-2"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/service">サービス</a></li>
+              <li class="text-center hs-a mt-3"><a style="font-weight:normal; font-size:0.8rem;" href="<?php bloginfo('url'); ?>/collaboration">ビジネスパートナー募集</a></li>
+            </ul>
           </li>
+
 
           <!-- RECRUITドロップダウン -->
           <li class="nav-item mt-2 mb-2">
-            <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonRECRUIT" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonRecruit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               採用情報
               <span class="caret"></span>
             </button>
@@ -130,9 +145,24 @@
             </ul>
           </div>
 
-          <div class="d-inline-block">
+          <!-- <div class="d-inline-block">
             <a href="<?php bloginfo('url'); ?>/service"><span data-hover="サービス">サービス</span></a>
+          </div> -->
+          <!-- SERVICEドロップダウン -->
+          <div class="d-inline-block">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <span data-hover="サービス">サービス</span>
+            </a>
+            <ul class="dropdown-menu pt-3" role="menu">
+              <li class="text-center">
+                <a href="<?php bloginfo('url'); ?>/service" class="m-0 text-center">サービス</a>
+              </li>
+              <li class="text-center">
+                <a href="<?php bloginfo('url'); ?>/collaboration" class="m-0 text-center">ビジネスパートナー募集</a>
+              </li>
+            </ul>
           </div>
+
 
           <!-- RECRUITドロップダウン -->
           <div class="d-inline-block">

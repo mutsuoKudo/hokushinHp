@@ -31,7 +31,8 @@ Template Name: 新規TOP
                 <p class="hs-circle-icon-fukidashi">理念</p>
             </div>
         </div>
-        <div class="position-absolute" style="left: 25%;top: 15%; width:7%">
+
+        <!-- <div class="position-absolute" style="left: 25%;top: 15%; width:7%">
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/partner-synergy">
@@ -40,15 +41,26 @@ Template Name: 新規TOP
                 </p>
                 <p class="hs-circle-icon-fukidashi" style="width:180px; left:-95%">パートナーシナジー</p>
             </div>
-        </div>
-        <div class="position-absolute" style="left: 40%;top: 0; width:7%">
+        </div> -->
+        <div class="position-absolute" style="left: 25%;top: 15%; width:7%">
             <div class="hs-circle-icon-fukidashi-container">
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/service">
                         <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-サービス">
                     </a>
                 </p>
-                <p class="hs-circle-icon-fukidashi">サービス</p>
+                <p class="hs-circle-icon-fukidashi" style="width:180px; left:-95%">サービス</p>
+            </div>
+        </div>
+
+        <div class="position-absolute" style="left: 40%;top: 0; width:7%">
+            <div class="hs-circle-icon-fukidashi-container">
+                <p class="hs-icon">
+                    <a href="<?php bloginfo('url'); ?>/collaboration">
+                        <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-ビジネスパートナー募集">
+                    </a>
+                </p>
+                <p class="hs-circle-icon-fukidashi" style="width:160px; left:-80%">ビジネスパートナー募集</p>
             </div>
         </div>
         <div class="position-absolute" style="right: 40%; top: 0; width:7%">

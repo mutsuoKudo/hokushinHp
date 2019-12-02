@@ -48,7 +48,17 @@
                         </div>
                     </li>
 
-                    <li id="menu-item-20" <?php if (is_page('service')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/service"><span data-hover="サービス">サービス</span></a></li>
+                    <!-- <li id="menu-item-20" <?php if (is_page('service')) echo ' class="current"'; ?>><a href="<?php bloginfo('url'); ?>/service"><span data-hover="サービス">サービス</span></a></li> -->
+
+                    <!-- SERVICEドロップダウン -->
+                    <li id="menu-item-20" class="dropdown" <?php if (is_page('service')) echo ' class="current"'; ?>>
+                        <a class="dropdown-toggle" id="navbarDropdownService" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span data-hover="サービス">サービス</span></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownService">
+                            <a class="dropdown-item hs-dropdown-item mt-0" href="<?php bloginfo('url'); ?>/service">サービス</a>
+                            <a class="dropdown-item hs-dropdown-item" href="<?php bloginfo('url'); ?>/collaboration">ビシネスパートナー募集</a>
+                        </div>
+                    </li>
 
                     <!-- RECRUITドロップダウン -->
                     <li id="menu-item-21" class="dropdown" <?php if (is_page('job-category')) echo ' class="current"'; ?>>
@@ -102,13 +112,26 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item mt-2 mb-2">
+                    <!-- <li class="nav-item mt-2 mb-2">
                         <a class="nav-link hs-nav-link-font" href="<?php bloginfo('url'); ?>/service">サービス</a>
+                    </li> -->
+
+                    <!-- SERVICEドロップダウン -->
+                    <li class="nav-item mt-2 mb-2">
+                        <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonService" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            サービス
+                            <span class="caret"></span>
+                        </button>
+                        <!-- ドロップメニューの設定 -->
+                        <ul class="dropdown-menu hs-sub-dropdown-menu" aria-labelledby="dropdownMenuButtonService">
+                            <li class="text-center hs-a mt-2"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/service">サービス</a></li>
+                            <li class="text-center hs-a mt-3"><a style="font-weight:normal" href="<?php bloginfo('url'); ?>/collaboration">ビジネスパートナー募集</a></li>
+                        </ul>
                     </li>
 
                     <!-- RECRUITドロップダウン -->
                     <li class="nav-item mt-2 mb-2">
-                        <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonc" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button type="button" class="btn hs-sub-nuv-btn btn-default dropdown-toggle nav-link hs-nav-link-font" id="dropdownMenuButtonRecruit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             採用情報
                             <span class="caret"></span>
                         </button>
