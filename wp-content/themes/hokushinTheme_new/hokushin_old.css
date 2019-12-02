@@ -559,6 +559,10 @@ header .menu-head-container ul .current a {
     background-image: url(images/ser_img.jpg);
 }
 
+.page-content-collaboration {
+    background-image: url(images/business_partner.png);
+}
+
 .page-content-job-category,
 .page-content-welfare,
 .page-content-application-form,
