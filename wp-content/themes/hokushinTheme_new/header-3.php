@@ -15,7 +15,7 @@
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
   <!-- hokushin_old.cssを読み込む -->
-  <link  href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" rel="stylesheet">
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/hokushin_old.css" rel="stylesheet">
 
   <!-- recruit.cssを読み込む -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/recruit.css" rel="stylesheet">
@@ -28,14 +28,15 @@
 
 <body>
 
-    <header class="w-max"><!-- START header -->
-        <div class="hs-w-980 w-980 clearfix">
-            <h1 id="header-logo" class="hs-h1"><a href="<?php bloginfo('url'); ?>/company"></a></h1>
-            <nav class="menu-head-container">
-                <div class="hs-a-button hs-a">
-                  <a href="<?php bloginfo('url'); ?>/job-category" class="btn-square-shadow">募集職種一覧へ</a>
-                </div>
-            </nav>
+  <header class="w-max">
+    <!-- START header -->
+    <div class="hs-w-980 w-980 clearfix">
+      <h1 id="header-logo" class="hs-h1"><a href="<?php bloginfo('url'); ?>/company"></a></h1>
+      <nav class="menu-head-container">
+        <div class="hs-a-button hs-a">
+          <a href="<?php bloginfo('url'); ?>/job-category" class="btn-square-shadow">募集職種一覧へ</a>
         </div>
+      </nav>
+    </div>
 
-    </header><!-- END header -->
+  </header><!-- END header -->
