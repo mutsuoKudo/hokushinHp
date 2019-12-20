@@ -16,7 +16,7 @@ Template Name: 新規TOP
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/company">
                         <!-- <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-会社概要"> -->
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/12/snow.png" alt="雪アイコン-会社概要">
+                        <img src="wp-content/uploads/2019/12/snow.png" alt="雪アイコン-会社概要">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">会社概要</p>
@@ -27,7 +27,7 @@ Template Name: 新規TOP
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/philosophy">
                         <!-- <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-理念"> -->
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/12/snow.png" alt="雪アイコン-理念">
+                        <img src="wp-content/uploads/2019/12/snow.png" alt="雪アイコン-理念">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">理念</p>
@@ -49,7 +49,7 @@ Template Name: 新規TOP
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/service">
                         <!-- <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-サービス"> -->
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/12/snow.png" alt="雪アイコン-サービス">
+                        <img src="wp-content/uploads/2019/12/snow.png" alt="雪アイコン-サービス">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi" style="width:180px; left:-95%">サービス</p>
@@ -61,7 +61,7 @@ Template Name: 新規TOP
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/collaboration">
                         <!-- <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-ビジネスパートナー募集"> -->
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/12/snow.png" alt="雪アイコン-ビジネスパートナー募集">
+                        <img src="wp-content/uploads/2019/12/snow.png" alt="雪アイコン-ビジネスパートナー募集">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi" style="width:160px; left:-80%">ビジネスパートナー募集</p>
@@ -72,7 +72,7 @@ Template Name: 新規TOP
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/job-category">
                         <!-- <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-募集一覧"> -->
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/12/snow.png" alt="雪アイコン-募集一覧">
+                        <img src="wp-content/uploads/2019/12/snow.png" alt="雪アイコン-募集一覧">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">募集一覧</p>
@@ -83,7 +83,7 @@ Template Name: 新規TOP
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/welfare">
                         <!-- <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-福利厚生"> -->
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/12/snow.png" alt="雪アイコン-福利厚生">
+                        <img src="wp-content/uploads/2019/12/snow.png" alt="雪アイコン-福利厚生">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">福利厚生</p>
@@ -94,7 +94,7 @@ Template Name: 新規TOP
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/training">
                         <!-- <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-教育・研修"> -->
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/12/snow.png" alt="雪アイコン-教育・研修">
+                        <img src="wp-content/uploads/2019/12/snow.png" alt="雪アイコン-教育・研修">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi" style="width:120px; left:-48%">教育・研修</p>
@@ -105,7 +105,7 @@ Template Name: 新規TOP
                 <p class="hs-icon">
                     <a href="<?php bloginfo('url'); ?>/voices">
                         <!-- <img src="wp-content/uploads/2019/07/icon-spring.svg" alt="梅アイコン-社員の声"> -->
-                        <img src="http://hokushinsystem.local/wp-content/uploads/2019/12/snow.png" alt="雪アイコン-社員の声">
+                        <img src="wp-content/uploads/2019/12/snow.png" alt="雪アイコン-社員の声">
                     </a>
                 </p>
                 <p class="hs-circle-icon-fukidashi">社員の声</p>
