@@ -76,9 +76,9 @@
 .hs-icon:hover {
     transition: all .3s;
     /* 通常バージョン */
-    /* transform: scale(1.5) rotateZ(180deg); */
+    transform: scale(1.5) rotateZ(180deg);
     /* 2019お正月バージョン */
-    transform: scale(1.5) rotateZ(360deg);
+    /* transform: scale(1.5) rotateZ(360deg); */
 }
 
 .hs-circle-icon-fukidashi-container {
